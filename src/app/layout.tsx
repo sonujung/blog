@@ -4,10 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'),
   title: {
-    default: "sonujung.com",
-    template: "%s | sonujung.com"
+    default: "Sonu Jung",
+    template: "%s | Sonu Jung"
   },
-  description: "학구적이고 미니멀한 개발 블로그",
+  description: "정선우의 블로그입니다.",
   keywords: ["개발", "블로그", "프로그래밍", "기술", "소프트웨어", "개발자"],
   authors: [{ name: "Sonu Jung", url: "https://sonujung.com" }],
   creator: "Sonu Jung",
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ko_KR',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com',
-    title: "sonujung.com",
-    description: "학구적이고 미니멀한 개발 블로그",
+    title: "Sonu Jung",
+    description: "정선우의 블로그입니다.",
     siteName: "sonujung.com",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "sonujung.com",
-    description: "학구적이고 미니멀한 개발 블로그",
+    title: "Sonu Jung",
+    description: "정선우의 블로그입니다.",
     creator: "@sonujung",
   },
   alternates: {
