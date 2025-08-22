@@ -3,7 +3,7 @@ import { BlogPost } from "@/types/blog";
 import { NotionPage } from "@/types/notion";
 
 const notion = new Client({
-  auth: process.env.NOTION_API_TOKEN,
+  auth: process.env.NOTION_TOKEN,
 });
 
 const DATABASE_ID = process.env.NOTION_DATABASE_ID!;
