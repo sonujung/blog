@@ -30,18 +30,21 @@ export async function getAllPosts(): Promise<BlogPost[]> {
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   try {
+    // URL 디코딩
+    const decodedSlug = decodeURIComponent(slug);
+    
     // UUID 패턴 확인 (Notion page ID 형식)
     const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
     
-    if (uuidPattern.test(slug)) {
+    if (uuidPattern.test(decodedSlug)) {
       // page ID로 직접 페이지 가져오기
-      const page = await notion.pages.retrieve({ page_id: slug });
+      const page = await notion.pages.retrieve({ page_id: decodedSlug });
       return await getPostFromPage(page as NotionPage);
     }
     
     // 일반 slug인 경우 모든 포스트에서 찾기
     const allPosts = await getAllPosts();
-    return allPosts.find(post => post.slug === slug) || null;
+    return allPosts.find(post => post.slug === decodedSlug) || null;
   } catch (error) {
     console.error("Error fetching post by slug:", error);
     return null;
