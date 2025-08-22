@@ -12,15 +12,9 @@ export async function getAllPosts(): Promise<BlogPost[]> {
   try {
     const response = await notion.databases.query({
       database_id: DATABASE_ID,
-      filter: {
-        property: "Status",
-        select: {
-          equals: "Published"
-        }
-      },
       sorts: [
         {
-          property: "PublishedAt",
+          property: "최종 업데이트 시간",
           direction: "descending"
         }
       ]
@@ -80,22 +74,22 @@ async function getPostFromPage(page: NotionPage): Promise<BlogPost | null> {
 
     const properties = page.properties;
 
-    // Extract properties
-    const title = getPropertyValue(properties.Title) || getPropertyValue(properties.Name) || "";
-    const slug = getPropertyValue(properties.Slug) || "";
-    const excerpt = getPropertyValue(properties.Excerpt) || "";
-    const publishedAt = getPropertyValue(properties.PublishedAt) || page.created_time;
-    const updatedAt = getPropertyValue(properties.UpdatedAt) || page.last_edited_time;
-    const tags = getPropertyValue(properties.Tags) || [];
-    const status = getPropertyValue(properties.Status) || "draft";
+    // Extract properties - 실제 한글 속성명 사용
+    const title = getPropertyValue(properties['문서 이름']) || "";
+    const slug = title ? title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') : "";
+    const excerpt = title + "에 대한 글입니다."; // 임시 요약
+    const publishedAt = getPropertyValue(properties['작성 일시']) || page.created_time;
+    const updatedAt = getPropertyValue(properties['최종 업데이트 시간']) || page.last_edited_time;
+    const tags = getPropertyValue(properties['카테고리']) || [];
+    const status = getPropertyValue(properties['상태']) || "draft";
 
     // Get page content
     const content = await getPageContent(page.id);
 
     return {
       id: page.id,
-      title,
-      slug,
+      title: title || "제목 없음",
+      slug: slug || page.id,
       excerpt,
       content,
       publishedAt,
@@ -140,6 +134,8 @@ function getPropertyValue(property: any): any {
       return property.rich_text?.[0]?.text?.content || "";
     case 'select':
       return property.select?.name || "";
+    case 'status':
+      return property.status?.name || "";
     case 'multi_select':
       return property.multi_select?.map((tag: any) => tag.name) || [];
     case 'date':
