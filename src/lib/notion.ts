@@ -56,7 +56,17 @@ async function getPostFromPage(page: NotionPage): Promise<BlogPost | null> {
 
     // Extract properties - 실제 한글 속성명 사용
     const title = getPropertyValue(properties['문서 이름']) || "";
-    const slug = title ? title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') : "";
+    // 한글 제목을 URL 친화적인 slug로 변환
+    const slug = title ? 
+      title
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, '-')           // 공백을 하이픈으로
+        .replace(/[^a-z0-9가-힣-]/g, '') // 한글, 영문, 숫자, 하이픈만 허용
+        .replace(/--+/g, '-')          // 연속 하이픈 제거
+        .replace(/^-|-$/g, '')         // 시작/끝 하이픈 제거
+      || page.id.slice(0, 8)           // 제목이 없으면 page ID 일부 사용
+      : page.id.slice(0, 8);
     const excerpt = title + "에 대한 글입니다."; // 임시 요약
     const publishedAt = getPropertyValue(properties['작성 일시']) || page.created_time;
     const updatedAt = getPropertyValue(properties['최종 업데이트 시간']) || page.last_edited_time;
