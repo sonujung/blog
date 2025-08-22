@@ -11,13 +11,8 @@ const DATABASE_ID = process.env.NOTION_DATABASE_ID!;
 export async function getAllPosts(): Promise<BlogPost[]> {
   try {
     const response = await notion.databases.query({
-      database_id: DATABASE_ID,
-      sorts: [
-        {
-          property: "최종 업데이트 시간",
-          direction: "descending"
-        }
-      ]
+      database_id: DATABASE_ID
+      // 정렬 제거 - 속성명이 맞지 않아서 오류 발생
     });
 
     const posts = await Promise.all(
@@ -35,31 +30,16 @@ export async function getAllPosts(): Promise<BlogPost[]> {
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   try {
-    const response = await notion.databases.query({
-      database_id: DATABASE_ID,
-      filter: {
-        and: [
-          {
-            property: "Slug",
-            rich_text: {
-              equals: slug
-            }
-          },
-          {
-            property: "Status", 
-            select: {
-              equals: "Published"
-            }
-          }
-        ]
-      }
-    });
-
-    if (response.results.length === 0) {
-      return null;
+    // slug가 실제로는 page ID인 경우를 처리
+    if (slug.length > 20) {
+      // page ID로 직접 페이지 가져오기
+      const page = await notion.pages.retrieve({ page_id: slug });
+      return await getPostFromPage(page as NotionPage);
     }
-
-    return await getPostFromPage(response.results[0] as NotionPage);
+    
+    // 모든 포스트를 가져와서 slug로 필터링 (클라이언트 사이드)
+    const allPosts = await getAllPosts();
+    return allPosts.find(post => post.slug === slug) || null;
   } catch (error) {
     console.error("Error fetching post by slug:", error);
     return null;
