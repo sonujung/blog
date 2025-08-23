@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface YouTubeEmbedProps {
   videoId: string;
 }
@@ -41,8 +43,8 @@ export function getYouTubeVideoId(url: string): string | null {
 }
 
 // 컨텐츠에서 YouTube 링크 처리
-export function processYouTubeContent(content: string): JSX.Element[] {
-  const elements: JSX.Element[] = [];
+export function processYouTubeContent(content: string): React.ReactElement[] {
+  const elements: React.ReactElement[] = [];
   const lines = content.split('\n');
   let elementKey = 0;
   
