@@ -178,4 +178,4 @@ npm run typecheck    # TypeScript 체크
 
 **현재 상태**: 블로그 기본 기능 완료, 68개 포스트 마이그레이션 완료, 이메일 구독 서비스 구현 완료
 
-더 자세한 내용은 `RESEND_SETUP.md`를 참고하세요.
+더 자세한 내용은 `RESEND_SETUP.md`를 참고하세요.# Vercel deployment fix Sat Aug 23 19:21:06 KST 2025
