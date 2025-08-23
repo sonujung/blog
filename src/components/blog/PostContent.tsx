@@ -2,6 +2,7 @@ import { BlogPost } from '@/types/blog';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import Image from 'next/image';
 
 interface PostContentProps {
   post: BlogPost;
@@ -49,6 +50,21 @@ export default function PostContent({ post }: PostContentProps) {
         )}
       </header>
 
+      {/* Cover Image */}
+      {post.coverImage && (
+        <div className="mb-12 -mx-4">
+          <Image
+            src={post.coverImage}
+            alt={post.title}
+            width={1200}
+            height={600}
+            className="w-full h-auto rounded-lg"
+            style={{ aspectRatio: '2/1', objectFit: 'cover' }}
+            priority={true}
+          />
+        </div>
+      )}
+
       {/* Post Content */}
       <div className="prose prose-lg prose-gray max-w-none
                       prose-headings:font-semibold prose-headings:text-gray-900
@@ -86,6 +102,40 @@ export default function PostContent({ post }: PostContentProps) {
                 {children}
               </blockquote>
             ),
+            img: ({ src, alt }) => {
+              if (!src) return null;
+              
+              // Handle both local and external images
+              const srcString = typeof src === 'string' ? src : '';
+              const isExternal = srcString.startsWith('http');
+              
+              if (isExternal) {
+                // For external images, use standard img tag
+                return (
+                  <img 
+                    src={srcString} 
+                    alt={alt || ''} 
+                    className="rounded-lg mx-auto my-6 max-w-full h-auto shadow-sm"
+                    loading="lazy"
+                  />
+                );
+              }
+              
+              // For local images, use Next.js Image component
+              return (
+                <div className="my-6 flex justify-center">
+                  <Image
+                    src={srcString}
+                    alt={alt || ''}
+                    width={800}
+                    height={600}
+                    className="rounded-lg shadow-sm"
+                    style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
+                    priority={false}
+                  />
+                </div>
+              );
+            },
           }}
         >
           {post.content}

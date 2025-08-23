@@ -26,16 +26,26 @@ export default function SubscribePage() {
     setStatus('loading');
 
     try {
-      // 실제 뉴스레터 서비스 연동 (ConvertKit, Mailchimp 등)
-      // 지금은 시뮬레이션
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || '구독 처리 중 오류가 발생했습니다.');
+      }
 
       setStatus('success');
-      setMessage('구독해주셔서 감사합니다! 새로운 포스트가 발행되면 알림을 받으실 수 있어요.');
+      setMessage(data.message || '구독해주셔서 감사합니다! 환영 이메일을 확인해보세요.');
       setEmail('');
     } catch (error) {
       setStatus('error');
-      setMessage('구독 처리 중 오류가 발생했습니다. 다시 시도해주세요.');
+      setMessage(error instanceof Error ? error.message : '구독 처리 중 오류가 발생했습니다. 다시 시도해주세요.');
     }
   };
 

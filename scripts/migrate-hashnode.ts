@@ -1,5 +1,8 @@
 #!/usr/bin/env ts-node
 
+import * as dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+
 import { GraphQLClient } from 'graphql-request';
 import { Client } from '@notionhq/client';
 import TurndownService from 'turndown';
@@ -9,11 +12,11 @@ import * as path from 'path';
 // Configuration
 const HASHNODE_API_URL = 'https://gql.hashnode.com';
 const HASHNODE_HOSTNAME = process.env.HASHNODE_HOSTNAME || 'your-blog.hashnode.dev';
-const NOTION_API_TOKEN = process.env.NOTION_API_TOKEN;
+const NOTION_API_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID!;
 
 if (!NOTION_API_TOKEN || !NOTION_DATABASE_ID) {
-  console.error('Please set NOTION_API_TOKEN and NOTION_DATABASE_ID environment variables');
+  console.error('Please set NOTION_TOKEN and NOTION_DATABASE_ID environment variables');
   process.exit(1);
 }
 

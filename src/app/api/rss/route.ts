@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getAllPosts } from '@/lib/notion';
+import { getAllPosts } from '@/lib/markdown';
 import { generateRSS } from '@/lib/rss';
 
 export async function GET(request: NextRequest) {

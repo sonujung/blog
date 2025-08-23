@@ -1,4 +1,4 @@
-import { getAllPosts } from '@/lib/notion';
+import { getAllPosts } from '@/lib/markdown';
 import PostItem from '@/components/blog/PostItem';
 import Link from 'next/link';
 
@@ -47,13 +47,17 @@ export default async function Home() {
   
   try {
     posts = await getAllPosts();
+    // 마크다운 파일이 없으면 더미 데이터 사용
     if (posts.length === 0) {
       posts = DUMMY_POSTS;
     }
   } catch (error) {
-    console.log("Using dummy data due to Notion API error:", error);
+    console.log("Using dummy data due to markdown loading error:", error);
     posts = DUMMY_POSTS;
   }
+
+  // 최신순 정렬 (날짜 기준 내림차순)
+  posts = posts.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
   return (
     <div className="min-h-screen bg-white">
@@ -63,9 +67,6 @@ export default async function Home() {
           Sonu Jung
         </Link>
         <nav className="flex gap-4">
-          <Link href="/search" className="text-gray-600 hover:text-black text-sm transition-colors">
-            Search
-          </Link>
           <Link href="/subscribe" className="text-gray-600 hover:text-black text-sm transition-colors">
             Subscribe
           </Link>
@@ -73,7 +74,7 @@ export default async function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-2xl mx-auto px-4 py-16">
+      <main className="max-w-2xl mx-auto px-4 py-8">
         {posts.map((post) => (
           <PostItem key={post.id} post={post} />
         ))}

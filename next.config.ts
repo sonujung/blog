@@ -1,14 +1,33 @@
 import type { NextConfig } from "next";
 
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
+
 const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  experimental: {
+    optimizePackageImports: ['react-markdown', 'remark-gfm', 'rehype-highlight'],
   },
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'cdn.hashnode.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
         port: '',
         pathname: '/**',
       },
@@ -21,4 +40,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(nextConfig);

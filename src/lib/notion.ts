@@ -11,8 +11,13 @@ const DATABASE_ID = process.env.NOTION_DATABASE_ID!;
 export async function getAllPosts(): Promise<BlogPost[]> {
   try {
     const response = await notion.databases.query({
-      database_id: DATABASE_ID
-      // 정렬 제거 - 속성명이 맞지 않아서 오류 발생
+      database_id: DATABASE_ID,
+      sorts: [
+        {
+          property: 'Created At',
+          direction: 'descending'
+        }
+      ]
     });
 
     const posts = await Promise.all(
@@ -59,27 +64,20 @@ async function getPostFromPage(page: NotionPage): Promise<BlogPost | null> {
 
     const properties = page.properties;
 
-    // Extract properties - 실제 한글 속성명 사용
+    // Extract properties - 실제 노션 데이터베이스 속성명 사용
     const title = getPropertyValue(properties['문서 이름']) || "";
-    // 한글 제목을 URL 친화적인 slug로 변환
-    const slug = title ? 
-      title
-        .toLowerCase()
-        .trim()
-        .replace(/\s+/g, '-')           // 공백을 하이픈으로
-        .replace(/[^a-z0-9가-힣-]/g, '') // 한글, 영문, 숫자, 하이픈만 허용
-        .replace(/--+/g, '-')          // 연속 하이픈 제거
-        .replace(/^-|-$/g, '')         // 시작/끝 하이픈 제거
-      || page.id.slice(0, 8)           // 제목이 없으면 page ID 일부 사용
-      : page.id.slice(0, 8);
+    // 원본 slug가 있으면 사용하고, 없으면 page ID 사용
+    const originalSlug = getPropertyValue(properties['slug']) || null;
+    const slug = originalSlug || page.id.slice(0, 8);
     const excerpt = title + "에 대한 글입니다."; // 임시 요약
-    const publishedAt = getPropertyValue(properties['작성 일시']) || page.created_time;
-    const updatedAt = getPropertyValue(properties['최종 업데이트 시간']) || page.last_edited_time;
+    const publishedAt = getPropertyValue(properties['Created At']) || page.created_time;
+    const updatedAt = page.last_edited_time; // 노션 기본 속성 사용
     const tags = getPropertyValue(properties['카테고리']) || [];
     const status = getPropertyValue(properties['상태']) || "draft";
+    const author = getPropertyValue(properties['Author']) || "Sonu Jung";
 
-    // Get page content
-    const content = await getPageContent(page.id);
+    // 노션 블록에서 콘텐츠 가져오기 (content 속성 없음)
+    const content = await getPageContent(page.id, slug);
 
     return {
       id: page.id,
@@ -91,7 +89,7 @@ async function getPostFromPage(page: NotionPage): Promise<BlogPost | null> {
       updatedAt,
       tags,
       author: {
-        name: "Sonu Jung"
+        name: author
       },
       status: status === "Published" ? "published" : "draft"
     };
@@ -101,15 +99,30 @@ async function getPostFromPage(page: NotionPage): Promise<BlogPost | null> {
   }
 }
 
-async function getPageContent(pageId: string): Promise<string> {
+async function getPageContent(pageId: string, slug?: string): Promise<string> {
   try {
     const response = await notion.blocks.children.list({
       block_id: pageId
     });
 
     let content = "";
+    let imageCounter = 1;
+    
     for (const block of response.results) {
-      content += await blockToMarkdown(block as any);
+      const blockContent = await blockToMarkdown(block as any);
+      
+      // Replace image placeholders with actual local paths
+      if (slug && blockContent.includes('[Image: ')) {
+        const imagePattern = /\[Image: [^\]]+\]/g;
+        const replacedContent = blockContent.replace(imagePattern, () => {
+          const imagePath = `/images/${slug}-img-${imageCounter}.png`;
+          imageCounter++;
+          return `![Image](${imagePath})`;
+        });
+        content += replacedContent;
+      } else {
+        content += blockContent;
+      }
     }
 
     return content;
@@ -150,6 +163,14 @@ async function blockToMarkdown(block: any): Promise<string> {
   switch (type) {
     case 'paragraph':
       const text = block.paragraph?.rich_text?.map((t: any) => t.text?.content).join('') || '';
+      
+      // Handle image placeholders by converting them to actual local paths
+      if (text.includes('[Image: ')) {
+        // Try to find matching local image based on context
+        // For now, keep the placeholder but make it more visible for debugging
+        return `${text}\n\n`;
+      }
+      
       return `${text}\n\n`;
     
     case 'heading_1':
@@ -180,8 +201,17 @@ async function blockToMarkdown(block: any): Promise<string> {
     case 'quote':
       const quoteText = block.quote?.rich_text?.map((t: any) => t.text?.content).join('') || '';
       return `> ${quoteText}\n\n`;
+
+    case 'image':
+      // Handle Notion image blocks
+      const imageUrl = block.image?.external?.url || block.image?.file?.url || '';
+      if (imageUrl) {
+        return `![Image](${imageUrl})\n\n`;
+      }
+      return '';
     
     default:
+      console.log(`Unknown block type: ${type}`, block);
       return '';
   }
 }

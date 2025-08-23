@@ -5,27 +5,33 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "build:analyze": "ANALYZE=true next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "migrate:hashnode": "ts-node scripts/migrate-hashnode.ts"
+    "migrate:hashnode": "ts-node scripts/migrate-hashnode.ts",
+    "sync:notion": "ts-node scripts/notion-to-markdown.ts"
   },
   "dependencies": {
     "@fontsource/pretendard": "^5.2.5",
     "@notionhq/client": "^4.0.2",
+    "dotenv": "^17.2.1",
     "fs-extra": "^11.3.1",
     "fuse.js": "^7.1.0",
     "graphql-request": "^7.2.0",
     "gray-matter": "^4.0.3",
     "next": "15.5.0",
+    "notion-to-md": "^3.1.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-markdown": "^10.1.0",
     "rehype-highlight": "^7.0.2",
     "remark-gfm": "^4.0.1",
+    "resend": "^6.0.1",
     "turndown": "^7.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@next/bundle-analyzer": "^15.5.0",
     "@tailwindcss/postcss": "^4",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20",

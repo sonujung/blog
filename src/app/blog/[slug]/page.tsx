@@ -1,4 +1,4 @@
-import { getPostBySlug, getAllPosts } from '@/lib/notion';
+import { getPostBySlug, getAllPosts } from '@/lib/markdown';
 import PostContent from '@/components/blog/PostContent';
 import Comments from '@/components/blog/Comments';
 import Link from 'next/link';
@@ -63,9 +63,6 @@ export default async function PostPage({ params }: PostPageProps) {
           Sonu Jung
         </Link>
         <nav className="flex gap-4">
-          <Link href="/search" className="text-gray-600 hover:text-black text-sm transition-colors">
-            Search
-          </Link>
           <Link href="/subscribe" className="text-gray-600 hover:text-black text-sm transition-colors">
             Subscribe
           </Link>
