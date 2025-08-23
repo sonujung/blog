@@ -19,6 +19,9 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
     };
   }
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com';
+  const coverImageUrl = post.coverImage ? `${baseUrl}${post.coverImage}` : `${baseUrl}/images/cover-default.jpg`;
+
   return {
     title: `${post.title} | sonujung.com`,
     description: post.excerpt,
@@ -27,15 +30,24 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
       title: post.title,
       description: post.excerpt,
       type: 'article',
+      url: `${baseUrl}/blog/${post.slug}`,
+      images: [{
+        url: coverImageUrl,
+        width: 1200,
+        height: 630,
+        alt: post.title,
+      }],
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
       authors: [post.author.name],
       tags: post.tags,
+      siteName: 'Sonu Jung'
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
+      images: [coverImageUrl],
     },
   };
 }

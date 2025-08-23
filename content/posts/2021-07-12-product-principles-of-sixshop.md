@@ -1,10 +1,12 @@
 ---
-title: "제품 원칙 수립하기"
-publishedAt: "2021-07-12"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 제품 원칙 수립하기
+publishedAt: '2021-07-12'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-product-principles-of-sixshop.jpg
 ---
 
 

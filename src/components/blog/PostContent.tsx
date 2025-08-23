@@ -2,7 +2,36 @@ import { BlogPost } from '@/types/blog';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import rehypeRaw from 'rehype-raw';
 import Image from 'next/image';
+import YouTubeEmbed, { getYouTubeVideoId } from './YouTubeEmbed';
+
+// 컨텐츠에서 YouTube 링크 처리
+function processYouTubeLinks(content: string): string {
+  // %[youtube_url] 형태의 링크를 iframe으로 변환
+  return content.replace(/%\[(https?:\/\/(www\.)?(youtube\.com|youtu\.be)[^\]]+)\]/g, (match, url) => {
+    const videoId = getYouTubeVideoId(url);
+    if (videoId) {
+      return `
+<div class="youtube-embed my-8 flex justify-center">
+  <div class="w-full max-w-3xl">
+    <div class="relative w-full h-0" style="padding-bottom: 56.25%;">
+      <iframe
+        class="absolute top-0 left-0 w-full h-full rounded-lg shadow-sm"
+        src="https://www.youtube.com/embed/${videoId}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+`;
+    }
+    return match;
+  });
+}
 
 interface PostContentProps {
   post: BlogPost;
@@ -17,6 +46,9 @@ export default function PostContent({ post }: PostContentProps) {
       day: 'numeric'
     });
   };
+
+  // YouTube 링크 전처리
+  const processedContent = processYouTubeLinks(post.content);
 
   return (
     <article className="max-w-2xl mx-auto px-4 py-16">
@@ -79,7 +111,7 @@ export default function PostContent({ post }: PostContentProps) {
                       prose-img:rounded-lg prose-img:mx-auto">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
-          rehypePlugins={[rehypeHighlight]}
+          rehypePlugins={[rehypeHighlight, rehypeRaw]}
           components={{
             h1: ({ children }) => <h1 className="text-3xl font-semibold text-gray-900 mt-8 mb-4 leading-tight">{children}</h1>,
             h2: ({ children }) => <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 leading-tight">{children}</h2>,
@@ -138,7 +170,7 @@ export default function PostContent({ post }: PostContentProps) {
             },
           }}
         >
-          {post.content}
+          {processedContent}
         </ReactMarkdown>
       </div>
     </article>

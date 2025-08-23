@@ -1,10 +1,12 @@
 ---
-title: "디자인이 사람들을 차별하고 있다"
-publishedAt: "2016-11-17"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 디자인이 사람들을 차별하고 있다
+publishedAt: '2016-11-17'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-how-the-web-became-unreadable.jpg
 ---
 
 

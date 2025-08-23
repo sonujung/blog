@@ -1,10 +1,12 @@
 ---
-title: "b2b 프로덕트가 제대로 망하는 과정"
-publishedAt: "2021-03-29"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: b2b 프로덕트가 제대로 망하는 과정
+publishedAt: '2021-03-29'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-how-the-b2b-product-destined-to-fail.jpg
 ---
 
 

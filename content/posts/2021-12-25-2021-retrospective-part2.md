@@ -1,10 +1,12 @@
 ---
-title: "2021년 회고 - 파트 2:한 해를 돌아보며"
-publishedAt: "2021-12-25"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: '2021년 회고 - 파트 2:한 해를 돌아보며'
+publishedAt: '2021-12-25'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-2021-retrospective-part2.jpg
 ---
 
 

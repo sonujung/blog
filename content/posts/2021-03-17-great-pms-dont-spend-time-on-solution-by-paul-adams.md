@@ -1,10 +1,12 @@
 ---
-title: "훌륭한 제품 관리자는 솔루션에 시간을 쓰지 않습니다."
-publishedAt: "2021-03-17"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 훌륭한 제품 관리자는 솔루션에 시간을 쓰지 않습니다.
+publishedAt: '2021-03-17'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-great-pms-dont-spend-time-on-solution-by-paul-adams.jpg
 ---
 
 

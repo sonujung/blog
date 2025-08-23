@@ -1,10 +1,12 @@
 ---
-title: "마이크로 매니지먼트와 위임"
-publishedAt: "2023-03-19"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 마이크로 매니지먼트와 위임
+publishedAt: '2023-03-19'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-delegation-of-authority.jpg
 ---
 
 

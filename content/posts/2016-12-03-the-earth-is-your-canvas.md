@@ -1,10 +1,12 @@
 ---
-title: "세상이 당신의 캔버스가 된다."
-publishedAt: "2016-12-03"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 세상이 당신의 캔버스가 된다.
+publishedAt: '2016-12-03'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-the-earth-is-your-canvas.jpg
 ---
 
 

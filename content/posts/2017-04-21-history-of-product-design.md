@@ -1,10 +1,12 @@
 ---
-title: "돌도끼에서 디지털까지 디자이너 ‘업’의 변천사"
-publishedAt: "2017-04-21"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 돌도끼에서 디지털까지 디자이너 ‘업’의 변천사
+publishedAt: '2017-04-21'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-history-of-product-design.jpg
 ---
 
 

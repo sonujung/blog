@@ -1,10 +1,12 @@
 ---
-title: "크래프톤 웨이 - 10여년 간의 갈등의 역사"
-publishedAt: "2021-08-21"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 크래프톤 웨이 - 10여년 간의 갈등의 역사
+publishedAt: '2021-08-21'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-crafton-way-reading-note.jpg
 ---
 
 

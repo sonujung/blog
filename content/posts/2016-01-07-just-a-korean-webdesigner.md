@@ -1,10 +1,12 @@
 ---
-title: "그냥 한국 웹디자이너 이야기."
-publishedAt: "2016-01-07"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 그냥 한국 웹디자이너 이야기.
+publishedAt: '2016-01-07'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-just-a-korean-webdesigner.jpg
 ---
 
 

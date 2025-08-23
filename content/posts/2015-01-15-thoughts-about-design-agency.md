@@ -1,10 +1,12 @@
 ---
-title: "디자인 에이전시에 대한 생각"
-publishedAt: "2015-01-15"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 디자인 에이전시에 대한 생각
+publishedAt: '2015-01-15'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-thoughts-about-design-agency.jpg
 ---
 
 > ⚠️ 이 글은 2011년 6월 1일 작성된 글을 옮긴 것입니다.

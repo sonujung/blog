@@ -1,10 +1,12 @@
 ---
-title: "[채용] 프로덕트 디자이너가 식스샵에 와야하는 이유"
-publishedAt: "2022-02-08"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: '[채용] 프로덕트 디자이너가 식스샵에 와야하는 이유'
+publishedAt: '2022-02-08'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-hire-product-designer.jpg
 ---
 
 

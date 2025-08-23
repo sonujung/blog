@@ -1,10 +1,12 @@
 ---
-title: "디자이너가 그리기 전에 해야하는 일"
-publishedAt: "2016-02-03"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 디자이너가 그리기 전에 해야하는 일
+publishedAt: '2016-02-03'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-workflowy-for-designer.jpg
 ---
 
 

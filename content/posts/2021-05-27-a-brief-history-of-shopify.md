@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-a-brief-history-of-shopify.jpg"
 ---
 
 
@@ -60,19 +61,19 @@ excerpt: ""
    스노데빌 웹사이트를 직접 구축하기로 한 토비는 당시 관심 갖고 있던 [Ruby On Rails](https://namu.wiki/w/Ruby%20on%20Rails)(이하 RoR)를 사용하기로 결심했다. - RoR은 프로그래밍 언어 Ruby를 기반으로 덴마크의 개발자 데이비드 핸슨(David Heinemeier Hansson)이 시작한 매우 쉽고 높은 생산성을 갖춘 오픈 소스 웹 개발 프레임워크이다. (참고로 [데이비드 핸슨](https://twitter.com/dhh)은 이 블로그에서 자주 언급되고 소개되는 [Basecamp](https://basecamp.com/)의 CTO이다.) - 얼마전까지 캐나다 이주 비용 마련을 위해 지멘스의 대형 외주 작업에 시달리며 지쳐있던 토비에게 이 새로운 도구는 영감을 주는 재미난 장난감이었다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621019032903/z4NGf6OvQd.png)
+   ![스노보드 판매 웹사이트 스노데빌 초기 화면](/images/a-brief-history-of-shopify-img-1.png)
 
 
 5. 당시 RoR은 신생 오픈 소스 프로젝트로 이제 막 커뮤니티가 생겨나던 중이었고 이를 통해 구축된 상용 프로젝트가 많지 않았다. 토비는 RoR 웹사이트에 쇼핑몰 구축 사례로 스노데빌이 소개되면 좋겠다고 생각했다. 스노데빌을 구축하는 과정을 커뮤니티와 공유하며 RoR 프로젝트에 이커머스를 위한 여러 도구를 만들어 기여했다. 2달이 지나고 스노데빌이 완성될 때쯤 토비는 RoR 프로젝트의 핵심 커미터(프로젝트에 코드로 직접 기여하는 개발자)가 되어있었다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621265463932/rC7LOYlO-.png)
+   ![Ruby on Rails 프레임워크를 사용한 웹 개발](/images/a-brief-history-of-shopify-img-2.png)
 
 
 6. 웹사이트 오픈 후 스노보드 사업은 생각보다 순조로웠다. 하지만 스노보드 사업의 성장보다 이들이 만든 웹사이트의 코드를 얻고 싶어 하는 사람의 수가 더 빠르게 늘고 있었다. 토비와 스콧은 쉽게 쇼핑몰을 구축할 수 있는 이 새로운 소프트웨어가 더 큰 비즈니스 기회가 되리라 생각했고 사업 방향을 전환했다. 이들은 피오나의 아버지 브루스, 토비의 삼촌 등 가족으로부터 약 2억 원의 추가 자본금을 구한 뒤 사명도 Jaded Pixel로 변경했다. 그리고 토비는 독일에서 함께 일하던 동료 프로그래머 [대니얼 웨이넌드(Daniel Weinand)](https://twitter.com/danielweinand)를 공동 창업자로 합류시켰다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621272440769/kWsFSvRdh.png)
+   ![쇼피파이 공동창업자들이 사무실로 사용한 Bridgehead 커피숍](/images/a-brief-history-of-shopify-img-3.png)
 
 
    > 쇼피파이의 세 공동 창업자는 Bridgehead란 커피숍을 사무실 삼아 사업을 시작했다. [(**사진 출처:** Tripadvisor)](Bridgehead) 
@@ -87,7 +88,7 @@ excerpt: ""
 1. 2006년 6월 쇼핑몰 솔루션 쇼피파이가 공식 런칭했다. 평소 디자인 분야에도 많은 관심을 보이던 대니얼(이후 쇼피파이 CDO로 근무했다.) 덕에 여러 디자이너가 쇼피파이를 위한 테마 제작에 손을 보탰다. 쇼피파이는 전자 결제, 재고 관리 등 전자상거래의 기본적인 기능을 하나씩 더해가며 더욱 손쉽게 쇼핑몰을 구축할 수 있는 제품으로 조금씩 알려지기 시작했다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621273760225/vI064EFU3.png)
+   ![2006년 쇼피파이 런칭 당시 웹사이트 첫 페이지](/images/a-brief-history-of-shopify-img-4.png)
 
 
    > 출시 직후 쇼피파이 웹사이트 첫 페이지 [(**사진 출처:** Wayback Machine)](https://web.archive.org/web/20060701014531/http://shopify.com/)
@@ -99,7 +100,7 @@ excerpt: ""
 3. 쇼피파이는 같은 해 새로운 요금제를 공개했다. 가장 크게 달라진 점은 월 사용료가 생겼다는 것이다. 지불하는 월 사용료에 따라 거래 수수료가 차등 적용되고 월 75불이면 거래 수수료는 면제되었다. 물론, 무료에서 유료로 바뀐 만큼 신규 고객 유입이 눈에 띄게 감소했다. 하지만 이들은 멈추지 않고 고객들의 온라인 판매와 사업 성장에 실질적인 도움을 줄 수 있는 여러 개선 사항을 제품에 담는 데 주력했다. 덕분에 쇼피파이는 꾸준히 성장을 이어갈 수 있었고 존 필립스(John Phillips)가 운영하는 Klister Credit으로부터 약 35억 가치에 2억 7,000만 원 가량의 시드머니를 유치했다.
 
 
-      ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621276859525/nYUUDPboT.png)
+      ![2007년 변경된 쇼피파이의 월 단위 요금제](/images/a-brief-history-of-shopify-img-5.png)
 
 
    > 2007년 변경한 쇼피파이의 요금제, 월 단위 요금은 현재까지도 유지하고 있다.
@@ -108,7 +109,7 @@ excerpt: ""
 4. 2008년 쇼피파이는 쉬운 사용 방식과 온라인 브랜드 구축을 위한 다양한 도구를 제공하는 올인원 솔루션으로서 인지도를 높여가고 있었다. 월 매출은 어느새 7,000만 원(MRR: Monthly Recurring Revenue)을 넘겼다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611583379596/ousKwGbo2.jpeg?auto=compress,format&format=webp&fm=png)
+   ![2008년 쇼피파이 웹사이트 메인 페이지](/images/a-brief-history-of-shopify-img-6.png)
 
 
     > 2008년 쇼피파이 웹사이트 첫 페이지 [(**사진 출처:** Wayback Machine)](http://web.archive.org/web/20080530193153/http://www.shopify.com/)
@@ -147,7 +148,7 @@ excerpt: ""
    쇼피파이가 2009년 시작한 '창업 경진 대회'도 그중 하나다. 쇼피파이는 매년 1월부터 6월까지 2개월 연속 매출이 가장 높은 2개 상점에 1억 원의 상금과 저명 인사의 멘토링을 제공하는 캠페인을 진행했고 1,000명 이상의 신규 판매자, 30억 이상의 매출을 거둬들였다. 이 캠페인은 뉴욕타임스에 소개되며 쇼피파이에 대한 사람들의 관심을 높였다.
 
 
-   ![campaign.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621019032903/z4NGf6OvQd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+   ![쇼피파이 창업 경진 대회 캠페인 포스터](/images/a-brief-history-of-shopify-img-7.png)
 
 
 3. 쇼피파이는 실리콘밸리의 명문 VC Bessemer Venture Partners로부터 두 차례에 걸쳐 약 260억 원의 자금을 유치했고 성장 속도를 높이는데 박차를 가했다. 쇼피파이를 통해 판매하는 온라인 상점의 수는 2011년 15,000개에서 2012년 40,000개로 빠르게 늘어났고 연 거래액은 약 9,000억 원에 달했다. 쇼피파이는 빠르게 늘어나는 고객들의 성장을 돕기 위해 쇼피파이 익스퍼츠(Shopfy Experts)를 출시하여 온라인 판매를 시작하는 누구나 전문가의 지원을 받을 수 있게 하였다. 세일즈,  마케팅, 프로그래밍, 디자인 등 각 분야 전문가가 쇼피파이가 만든 새로운 채널에 참여하여 그들의 지식과 노하우를 쇼피파이 고객에게 판매할 수 있었다.
@@ -156,7 +157,7 @@ excerpt: ""
 4. 이제 쇼피파이는 전 세계 90개국에서 5만개 이상의 크고 작은 이커머스 기업이 사용하는 글로벌 제품이 되었다. 토비와 대니얼이 커피숍에 모여 만들던 그 제품이 말이다. 쇼피파이는 자신들이 중소규모 이커머스 기업이 일하는 방식에 미치는 영향을 잘 알고 있었고 더 좋은 제품을 제공하는 것에 대한 강한 책임감을 갖고 있었다. 이들은 2013년 4월 [60개 이상의 기능과 업데이트를 포함한 쇼피파이2](https://investors.shopify.com/news-and-events/press-releases/news-details/2013/Shopify-Releases-Revolutionary-New-Online-Store-Building-Platform/default.aspx)를 공개하였고 2013년 8월 UX 컨설팅 기업인 Jet Cooper를 인수하여 사티쉬 칸와(Satish Kanwar, 현 VP of Product)를 중심으로 제품의 사용자 경험을 개선해 나갔다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621019032903/z4NGf6OvQd.png)
+   ![2013년 출시된 쇼피파이2의 새로운 인터페이스](/images/a-brief-history-of-shopify-img-8.png)
 
 
    > 2013년 릴리즈된 쇼피파이2의 모습 ([**사진 출처:** Techcrunch](https://techcrunch.com/2013/04/11/after-7-years-50k-storefronts-launched-shopify-launches-major-redesign-to-simplify-online-store-building/))
@@ -174,13 +175,13 @@ excerpt: ""
    이는 쇼피파이가 지금껏 웹사이트라는 판매 채널을 중심으로 고객에게 제공해오던 것을 다양한 판매 채널로 확장해야 함을 의미했다. 쇼피파이는 그들의 새로운 비전인 '토탈 이커머스 플랫폼'으로 성장하기 위해 Insight Partners와 OMERS Ventures에게서 [1억 달러의 투자를 유치](https://news.shopify.com/shopify-announces-100-million-funding)했다.
 
 
-   ![total.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621019032903/z4NGf6OvQd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+   ![쇼피파이의 토탈 이커머스 플랫폼 비전](/images/a-brief-history-of-shopify-img-9.png)
 
 
 6. 쇼피파이가 토탈 이커머스 플랫폼으로 성장하기 위해 가장 먼저 시도한 일은 오프라인 소매점을 위한 [쇼피파이 POS](https://www.shopify.com/pos)를 출시하는 것이었다. 이는 기존의 POS 산업에 새로운 경쟁자가 하나 추가되는 것과는 다르다. 쇼피파이가 POS를 제공하는 것은 **오프라인 판매자가 언제든 온라인 판매를 시작할 수 있게 되는 것을 의미**한다. 또한 쇼피파이는 [쇼피파이 페이먼츠](https://www.shopify.com/payments)를 출시하여 온오프라인 판매를 하나로 묶어 통합 관리할 수 있게 하였다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621019032903/z4NGf6OvQd.png?w=400&h=210&fit=crop&crop=entropy&auto=compress,format&format=webp&fm=blurhash)
+   ![쇼피파이 POS 시스템 화면](/images/a-brief-history-of-shopify-img-10.png)
 
 
 7. 2014년 쇼피파이는 기업가치 1조 원을 넘어서며 유니콘에 등극했다.(그리고 드디어 토비와 피오나는 부모님의 집에서 독립했다.) 직원은 어느덧 500명이 넘었고 전 세계 140,000개의 상점이 쇼피파이를 통해 4조원에 가까운 돈을 벌어들이고 있었다. 쇼피파이는 빠르게 성장했고 [2015년 5월 뉴욕 증시(NYSE)에 성공적으로 상장](https://www.cbc.ca/news/business/shopify-stock-soars-in-new-york-debut-after-ipo-1.3082270)하였다.
@@ -207,7 +208,7 @@ excerpt: ""
 1. 지금까지 쇼피파이의 시작부터 기업 공개까지 어떤 일들이 있었는지 성장 과정을 살펴보았다. 이들은 쇼핑몰 제작 도구에서 쇼핑몰 플랫폼으로 그리고 토탈 이커머스 플랫폼으로 비전을 확장하며 성장의 속도를 높여왔다. 쇼피파이는 아래 플라이휠을 통해 그들이 성장을 위해 집중하는 것을 세가지로 압축하여 설명한다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621019032903/z4NGf6OvQd.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+   ![쇼피파이 성장 플라이휠 모델](/images/a-brief-history-of-shopify-img-11.png)
 
 
 2. 플라이휠을 구성하는 세 가지는 아래와 같다.
@@ -270,7 +271,7 @@ excerpt: ""
       이커머스 시장은 계속하여 성장하고 있다. 2014년 1,200조 규모의 시장은 2020년 5,000조 규모로 성장했다. 특히 펜데믹을 거치며 온라인 구매가 일상 깊숙히 자리잡은 이상 더 많은 영역의 오프라인 거래가 온라인으로 옮겨 올 것으로 예상된다. 쇼피파이의 성장에 가장 큰 영향을 주는 트렌드라고 볼 수 있다.
 
 
-      ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1722627146487/TlCQUwEql.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress,format&format=webp)
+      ![전 세계 이커머스 시장 성장 통계](/images/a-brief-history-of-shopify-img-12.png)
 
 
       > 자료 출처: [Statista, Retail e-commerce sales worldwide](https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales/)
@@ -302,8 +303,7 @@ excerpt: ""
 
 #### 다양한 온/오프라인 채널 통합 및 확장된 고객 관리 도구 제공
 
-
-
+![쇼피파이 옴니채널 커머스 전략](/images/a-brief-history-of-shopify-img-13.png)
 
 > 사진 출처: [2017 Shopify Investor Deck](https://investors.shopify.com/home/default.aspx) 
 
@@ -370,7 +370,7 @@ excerpt: ""
 1. 2014년 쇼피파이는 새로운 제품 라인업인 쇼피파이 플러스를 출시했다. 쇼피파이가 중소 규모 판매자에 초점이 맞춰진 제품이라면 쇼피파이 플러스는 월 사용료가 최소 2,000달러에서 시작하는, 대형 이커머스 기업을 위한 제품이다. 쇼피파이 플러스는 대량 트래픽 처리, 글로벌 확장 지원, 향상된 웹사이트 제작 도구와 템플릿, 헤드리스 커머스 지원, 더 많은 판매 채널 연동 지원, 유연한 기술 스택 구성, 다수의 플러스 회원 전용 앱 그리고 전담 고객 지원 등 다양한 확장 기능을 포함하여 기업들이 자체적으로 이커머스 시스템을 구축하는데 들어가는 많은 시간과 비용을 줄일 수 있는 통합 솔루션을 제공한다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621265463932/rC7LOYlO-.png?auto=compress,format&format=webp)
+   ![쇼피파이 플러스 엔터프라이즈 솔루션](/images/a-brief-history-of-shopify-img-14.png)
 
 
    > 사진 출처: [The genie lab](https://www.thegenielab.com/post/shopify-development-for-shopify-plus) 
@@ -382,7 +382,7 @@ excerpt: ""
 3. 쇼피파이 플러스의 대표적인 고객사로는 하이네켄, 올버즈 등이 있으며 카다시안 패밀리로 잘 알려진 셀럽 겸 사업가 카일리 제너의 [카일리 코스메틱](https://www.kyliecosmetics.com/)도 쇼피파이 플러스의 고객이다. 카일리 코스메틱은 2015년 설립 후 18개월 만에 5,000억 원의 매출을 달성하며 빠르게 성장했고 팝업 이벤트를 진행할 때마다 수십만 명이 동시접속하는 인기 브랜드이다. 카일리 코스메틱은 쇼피파이 플러스를 통해 빠른 성장 과정에서 필요한 다양한 도움을 받을 수 있었다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621272440769/kWsFSvRdh.png?auto=compress,format&format=webp)
+   ![카일리 제너의 카일리 코스메틱 쇼핑몰](/images/a-brief-history-of-shopify-img-15.png)
 
 
    > 사진 출처: [Kylie Cosmetics](https://www.kyliecosmetics.com/)
@@ -391,7 +391,7 @@ excerpt: ""
 4. 현재 쇼피파이 플러스를 이용하는 기업의 수는 약 10,000개가량이며 175만 판매자가 사용 중인 쇼피파이에 비하면 0.5% 수준이다. 하지만 전체 사용료 매출(MRR) 중 쇼피파이 플러스 사용료 매출이 차지하는 비중은 25~29%에 달한다. 또한 외부에 공개되진 않았지만, 개별 계약을 거치는 쇼피파이 페이먼츠 결제 수수료(쇼피파이의 Merchant Solution 매출의 상당 부분을 차지한다.)는 수 년 내 더 빠르게 비중을 늘려갈 것으로 예상된다. 
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621273760225/vI064EFU3.png?auto=compress,format&format=webp)
+   ![쇼피파이 플러스 매출 비중과 성장 지표](/images/a-brief-history-of-shopify-img-16.png)
 
 
 ### SFN(Shopify Fulfillment Network)
@@ -403,7 +403,7 @@ excerpt: ""
 1. 이커머스의 경쟁력을 꼽을 때 상품 경쟁력 다음으로 중요하다고 여겨지는 것이 바로 물류, 배송 역량이다. 그리고 가장 어려운 문제 역시 물류와 배송이다. 우선 천문학적인 투자 비용이 들어가는 것은 물론이고 돈만 있다고 잘할 수 있는 것도 아니기 때문이다. 쿠팡과 컬리가 빠르게 성장하는데 물류와 배송이 얼마나 큰 역할을 했는지, 그리고 이를 위해 그들이 얼마나 많은 투자를 했는지 떠올려 보자.
 
 
-   ![image.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1621276859525/nYUUDPboT.png?auto=compress,format&format=webp)
+   ![이커머스 물류 배송 시스템의 중요성](/images/a-brief-history-of-shopify-img-17.png)
 
 
    > 사진 출처: [경향 신문](https://m.khan.co.kr/view.html?art_id=201809161039001)
@@ -475,19 +475,19 @@ excerpt: ""
 1. 상장 직후인 2015년 3분기 약 20만 개였던 쇼피파이 상점 수는 2020년 4분기 약 175만 개로 8배 가량 증가했고 연관 매출인 구독 솔루션(Subscription Solution) 매출은 약 354억 원에서 약 3,353억 원으로 9배 이상 늘었다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621335212968/yPExEO4RD.png?auto=compress,format&format=webp)
+   ![쇼피파이 상점 수 성장 그래프](/images/a-brief-history-of-shopify-img-18.png)
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621344546328/VhZEektGN.png?auto=compress,format&format=webp)
+   ![구독 솔루션 매출 성장 차트](/images/a-brief-history-of-shopify-img-19.png)
 
 
 2. 상점 총 거래액(GMV)은 2015년 약 8조 원에서 약 161조 7,000억으로 20배 가량 증가했으며 연관 매출인 판매자 솔루션(Merchant Solution) 매출은 약 278억 원에서 약 8,379억 원으로 30배 가량 늘었다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621357280632/S9qqLyVQ1.png?auto=compress,format&format=webp)
+   ![상점 총 거래액(GMV) 성장 추이](/images/a-brief-history-of-shopify-img-20.png)
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621420608147/FPvuUYrVJ.png?auto=compress,format&format=webp)
+   ![판매자 솔루션 매출 성장 지표](/images/a-brief-history-of-shopify-img-21.png)
 
 
    > 자료 출처: [MarketplacePulse](https://www.marketplacepulse.com/stats/shopify) 
@@ -496,13 +496,13 @@ excerpt: ""
 3. 이런 빠른 성장 덕에 2019년 쇼피파이는 이베이의 시총을 넘어섰으며 2020년엔 거래액으로도 이베이를 넘어섰다. 이제 쇼피파이는 이커머스 기업 중 아마존 다음으로 기업가치가 높은 2위 기업의 자리를 차지하게 되었다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621424758815/GSbZv7sCL.png?auto=compress,format&format=webp)
+   ![쇼피파이와 이베이의 기업가치 비교](/images/a-brief-history-of-shopify-img-22.png)
 
 
    > 자료 출처: [Financial Times](https://www.ft.com/content/c72ae0f0-c036-11e9-b350-db00d509634e)
 
 
-   ![Shopify overtakes eBay](https://cdn.hashnode.com/res/hashnode/image/upload/v1621690202403/Xsj2Ausay.png?auto=compress,format&format=webp)
+   ![쇼피파이가 이베이를 넘어선 거래액 성장](/images/a-brief-history-of-shopify-img-23.png)
 
 
    > 자료 출처: [MarketplacePulse](https://www.marketplacepulse.com/articles/shopify-overtakes-ebay)
@@ -514,7 +514,7 @@ excerpt: ""
    거래액 기준으로 [아마존 마켓플레이스 대비 쇼피파이의 거래액이 차지하는 비율](https://www.marketplacepulse.com/articles/shopify-is-40-as-big-as-amazon-marketplace)은 2018년 25%, 2019년 30% 그리고 2020년 40%로 빠르게 커지고 있다.
 
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621427659239/bf975Kfyt.png?auto=compress,format&format=webp)
+   ![아마존 대비 쇼피파이 거래액 비율 증가 추이](/images/a-brief-history-of-shopify-img-24.png)
 
 
    2020년 아마존 마켓플레이스의 연간 거래액 성장률 50%, 쇼피파이의 거래액 성장률 119%가 5년간 유지된다고 가정할 경우 쇼피파이의 거래액은 아마존 마켓플레이스의 거래액을 넘어서게 된다.

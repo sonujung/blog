@@ -1,10 +1,12 @@
 ---
-title: "더 많은 기능에 대한 오해"
-publishedAt: "2022-01-13"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: 더 많은 기능에 대한 오해
+publishedAt: '2022-01-13'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-more-feature-complexity.jpg
 ---
 
 

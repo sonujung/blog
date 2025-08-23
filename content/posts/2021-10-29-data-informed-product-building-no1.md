@@ -1,10 +1,12 @@
 ---
-title: "데이터 기반의 제품 만들기 - #1. 제품은 어떻게 진화하는가?"
-publishedAt: "2021-10-29"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
+title: '데이터 기반의 제품 만들기 - #1. 제품은 어떻게 진화하는가?'
+publishedAt: '2021-10-29'
+updatedAt: '2025-08-22'
+author: Sonu
+tags:
+  - 일하는 삶
+excerpt: ''
+coverImage: /images/cover-data-informed-product-building-no1.jpg
 ---
 
 
