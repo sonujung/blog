@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
+import { addSubscriber } from '@/lib/subscribers';
 
 // Resend 클라이언트를 지연 초기화하는 함수
 function getResendClient() {
@@ -24,12 +25,26 @@ export async function POST(request: NextRequest) {
     // 이메일 주소 정규화
     const normalizedEmail = email.toLowerCase().trim();
 
+    // 구독자 데이터베이스에 저장
+    let subscriber;
+    try {
+      subscriber = addSubscriber(normalizedEmail);
+    } catch (error: any) {
+      if (error.message.includes('이미 구독 중인')) {
+        return NextResponse.json(
+          { error: '이미 구독 중인 이메일 주소입니다.' },
+          { status: 400 }
+        );
+      }
+      throw error;
+    }
+
     // Resend 클라이언트 초기화
     const resend = getResendClient();
     
     // Welcome 이메일 발송
     const { data, error } = await resend.emails.send({
-      from: 'Sonu Jung <noreply@sonujung.com>',
+      from: 'Sonu Jung <onboarding@resend.dev>',
       to: [normalizedEmail],
       subject: '🎉 sonujung.com 뉴스레터 구독해주셔서 감사합니다!',
       html: `
@@ -68,7 +83,7 @@ export async function POST(request: NextRequest) {
           <div style="border-top: 1px solid #e5e7eb; padding-top: 24px; text-align: center;">
             <p style="font-size: 12px; color: #9ca3af; margin: 0;">
               구독을 원하지 않으시면 언제든지 
-              <a href="#" style="color: #6b7280; text-decoration: underline;">구독 취소</a>할 수 있습니다.
+              <a href="${process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'}/unsubscribe?token=${subscriber.unsubscribeToken}" style="color: #6b7280; text-decoration: underline;">구독 취소</a>할 수 있습니다.
             </p>
             <p style="font-size: 12px; color: #9ca3af; margin-top: 8px;">
               © 2024 Sonu Jung. 정선우의 블로그입니다.

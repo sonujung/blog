@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "migrate:hashnode": "ts-node scripts/migrate-hashnode.ts",
-    "sync:notion": "ts-node scripts/notion-to-markdown.ts"
+    "sync:notion": "ts-node scripts/notion-to-markdown.ts",
+    "notify-post": "ts-node scripts/notify-new-post.ts"
   },
   "dependencies": {
     "@fontsource/pretendard": "^5.2.5",
