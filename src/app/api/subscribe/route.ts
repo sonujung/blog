@@ -1,8 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-// Resend 클라이언트 초기화
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Resend 클라이언트를 지연 초기화하는 함수
+function getResendClient() {
+  if (!process.env.RESEND_API_KEY) {
+    throw new Error('RESEND_API_KEY 환경변수가 설정되지 않았습니다.');
+  }
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,6 +24,9 @@ export async function POST(request: NextRequest) {
     // 이메일 주소 정규화
     const normalizedEmail = email.toLowerCase().trim();
 
+    // Resend 클라이언트 초기화
+    const resend = getResendClient();
+    
     // Welcome 이메일 발송
     const { data, error } = await resend.emails.send({
       from: 'Sonu Jung <noreply@sonujung.com>',
