@@ -1,12 +1,10 @@
 ---
-title: '페이스북, 구글도 하는 실수 - 예방 가능한 문제의 역설'
-publishedAt: '2021-04-04'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-the-preventable-problem-paradox.jpg
+title: "페이스북, 구글도 하는 실수 - 예방 가능한 문제의 역설"
+publishedAt: "2021-04-04"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

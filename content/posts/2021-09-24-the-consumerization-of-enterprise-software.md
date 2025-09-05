@@ -1,12 +1,10 @@
 ---
-title: 엔터프라이즈(b2b) 소프트웨어의 소비자화
-publishedAt: '2021-09-24'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-the-consumerization-of-enterprise-software.jpg
+title: "엔터프라이즈(b2b) 소프트웨어의 소비자화"
+publishedAt: "2021-09-24"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 > 👆 뉴스레터를 구독하면 새롭게 업데이트 되는 글을 가장 빠르게 받아보실 수 있어요!

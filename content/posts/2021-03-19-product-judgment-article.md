@@ -1,12 +1,10 @@
 ---
-title: '제품 직관: 그들은 어떻게 성공적인 제품을 계속해서 만들어 내는가?'
-publishedAt: '2021-03-19'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-product-judgment-article.jpg
+title: "제품 직관: 그들은 어떻게 성공적인 제품을 계속해서 만들어 내는가?"
+publishedAt: "2021-03-19"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

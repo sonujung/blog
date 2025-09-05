@@ -1,12 +1,10 @@
 ---
-title: 베이스캠프가 중요하게 생각하는 단 하나의 지표
-publishedAt: '2021-03-11'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-jason-fried-s-two-articles.jpg
+title: "베이스캠프가 중요하게 생각하는 단 하나의 지표"
+publishedAt: "2021-03-11"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

@@ -1,12 +1,10 @@
 ---
-title: 나의 강점을 아는 것의 유용함 - CliftonStrengths
-publishedAt: '2021-07-10'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-cliftonstrengths.jpg
+title: "나의 강점을 아는 것의 유용함 - CliftonStrengths"
+publishedAt: "2021-07-10"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

@@ -1,12 +1,10 @@
 ---
-title: '히트 리프레시 - 혁신이 멈춘 기업, 새로고침 버튼을 누르다.'
-publishedAt: '2021-05-30'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-hit-refresh-reading-note.jpg
+title: "히트 리프레시 - 혁신이 멈춘 기업, 새로고침 버튼을 누르다."
+publishedAt: "2021-05-30"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

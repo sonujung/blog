@@ -1,12 +1,10 @@
 ---
-title: 한 챕터를 마치며.
-publishedAt: '2024-04-28'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-adieu-sixshop.jpg
+title: "한 챕터를 마치며."
+publishedAt: "2024-04-28"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

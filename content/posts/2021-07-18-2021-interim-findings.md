@@ -1,12 +1,10 @@
 ---
-title: 신년 목표 달성 현황 중간 점검
-publishedAt: '2021-07-18'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-2021-interim-findings.jpg
+title: "신년 목표 달성 현황 중간 점검"
+publishedAt: "2021-07-18"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

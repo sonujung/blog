@@ -1,12 +1,10 @@
 ---
-title: Think Stack
-publishedAt: '2022-03-07'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-think-stack.jpg
+title: "Think Stack"
+publishedAt: "2022-03-07"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

@@ -1,12 +1,10 @@
 ---
-title: 스톡데일 패러독스 - 초기 스타트업에 필요한 낙관적 현실주의 마인드 셋
-publishedAt: '2021-03-12'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-stockdale-paradox.jpg
+title: "스톡데일 패러독스 - 초기 스타트업에 필요한 낙관적 현실주의 마인드 셋"
+publishedAt: "2021-03-12"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

@@ -5,7 +5,6 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
-coverImage: "/images/cover-data-informed-product-building-no3.jpg"
 ---
 
 
@@ -109,7 +108,7 @@ eBay의 비전과 미션은 그들이 '누구나 원하는 게 무엇이건 좋�
 * **성장에 미치는 영향력을 기준으로 선정하세요.** 신규 사용자 획득을 늘리기 위해 잠재 고객에게 메일을 보내고 그중 일부가 웹사이트를 방문한다고 하면, 다시 그중 일부가 가입을 하고 또 일부가 활성 사용자가 될 것입니다. 이 과정을 아래와 같은 그림으로 표현할 수 있습니다.
 
 
-    ![사용자 유입 단계별 전환율 구조](/images/data-informed-product-building-no3-img-1.png)
+    ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1638016187677/UgaW17FO5.png align="left")
 
 
     즉 활성 사용자에 영향을 미치는 네 지점에서 어떤 곳이 가장 큰 영향력을 미치는지 확인하고, 예를 들어 웹사이트에 방문했지만 가입하지 않고 이탈한 사용자가 제일 많다면 핵심 메트릭을 가입 전환율로 정하는 게 도움이 될 것입니다.

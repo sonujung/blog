@@ -1,12 +1,10 @@
 ---
-title: '2021년 회고 - 파트 1:신년 목표 연말 정산'
-publishedAt: '2021-12-18'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-2021-retrospective-part1.jpg
+title: "2021년 회고 - 파트 1:신년 목표 연말 정산"
+publishedAt: "2021-12-18"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

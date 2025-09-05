@@ -1,12 +1,10 @@
 ---
-title: 처음 일을 마주할 때
-publishedAt: '2024-07-21'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-face-the-work-head-on.jpg
+title: "처음 일을 마주할 때"
+publishedAt: "2024-07-21"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

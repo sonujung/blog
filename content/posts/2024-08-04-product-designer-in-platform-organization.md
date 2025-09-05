@@ -1,12 +1,10 @@
 ---
-title: 프로덕트 디자이너 in 플랫폼 조직
-publishedAt: '2024-08-04'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-product-designer-in-platform-organization.jpg
+title: "프로덕트 디자이너 in 플랫폼 조직"
+publishedAt: "2024-08-04"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 

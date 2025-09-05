@@ -1,12 +1,10 @@
 ---
-title: 기술이 나쁜게 아니다.
-publishedAt: '2025-07-26'
-updatedAt: '2025-08-22'
-author: Sonu
-tags:
-  - 일하는 삶
-excerpt: ''
-coverImage: /images/cover-makers-mind-in-ai-era.jpg
+title: "기술이 나쁜게 아니다."
+publishedAt: "2025-07-26"
+updatedAt: "2025-08-22"
+author: "Sonu"
+tags: ["일하는 삶"]
+excerpt: ""
 ---
 
 
