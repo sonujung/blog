@@ -10,12 +10,15 @@
     "lint": "eslint",
     "migrate:hashnode": "ts-node scripts/migrate-hashnode.ts",
     "sync:notion": "ts-node scripts/notion-to-markdown.ts",
+    "sync:selective": "ts-node scripts/selective-notion-sync.ts",
     "notify-post": "ts-node scripts/notify-new-post.ts"
   },
   "dependencies": {
     "@fontsource/pretendard": "^5.2.5",
     "@notionhq/client": "^4.0.2",
+    "@types/form-data": "^2.2.1",
     "dotenv": "^17.2.1",
+    "form-data": "^4.0.4",
     "fs-extra": "^11.3.1",
     "fuse.js": "^7.1.0",
     "graphql-request": "^7.2.0",
