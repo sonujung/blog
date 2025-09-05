@@ -67,9 +67,9 @@ function parseMarkdownToNotionBlocks(markdown: string): any[] {
       const match = line.match(/^!\[(.*?)\]\((.+)\)$/);
       if (match) {
         const [, altText, imageUrl] = match;
-        // 로컬 이미지 경로를 절대 URL로 변환
+        // 로컬 이미지 경로를 GitHub raw URL로 변환
         const fullImageUrl = imageUrl.startsWith('/') 
-          ? `http://localhost:3005${imageUrl}` 
+          ? `https://raw.githubusercontent.com/sonujung/blog/main/public${imageUrl}` 
           : imageUrl;
         
         currentBlock = {
