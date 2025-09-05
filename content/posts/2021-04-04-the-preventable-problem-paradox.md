@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-the-preventable-problem-paradox.jpg"
 ---
 
 
@@ -19,6 +20,8 @@ excerpt: ""
 
 우리는 더 큰 일을 해낼 때 더 큰 인정을 받습니다. 지극히 합리적인 것으로 보이지만 여기에 우리가 인식하지 못하는 역설이 존재하고 있습니다.
 
+![Image 1](/images/the-preventable-problem-paradox-img-1.png)
+
 
 과연 그게 무엇일까요?
 
@@ -29,6 +32,8 @@ excerpt: ""
 # 왜 똑똑한 회사들이 바보가 되는 걸까?
 
 
+
+![Image 2](/images/the-preventable-problem-paradox-img-2.png)
 
 
 
@@ -43,6 +48,8 @@ excerpt: ""
 
 말해두지만, 이글은 다른 이들의 실수를 사후 평가하기 위해 쓰인 게 아닙니다. 사실 우리 모두 다 공범이라고도 할 수 있습니다.
 
+![Image 3](/images/the-preventable-problem-paradox-img-3.png)
+
 
 이 글을 통해 말하고자 하는 건 '대체 그때 어떤 생각을 한 거지?'에 가까운 내용이 될 것입니다.
 
@@ -52,6 +59,8 @@ excerpt: ""
 > 걔네 회사 얘들은 완전 멍청하네.
 
 혹은
+
+![Image 4](/images/the-preventable-problem-paradox-img-4.png)
 
 > 걔들 완전 쓰레기 아니야?
 
@@ -65,6 +74,8 @@ excerpt: ""
 
 
 상황이 천차만별이니 그 이유를 일반화할 수는 없겠지만, 저는 일종의 조직적 인지편향이 기업 문화의 뿌리에 크게 자리하고 있다고 생각합니다.
+
+![Image 5](/images/the-preventable-problem-paradox-img-5.png)
 
 
 저는 이 문제를 **예방 가능한 문제의 역설**로 부르겠습니다.
@@ -81,6 +92,8 @@ excerpt: ""
 
 다 보셨나요?
 
+![Image 6](/images/the-preventable-problem-paradox-img-6.png)
+
 
 어떤 게 보였나요? 함께 살펴보시죠.
 
@@ -90,6 +103,8 @@ excerpt: ""
 
 
 
+
+![Image 7](/images/the-preventable-problem-paradox-img-7.png)
 
 클락은 한 어린 소년이 난간에 올라 무척 위험한 장난을 치고 있음을 발견합니다.
 
@@ -101,6 +116,8 @@ excerpt: ""
 
 
 
+![Image 8](/images/the-preventable-problem-paradox-img-8.png)
+
 
 
 로이스는 클락이 한 일에 별다른 관심을 보이지 않는 것으로 보입니다.
@@ -110,6 +127,8 @@ excerpt: ""
 
 
 클락이 돌아와 로이스에게 방금 일어난 일을 봤냐고 물었습니다.
+
+![Image 9](/images/the-preventable-problem-paradox-img-9.png)
 
 
 
@@ -122,6 +141,8 @@ excerpt: ""
 
 
 
+![Image 10](/images/the-preventable-problem-paradox-img-10.png)
+
 
 
 그 와중에, 소년은 다시 난간에 올라가 위험한 장난을 치기 시작합니다. 하지만 이번엔 난간 건너편으로 넘어가기까지 했습니다. 전보다 훨씬 아슬아슬해 보입니다.
@@ -132,6 +153,8 @@ excerpt: ""
 
 아마.. 요쯤이면..
 
+![Image 11](/images/the-preventable-problem-paradox-img-11.png)
+
 
 
 
@@ -141,6 +164,8 @@ excerpt: ""
 
 
 
+
+![Image 12](/images/the-preventable-problem-paradox-img-12.png)
 
 이때 로이스는 바로 상황을 인지하고 소리칩니다. "누가 좀 도와줘요!"
 
@@ -154,6 +179,8 @@ excerpt: ""
 
 
 
+![Image 13](/images/the-preventable-problem-paradox-img-13.png)
+
 정체불명의 남자가 소리칩니다. "누가 뭐라도 좀 해봐!" (80년대 특수효과가 빛이 나네요)
 
 
@@ -164,6 +191,8 @@ excerpt: ""
 
 
 
+![Image 14](/images/the-preventable-problem-paradox-img-14.png)
+
 
 
 좀만 더 좀만 더!!
@@ -173,6 +202,8 @@ excerpt: ""
 
 
 군중들이 슈퍼맨을 응원합니다.
+
+![Image 15](/images/the-preventable-problem-paradox-img-15.png)
 
 
 
@@ -186,6 +217,8 @@ excerpt: ""
 
 군중은 슈퍼맨을 찬양하기 시작합니다.
 
+![Image 16](/images/the-preventable-problem-paradox-img-16.png)
+
 
 
 
@@ -195,6 +228,8 @@ excerpt: ""
 
 
 
+
+![Image 17](/images/the-preventable-problem-paradox-img-17.png)
 
 이제 거의 도착했습니다.
 
@@ -208,6 +243,8 @@ excerpt: ""
 
 
 
+![Image 18](/images/the-preventable-problem-paradox-img-18.png)
+
 로이스를 볼까요? 클락 켄트가 한 일에 대해서 거의 무관심하던 그녀는 슈퍼맨의 드라마틱한 구출에 환호하며 그를 찾습니다.
 
 
@@ -219,6 +256,8 @@ excerpt: ""
 
 
 
+
+![Image 19](/images/the-preventable-problem-paradox-img-19.png)
 
 이제 질문이 있습니다.
 
@@ -233,6 +272,8 @@ excerpt: ""
 
 
 만약 그가 감사와 칭찬에 동기를 부여한다면 1과 2중 2에 베팅하는 게 훨씬 효과적입니다.
+
+![Image 20](/images/the-preventable-problem-paradox-img-20.png)
 
 
 너무 비현실적인 상황인가요? 슈퍼맨이 나오니까?
@@ -250,6 +291,8 @@ excerpt: ""
 
 이 역설은 우리가 사회, 커뮤니티를 이해하는 데 있어 매우 중요한 사실입니다.
 
+![Image 21](/images/the-preventable-problem-paradox-img-21.png)
+
 
 다른 예로 살펴볼까요?
 
@@ -265,6 +308,8 @@ excerpt: ""
 > 문제를 회피하는 것이 섹시하지 않다는 것입니다. 여기 두 개의 영화 줄거리가 있습니다. A는 배가 빙산에 부딪혀 가라앉게 됩니다. 이때 선장은 모든 승객이 물에 빠지는 것을 힘들게 구조하고 가까스로 마지막 남은 구명보트에 탑승하게 됩니다. B는 선장이 배를 빙산 주위로 합리적인 거리를 유지하면서 주행합니다. 어떤 영화를 보시겠습니까? 아마 A를 보고 싶겠죠? 그럼 실제 승객이라면 어떤 배에 타시겠습니까? 당연히 B가 아닐까요?
 
 #### 문장 2
+
+![Image 22](/images/the-preventable-problem-paradox-img-22.png)
 
 
 
@@ -282,6 +327,8 @@ excerpt: ""
 - 중대해보인다.
 
 **문제 예방**
+
+![Image 23](/images/the-preventable-problem-paradox-img-23.png)
 
 - 눈에 보이지 않는다.
 - 지루해보인다.
@@ -302,6 +349,8 @@ excerpt: ""
 
 만약 여러분이 진실하고 팀과 고객을 위한 리더가 되고 싶다면, 빙산을 미리 피해야지, 빙산에 뱃머리를 박은 뒤 사람들을 구조하려 뛰어 나가서는 안됩니다.
 
+![Image 24](/images/the-preventable-problem-paradox-img-24.png)
+
 
 결론적으로 우리는 아래와 같은 질문을 해볼 수 있습니다.
 
@@ -317,6 +366,8 @@ excerpt: ""
 
 
 3. 사전에 예방할 수 있는 방법을 찾습니다.
+
+![Image 25](/images/the-preventable-problem-paradox-img-25.png)
 
 
 4. 회사가 보상 시스템을 변경할 수 있도록 지지합니다.
@@ -335,4 +386,6 @@ excerpt: ""
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 26](/images/the-preventable-problem-paradox-img-26.png)
 

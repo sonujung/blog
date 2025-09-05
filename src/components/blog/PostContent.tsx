@@ -7,13 +7,16 @@ import Image from 'next/image';
 import YouTubeEmbed, { getYouTubeVideoId } from './YouTubeEmbed';
 
 // 컨텐츠에서 YouTube 링크 처리
-function processYouTubeLinks(content: string): string {
-  // %[youtube_url] 형태의 링크를 iframe으로 변환
-  return content.replace(/%\[(https?:\/\/(www\.)?(youtube\.com|youtu\.be)[^\]]+)\]/g, (match, url) => {
+function processVideoLinks(content: string): string {
+  // YouTube와 Vimeo 링크를 iframe으로 변환
+  let processedContent = content;
+  
+  // YouTube 링크 처리
+  processedContent = processedContent.replace(/%\[(https?:\/\/(www\.)?(youtube\.com|youtu\.be)[^\]]+)\]/g, (match, url) => {
     const videoId = getYouTubeVideoId(url);
     if (videoId) {
       return `
-<div class="youtube-embed my-8 flex justify-center">
+<div class="video-embed my-8 flex justify-center">
   <div class="w-full max-w-3xl">
     <div class="relative w-full h-0" style="padding-bottom: 56.25%;">
       <iframe
@@ -31,6 +34,49 @@ function processYouTubeLinks(content: string): string {
     }
     return match;
   });
+  
+  // Vimeo 링크 처리
+  processedContent = processedContent.replace(/%\[(https?:\/\/(www\.)?vimeo\.com\/[^\]]+)\]/g, (match, url) => {
+    const videoId = getVimeoVideoId(url);
+    if (videoId) {
+      return `
+<div class="video-embed my-8 flex justify-center">
+  <div class="w-full max-w-3xl">
+    <div class="relative w-full h-0" style="padding-bottom: 56.25%;">
+      <iframe
+        class="absolute top-0 left-0 w-full h-full rounded-lg shadow-sm"
+        src="https://player.vimeo.com/video/${videoId}"
+        title="Vimeo video player"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+`;
+    }
+    return match;
+  });
+  
+  return processedContent;
+}
+
+// Vimeo URL에서 비디오 ID 추출
+function getVimeoVideoId(url: string): string | null {
+  const patterns = [
+    /vimeo\.com\/(\d+)/,
+    /vimeo\.com\/video\/(\d+)/
+  ];
+  
+  for (const pattern of patterns) {
+    const match = url.match(pattern);
+    if (match && match[1]) {
+      return match[1];
+    }
+  }
+  
+  return null;
 }
 
 interface PostContentProps {
@@ -47,8 +93,8 @@ export default function PostContent({ post }: PostContentProps) {
     });
   };
 
-  // YouTube 링크 전처리
-  const processedContent = processYouTubeLinks(post.content);
+  // YouTube/Vimeo 링크 전처리
+  const processedContent = processVideoLinks(post.content);
 
   return (
     <article className="max-w-2xl mx-auto px-4 py-16">
@@ -147,25 +193,25 @@ export default function PostContent({ post }: PostContentProps) {
                   <img 
                     src={srcString} 
                     alt={alt || ''} 
-                    className="rounded-lg mx-auto my-6 max-w-full h-auto shadow-sm"
+                    className="rounded-lg mx-auto my-6 max-w-full h-auto shadow-sm block"
                     loading="lazy"
                   />
                 );
               }
               
-              // For local images, use Next.js Image component
+              // For local images, use Next.js Image component with inline-block display
               return (
-                <div className="my-6 flex justify-center">
+                <span className="block my-6 text-center">
                   <Image
                     src={srcString}
                     alt={alt || ''}
                     width={800}
                     height={600}
-                    className="rounded-lg shadow-sm"
+                    className="rounded-lg shadow-sm inline-block"
                     style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
                     priority={false}
                   />
-                </div>
+                </span>
               );
             },
           }}

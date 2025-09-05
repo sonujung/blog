@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-product-design-in-startup.jpg"
 ---
 
 
@@ -46,6 +47,8 @@ excerpt: ""
 
 #### 프로덕트(제품):
 
+![Image 1](/images/product-design-in-startup-img-1.png)
+
 
 제품은 제조 공정을 거쳐 만들어진 재화를 말한다. ([위키피디아 - 제품](https://ko.wikipedia.org/wiki/%EC%A0%9C%ED%92%88))
 
@@ -81,6 +84,8 @@ excerpt: ""
 
 그리고 인간은 직업이 있기 아주 오래전부터 도구를 만들어왔다.
 
+![Image 2](/images/product-design-in-startup-img-2.png)
+
 > 도구를 사용하는 사람 - 'Homo Habilis' 
 
 
@@ -111,6 +116,8 @@ excerpt: ""
 
 
 그리고 당연히도 도구를 만드는 것을 직업으로 삼는 사람에게는 아래의 역량이 요구되었다.
+
+![Image 3](/images/product-design-in-startup-img-3.png)
 
 
 1. 도구의 필요에 맞는 쓰임새를 고안한다. 
@@ -144,6 +151,8 @@ excerpt: ""
 
 
 하지만.
+
+![Image 4](/images/product-design-in-startup-img-4.png)
 
 
 웹디자이너, 인터랙션 디자이너, GUI 디자이너, UI 디자이너, UX 디자이너, UI/UX 디자이너, 프로덕트 디자이너...
@@ -182,6 +191,8 @@ excerpt: ""
 
 그러나 테크 분야에서 잡 타이틀이 업계 리딩 기업들이 추구하는 업무 문화나 협업 방식, 그리고 이에 맞는 역량을 기준으로 정해진다는 것을 인지하고 나면 무엇을 봐야 하는지를 알기 쉬워진다. 
 
+![Image 5](/images/product-design-in-startup-img-5.png)
+
 
 ## 어째서 지금 프로덕트 디자이너인가? 
 
@@ -216,6 +227,8 @@ excerpt: ""
 
 
 
+
+![Image 6](/images/product-design-in-startup-img-6.png)
 
 해외나 국내 스타트업에서 종종 볼 수 있는 팀 구조를 간략히 그린 도표이다. 
 
@@ -256,6 +269,8 @@ excerpt: ""
 
     기획자가 디자이너에게, 또 디자이너가 개발자에게 구현되어야 할 요구사항을 전달한다. 이를 흔히 워터폴 프로세스라고 부른다.
 
+![Image 7](/images/product-design-in-startup-img-7.png)
+
 
     기능 중심 조직에선 종종 기획자가 UX 기획이란 이름으로 화면 설계를 담당하는 경우도 있는데 이 경우 디자인 업무는 인터페이스를 그리는 일에 초점이 맞춰지기도 한다.
 
@@ -294,6 +309,8 @@ excerpt: ""
 
 
     기능 중심 조직에선 프로젝트마다 함께 일하는 기획자, 개발자가 달라질 수 있어 각 팀 사이의 커뮤니케이션보다는 직군 간 교류가 보다 활발히 이뤄지는 편이다. 팀과 팀 사이의 업무 조율은 개별 디자이너가 담당하거나 팀 리더가 전담하는 경우도 있다. 
+
+![Image 8](/images/product-design-in-startup-img-8.png)
 
 
     - **제품 중심 조직**  
@@ -335,6 +352,8 @@ excerpt: ""
 
 #### 디자이너가 해야 하는 일:
 
+![Image 9](/images/product-design-in-startup-img-9.png)
+
 - 사업 검증을 위한 MVP 설계 및 제작 참여
 - 검증된 가설 기반으로 런칭 프로덕트 제작
 - 공동 창업자, 창업 멤버로써 회사에 필요한 모든 일
@@ -371,6 +390,8 @@ Minimum Viable Product(최소 가능 제품)의 약자로 최소의 리소스로
 
 
 
+
+![Image 10](/images/product-design-in-startup-img-10.png)
 
 #### MVP 사례 #3 - 식스샵
 
@@ -411,6 +432,8 @@ Minimum Viable Product(최소 가능 제품)의 약자로 최소의 리소스로
 
 ### PMF란 무엇인가요?
 
+![Image 11](/images/product-design-in-startup-img-11.png)
+
 
 
 
@@ -442,6 +465,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 > 시리즈 라운드 스타트업의 목표 확고한 경쟁 우위를 마련하여 경쟁사 대비 압도적인 선두 기업의 위치를 공고히 하는 것이 핵심 목표이다.
 
 #### 특징:
+
+![Image 12](/images/product-design-in-startup-img-12.png)
 
 - 투자금 50~500억 이내 = **돈 많이 씀**
 - 30인~100인 가량의 구성원 = **디자인 팀 생김**
@@ -483,6 +508,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 #### 특징:
 
+![Image 13](/images/product-design-in-startup-img-13.png)
+
 - 투자금 500~3,000억 내외
 - 100인~500인 가량의 구성원
 - 신제품, 새로운 수익 모델로 확장
@@ -522,6 +549,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 ## 공통 필수 역량
 
+![Image 14](/images/product-design-in-startup-img-14.png)
+
 
 ### 사고 역량
 
@@ -557,6 +586,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 
 ### 인터페이스 디자인 역량
+
+![Image 15](/images/product-design-in-startup-img-15.png)
 
 
 
@@ -596,6 +627,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 
     자주 사용하는 제품, 관심 있는 제품의 특정 불편을 개선할 수 있는 방법이나 해당 제품의 카테고리를 변경한 버전의 제품을 직접 설계해보는 것은 문제 해결 역량을 키우는데 도움이 된다.
+
+![Image 16](/images/product-design-in-startup-img-16.png)
 
 
 ### 도메인 역량 강화 (Domain Specific Knowledge)
@@ -642,6 +675,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 #### 학벌의 영향력이 커리어에서 클까요?
 
+![Image 17](/images/product-design-in-startup-img-17.png)
+
 
 분명 좋은 학력을 가진 게 좋은 인상을 줄 수 있는 요인임은 분명합니다. 하지만 실력이 있는데 학벌로 인해 안 좋은 평가를 받을 일은 전혀 없지 않을까 생각합니다.
 
@@ -687,6 +722,8 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 시장과 고객에 대한 이해, 정확한 메시지를 매력적으로 전달할 수 있는 비주얼 디자인 역량, 편리한 사용성을 위한 다양한 지식과 실험, 커뮤니케이션을 위한 문서 작성 능력 등 위에 말씀하신 모든 것이 필요합니다. 정확히 말하면 없으면 안되는 것은 아니지만 갖출수록 좋은 것이라고 해야겠죠?
 
+![Image 18](/images/product-design-in-startup-img-18.png)
+
 
 프로덕트 디자이너가 갖춰야 하는 역량은 '내가 만드는 제품'을 고객이 사랑하게 하기 위해서 필요한 모든 것입니다. 
 
@@ -728,4 +765,6 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 19](/images/product-design-in-startup-img-19.png)
 

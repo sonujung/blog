@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-the-consumerization-of-enterprise-software.jpg"
 ---
 
 > 👆 뉴스레터를 구독하면 새롭게 업데이트 되는 글을 가장 빠르게 받아보실 수 있어요!
@@ -99,6 +100,8 @@ SaaS가 기업 시장에 침투할 수 있었던 또 다른 원인 중 하나는
 
 이러한 변화는 자연스레 기업의 소프트웨어 채택 권한을 중앙에서 팀으로, 다시 팀에서 개인으로 분산하는 결과로 이어졌으며 이제 엔터프라이즈 소프트웨어를 만드는 기업은 경영진이나 구매 담당자의 마음에 드는 것만으로 제품을 판매하기 어려워졌다.
 
+![Image 1](/images/the-consumerization-of-enterprise-software-img-1.png)
+
 
 Ben Thompson은 그의 블로그 Stratechery에서 [Jira의 사례](https://stratechery.com/2016/chat-and-the-consumerization-of-it/)를 예로 들었다.
 
@@ -189,4 +192,6 @@ P.S.
 
 
 잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 2](/images/the-consumerization-of-enterprise-software-img-2.png)
 

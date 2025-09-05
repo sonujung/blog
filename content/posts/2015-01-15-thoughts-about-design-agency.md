@@ -46,6 +46,8 @@ coverImage: /images/cover-thoughts-about-design-agency.jpg
 
 디자인 좀 한다는 사람들은 너나 할 것 없이 잘 나가는 디자인 회사에 입사했고 업계 소식은 다양한 커뮤니티를 통해 금세 퍼져나갔다.
 
+![Image 1](/images/thoughts-about-design-agency-img-1.png)
+
 
 그러나 웬일인지 디자이너를 장래희망으로 적어내고 회사 이름을 달달 외우는 ‘디자인 키드’를 찾기 어려울뿐더러, 디자인 회사의 이미지는 ‘박봉에 야근 많은 최후의 보루’로 전락해버렸다.
 
@@ -87,6 +89,8 @@ coverImage: /images/cover-thoughts-about-design-agency.jpg
 
 
 즉 밥상에 수저는 많은데 돌려먹을 찬은 없다. 당연한 얘기지만 공급이 수요를 과히 넘어서면 시장 가격은 바닥을 친다.
+
+![Image 2](/images/thoughts-about-design-agency-img-2.png)
 
 
 대학에서 매년 쏟아져 나오는 디자이너의 수가 약 2만 5000명 그리고 10년 사이에 4배가량 증가한 디자인 회사들 그러나 늘지 않는 디자인 수요…
@@ -130,6 +134,8 @@ coverImage: /images/cover-thoughts-about-design-agency.jpg
 
 일말의 희망에 의지해 얽힌 실을 찬찬히 풀다 보면 그야말로 ‘실마리’가 될 수 있는 무언가를 찾게 될 수도 있지 않을까?
 
+![Image 3](/images/thoughts-about-design-agency-img-3.png)
+
 
 다행히도 근래의 ‘주목할 만한 몇 가지 신호’ 들이 통해 어렴풋이나마 실의 끝자락을 엿볼 수 있었다고 생각하는데, 특히 스타트업이라는 이름의 초기기업들의 성장이 허리가 무너진 우리나라 경제의 빈자리를 메워줄 수 있을지에 큰 관심을 갖게 되었다.
 
@@ -171,4 +177,6 @@ coverImage: /images/cover-thoughts-about-design-agency.jpg
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 4](/images/thoughts-about-design-agency-img-4.png)
 

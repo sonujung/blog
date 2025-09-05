@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-hit-refresh-reading-note.jpg"
 ---
 
 
@@ -109,6 +110,8 @@ MS의 놀라운 행보는 여기서 멈추지 않았다. 2015년 비주얼 스�
 
 그러나 지금 MS가 어떻게 바뀌었는지, 그리고 MS에 재직 중인 임직원이 그들 회사에 갖는 생각이 과거와 어떻게 달라졌는지 알게 된 후 이 책이 갖는 의미가 무엇인지 새롭게 깨닫게 되어 다시 찾아 읽게 되었다.
 
+![Image 1](/images/hit-refresh-reading-note-img-1.jpeg)
+
 
 이 책이 바로 MS의 새로 고침 버튼이다.
 
@@ -211,4 +214,6 @@ MS의 놀라운 행보는 여기서 멈추지 않았다. 2015년 비주얼 스�
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 2](/images/hit-refresh-reading-note-img-2.jpeg)
 

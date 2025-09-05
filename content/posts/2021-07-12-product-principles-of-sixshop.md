@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-product-principles-of-sixshop.jpg"
 ---
 
 
@@ -190,6 +191,8 @@ O팡은 구매자의 편익을 최우선으로 하는 제품인 만큼 구매자
 
 
 제품 직관을 활용하여 고객 가치를 제공하는 방식을 셰프가 고객을 위한 음식을 대접하는 방식에 비유하여 살펴보겠습니다.
+
+![Image 1](/images/product-principles-of-sixshop-img-1.png)
 
 
 ### A. 지식, 경험, 기술 (Knowledge, Experiences, Skill Sets)
@@ -381,6 +384,8 @@ O팡은 구매자의 편익을 최우선으로 하는 제품인 만큼 구매자
 
 
 2. 거래액 증대가 목표인 경우 거래액, 기여 수익, 성장률 등이 높은 고객 유형
+
+![Image 2](/images/product-principles-of-sixshop-img-2.png)
 
 
 3. 제품 확장이 목표일 경우 최근 3~6개월 내 매출 100위 권 내 진입한 수가 많은 고객 유형
@@ -583,6 +588,8 @@ O팡은 구매자의 편익을 최우선으로 하는 제품인 만큼 구매자
 
 
 1번 옵션은 천문학적인 비용이 발생하기에 선택할 수 없었고 5억원 가량의 X-Ray 기계를 출고 라인에 배치하고 빈 상자를 확인할 수 있는 인원과 X-Ray기기 관리 기사를 채용하기로 결정했습니다.   
+
+![Image 3](/images/product-principles-of-sixshop-img-3.png)
 
 
 <br/>
@@ -788,6 +795,8 @@ LA에 위치한 Downtown Dog Rescue의 창립자 Lori Weise는 유기견 문제�
 
 <br/>
 
+![Image 4](/images/product-principles-of-sixshop-img-4.png)
+
 
 그래서 나방이 모이는 것을 막기로 했습니다.
 
@@ -977,6 +986,8 @@ LA에 위치한 Downtown Dog Rescue의 창립자 Lori Weise는 유기견 문제�
 
 
 2. **'알아야 하는 것'을 잘 알려줍니다.**   
+
+![Image 5](/images/product-principles-of-sixshop-img-5.png)
 
 
 그럼에도 불구하고 학습이 필요할 수 있습니다. 온보딩 과정에서의 적절한 가이드와 사용법을 위한 튜토리얼과 사용 매뉴얼 그리고 1:1 고객 상담과 포럼 등을 통해 고객이 알아야 하는 것들을 잘 전달합니다.
@@ -1168,4 +1179,6 @@ PG사와 계약하는 과정에서 팩스와 등기로 보내야만 하던 서�
 
 
 잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 6](/images/product-principles-of-sixshop-img-6.png)
 

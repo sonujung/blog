@@ -40,6 +40,8 @@ excerpt: ""
 
 *Always #LikeAGirl*
 
+![Image 1](/images/political-correctness-in-product-img-1.png)
+
 
 이 캠페인은, 우리 사회가 '여성스러운'이란 단어를 인간의 가능성을 제한하고 계층화하려는데 사용한다는 문제를 제기한다.
 
@@ -80,6 +82,8 @@ excerpt: ""
 
 당신은 많은 사람의 일상에 작지만 강력한 영향을 미칠 기회를 가지고 있다.
 
+![Image 2](/images/political-correctness-in-product-img-2.png)
+
 
 하루에 디지털 프로덕트를 사용하는 시간이 얼마나 될까?
 
@@ -119,4 +123,6 @@ excerpt: ""
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 3](/images/political-correctness-in-product-img-3.png)
 

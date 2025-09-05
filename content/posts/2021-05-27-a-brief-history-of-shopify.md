@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-a-brief-history-of-shopify.jpg"
 ---
 
 
@@ -302,6 +303,8 @@ excerpt: ""
 
 #### 다양한 온/오프라인 채널 통합 및 확장된 고객 관리 도구 제공
 
+![Image 14](/images/a-brief-history-of-shopify-img-14.png)
+
 
 
 
@@ -317,6 +320,8 @@ excerpt: ""
 
 
 3. 쇼피파이는 2013년 오프라인 판매자를 쇼피파이로 끌어들이기 위해 쇼피파이 POS를 출시한 뒤 지속적으로 고객이 선택할 수 있는 판매/소통 채널을 확대해왔다.
+
+![Image 15](/images/a-brief-history-of-shopify-img-15.png)
 
 
    - 2014년 쇼피파이 모바일과 POS를 통합하였고 스마트폰 전용 결제 동글을 출시했다.
@@ -422,6 +427,8 @@ excerpt: ""
 
 
    현재 SFN은 미국, 캐나다 내의 판매자 중 SKU 200개 미만, 하루 2~300개 이상의 배송이 발생하는 기업을 대상으로 서비스를 제공 중이다.
+
+![Image 20](/images/a-brief-history-of-shopify-img-20.png)
 
 
 4. 시작부터 소프트웨어 기업으로 정체성을 다져온 쇼피파이 입장에서 물류 영역에 직접 뛰어드는 것이 매우 이례적인 결정인 듯 보이지만 사실 누구보다 잘 할 수 있는 일이기도 하다.

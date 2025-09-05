@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-stockdale-paradox.jpg"
 ---
 
 
@@ -126,4 +127,6 @@ excerpt: ""
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 1](/images/stockdale-paradox-img-1.png)
 

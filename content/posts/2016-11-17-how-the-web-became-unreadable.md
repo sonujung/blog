@@ -42,6 +42,8 @@ coverImage: /images/cover-how-the-web-became-unreadable.jpg
 
 웹이 지금과 같이 가장 중요한 매체로 자리 잡게 된 이유 중 가장 중요한 하나는 ‘모든 사람들에게 제공된다는 점’입니다. World Wide Web 컨소시엄의 팀 버너스 리 (Tim Berners-Lee)는 이렇게 말했습니다.
 
+![Image 1](/images/how-the-web-became-unreadable-img-1.png)
+
 > “웹의 힘은 그 보편성에 있다. 장애를 불문하고 모든 사람이 접근할 수 있어야 한다.”
 
 그러나 지금처럼 웹의 정보들을 읽기 어렵게 만들어 버린다면 노인이나 시각 장애인 혹은 고화질의 모니터를 사용할 수 없는 사람들을 웹이라는 거대한 네트워크에서 배제하는 것과 같습니다. 특히 웹이 다루는 정보가 삶의 질을 결정짓는 상황이 되어버린 시대에서 이는 엄청난 차별 행위입니다.
@@ -66,6 +68,8 @@ coverImage: /images/cover-how-the-web-became-unreadable.jpg
 
 
 텍스트와 배경색이 같은 경우를 1:1로, 그리고 블랙&화이트의 명조 대비를 21:1로 표기하였습니다.
+
+![Image 2](/images/how-the-web-became-unreadable-img-2.png)
 
 
 그들은 가독성을 위해 필요한 최소 대비를 4.5 : 1로 설정하고 시력 장애가 있는 독자를 위해 최소한 7 : 1의 명암 대비를 권장했습니다.
@@ -96,6 +100,8 @@ coverImage: /images/cover-how-the-web-became-unreadable.jpg
 
 
 ---
+
+![Image 3](/images/how-the-web-became-unreadable-img-3.png)
 
 
 항상 이랬던 것은 아닙니다. 초기의 웹페이지들은 무척 읽기 좋았거든요, 1989년 [버너스 리가 제작한 웹브라우저](https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif)에서는 흰 배경에 검은 글자 그리고 짙은 파란색의 링크가 무척 읽기 좋은 형태로 사용되었습니다. 이 스타일은 NeXT Systems의(스티브 잡스가 설립한 소프트웨어 회사) 기본 가이드가 되었습니다. 1993년 Mosaic 브라우저가 출시되며 Black-on-Grey 구성을 선보이긴 했지만 마찬가지로 웹을 통해 널리 보급될 때까지 흰색 배경에 검은색 글자의 선명한 대비를 유지했습니다.
@@ -131,6 +137,8 @@ LCD 기술이 발전하고 더 높은 해상도의 디스플레이가 보급됨�
 
 몇몇 디자이너들은 Ian Storm Taylor의 글 ‘디자인 팁: [절대로 검은색을 쓰지 마라'를](https://ianstormtaylor.com/design-tip-never-use-black) 근거로 들기도 합니다. Taylor는 글을 통해 순수한 검은색은 색상이 아닌 개념이라고 주장하면서 아래와 같이 기술합니다.
 
+![Image 4](/images/how-the-web-became-unreadable-img-4.png)
+
 > ‘우리는 어두운 것을 보면 이를 검은색이라고 생각한다. 하지만 현실 세계에서 순수하게 검은색을 발견하는 일은 거의 불가능하다. 아스팔트도 검은색이 아니고 사무실 의자도 검은색이 아니고 참새의 깃털도 검정이 아니고 웹페이지의 글자들도 검은색이 아니다.(그저 어두운 색일 뿐이다.)'
 
 우선 짚고 넘어가자면 Taylor의 글은 텍스트를 밝게 쓰라는 점을 강조하기 위해 작성된 것이 아닌 듯 보입니다. 아마 글에서 말하고자 하는 요지는 디자인 시 현실 세계에서 볼 수 있는 풍부하고 미묘한 색상 변화를 고민하고 반영해야 한다는 의미에 가까울 것 같습니다. 실제 세상에는 블랙이란 존재하지 않기 때문에 #000=블랙은 비현실적인 색상이라는 셈이죠.
@@ -160,4 +168,6 @@ LCD 기술이 발전하고 더 높은 해상도의 디스플레이가 보급됨�
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 5](/images/how-the-web-became-unreadable-img-5.png)
 

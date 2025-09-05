@@ -77,6 +77,8 @@ excerpt: ""
 좌측에 보이는 것과 같이 사각 컨테이너 간의 정렬은 삼각형의 무게 중심을 왼쪽으로 쏠리게 한다.
 
 
+![시각적 정렬 예시](/images/critique-about-optical-adjustment-by-luke-jones-img-1.svg)
+
 삼각형을 정확히 가운데 놓기 위해서는 우선 사각형의 틀을 원으로 바꿔야 한다. 가운데 축을 중심으로 삼각형을 둘러싸고 있는 원을 3등분 한 뒤 원의 둘레와 맞닿는 점을 이어주면 우측의 그림처럼 가운데 위치한 삼각형이 완성된다.
 
 
@@ -99,6 +101,8 @@ excerpt: ""
 
 
 
+
+![도형 면적 비교](/images/critique-about-optical-adjustment-by-luke-jones-img-2.svg)
 
 그림의 좌측엔 가로세로 10의 크기를 갖는 사각형과 동일 크기의 사각형에 담긴 원이 그려져 있다. 그리고 이 둘의 면적은 100과 (약) 78.5로 전혀 다르다.
 
@@ -128,6 +132,8 @@ excerpt: ""
 
 한번 확대한 화면을 살펴보자.
 
+![색상 차이 확대 화면](/images/critique-about-optical-adjustment-by-luke-jones-img-3.svg)
+
 
 
 
@@ -153,6 +159,8 @@ excerpt: ""
 
 
 
+![서체 두께에 따른 색상 차이](/images/critique-about-optical-adjustment-by-luke-jones-img-4.svg)
+
 서체의 두께가 두꺼울 경우에 같은 색상을 표현하는데 별 문제 없어 보인다.
 
 
@@ -167,6 +175,8 @@ excerpt: ""
 
 
 
+
+![배경색에 따른 색상 인식 차이](/images/critique-about-optical-adjustment-by-luke-jones-img-5.svg)
 
 배경색에 따라 동일색상이 다르게 보이는 현상.
 

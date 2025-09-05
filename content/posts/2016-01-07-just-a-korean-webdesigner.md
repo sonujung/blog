@@ -46,6 +46,8 @@ coverImage: /images/cover-just-a-korean-webdesigner.jpg
 
 참고로 이쯤의 웹사이트는 대게 테이블로 레이아웃을 만들고 이미지로 화면을 꾸미는 형태가 많았고 아직 도입 초기였던 CSS 대신 자바스크립트를 활용해 텍스트 효과나 색상을 입히는 수준이었다.
 
+![Image 1](/images/just-a-korean-webdesigner-img-1.png)
+
 
 *1996년의 워싱턴 포스트 웹사이트와 현재의 웹사이트:*
 
@@ -84,6 +86,8 @@ coverImage: /images/cover-just-a-korean-webdesigner.jpg
 
 
 
+![Image 2](/images/just-a-korean-webdesigner-img-2.png)
+
 
 
 *유고 나카무라의 인터랙션 아트웍*
@@ -119,6 +123,8 @@ coverImage: /images/cover-just-a-korean-webdesigner.jpg
 복잡한 구조를 다뤄야 하는 대규모 웹사이트 혹은 웹서비스에 비해서 이미지 중심, 단순한 구조의 마케팅 사이트 제작은 대게 그래픽 디자인의 연장선상에서 이루어졌기 때문에 디자이너의 역할은 철저히 시각화(모션그래픽/GUI)에 집중되었다.
 
 > 기술은 효율에 집중하고 광고는 효과에 집중한다.
+
+![Image 3](/images/just-a-korean-webdesigner-img-3.png)
 
 # 디자이너의 역할 축소
 
@@ -163,6 +169,8 @@ coverImage: /images/cover-just-a-korean-webdesigner.jpg
 
 
 
+![Image 4](/images/just-a-korean-webdesigner-img-4.png)
+
 
 
 기형적인 구조는 서로의 언어를 번역하는데 많은 시간을 쏟게 만들었다.
@@ -202,4 +210,6 @@ coverImage: /images/cover-just-a-korean-webdesigner.jpg
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 5](/images/just-a-korean-webdesigner-img-5.png)
 

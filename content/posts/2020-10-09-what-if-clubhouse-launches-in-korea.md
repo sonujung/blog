@@ -71,6 +71,8 @@ excerpt: ""
 
 3. 유튜버나 스트리머가 아이돌 보다 인기있는 직업이 되었고 이는 전 세대에 걸쳐 유효하다.
 
+![Image 1](/images/what-if-clubhouse-launches-in-korea-img-1.png)
+
 
 4. 그리고 이제는 틱톡 등의 신생 모바일 플랫폼의 크리에이터들도 그 대열에 합류하고 있다.
 
@@ -135,6 +137,8 @@ excerpt: ""
 
 
 '음성 기반'이 아닌 '오디오 컨텐츠 기반'인 것이 중요한 포인트이다.
+
+![Image 2](/images/what-if-clubhouse-launches-in-korea-img-2.png)
 
 
 예를 들어 '디스코드(discord)' 역시 음성을 매개체로 관심사에 대해 소통할 수 있는 서비스지만 디스코드에서 이뤄지는 대화는 컨텐츠로써 큰 가치를 제공하지 못한다.
@@ -205,6 +209,8 @@ excerpt: ""
 
 전 세계에서 팟캐스트 소비 비중이 가장 높은 곳이기 때문이다.
 
+![Image 3](/images/what-if-clubhouse-launches-in-korea-img-3.png)
+
 
 
 
@@ -266,6 +272,8 @@ excerpt: ""
 
 
 소셜 커넥션은 매우 중독성 높은 욕망 중 하나로 이를 해소하는 뭔가를 만드는 것은 매우 어렵지만 만들어 낸다면 그 가치는 매우 크다.
+
+![Image 4](/images/what-if-clubhouse-launches-in-korea-img-4.png)
 
 
 책을 읽고, 팟캐스트를 듣고, 유튜브를 보면서 배움과 자기 계발의 니즈를 충족시킬 수는 있지만 그것을 함께 보는 나와 비슷한 사람들을 만나기 위해서는 또 다른 노력이 필요하다.
@@ -335,6 +343,8 @@ excerpt: ""
 
 
 퍼블리 뉴스는 유료 컨텐츠 플랫폼 퍼블리에서 새롭게 런칭한 뉴스 큐레이션 서비스로 각 분야 전문가들의 생각을 훔쳐볼 수 있다는 측면에서 클럽 하우스와 맞닿는 지점이 있다.
+
+![Image 5](/images/what-if-clubhouse-launches-in-korea-img-5.png)
 
 
 퍼블리 뉴스는 각 분야 전문가가 뉴스 컨텐츠를 간략한 코멘트와 함께 공유할 수 있고 뉴스 소비자는 자신이 관심 갖는 분야의 전문가를 팔로우 할 수 있다.
@@ -408,6 +418,8 @@ excerpt: ""
 
 그렇기 때문에 높은 우선 순위로 사용자가 24시간 중 언제라도 접속할 이유가 있고 충분한 만족을 얻을 수 있는 Something Else가 제공되어야 한다.
 
+![Image 6](/images/what-if-clubhouse-launches-in-korea-img-6.png)
+
 
 ## 5-3. 인앱 결제 수수료
 
@@ -477,6 +489,8 @@ excerpt: ""
 
 이 외에도 초기에는 '적정 수준의 분야 내 권위' + '참여하고 싶은 커뮤니티로써의 매력' + '대화 자체가 컨텐츠' 라는 제품의 주요 컨셉이 동작하는 지점들을 한발 한발 디디면서 핏이 맞는 니치 포인트를 찾는 것이 중요할 것으로 보인다.
 
+![Image 7](/images/what-if-clubhouse-launches-in-korea-img-7.png)
+
 
 ## 6-2. 상시 접근 가능한 컨텐츠 제공
 
@@ -543,4 +557,6 @@ excerpt: ""
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 8](/images/what-if-clubhouse-launches-in-korea-img-8.png)
 

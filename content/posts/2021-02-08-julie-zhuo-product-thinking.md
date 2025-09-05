@@ -109,3 +109,5 @@ excerpt: ""
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
 
+![Image 1](/images/julie-zhuo-product-thinking-img-1.png)
+

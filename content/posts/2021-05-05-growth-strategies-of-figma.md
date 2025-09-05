@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-growth-strategies-of-figma.jpg"
 ---
 
 
@@ -57,6 +58,8 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 
 ---
+
+![Image 2](/images/growth-strategies-of-figma-img-2.png)
 
 
 # 2. 해결할 가치가 있는 문제 발견하기
@@ -292,6 +295,8 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 
 이 글을 쓴 이유는 짧은 시간 안에 스케치를 제치고 새로운 대세로 자리매김한 피그마가 어떻게 빠른 성장을 이룩했는지 그들의 과거를 되짚어 살펴보며 제품의 성장에 도움이 될법한 힌트를 찾고 싶었기 때문이다. 
+
+![Image 10](/images/growth-strategies-of-figma-img-10.png)
 
 
 그리고 글을 마무리하는 지금 내가 이해하는 '피그마가 대세가 될 수 있었던 이유'는 아래와 같다. 

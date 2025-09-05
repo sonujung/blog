@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-hire-product-designer.jpg"
 ---
 
 
@@ -73,6 +74,8 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 
 
 # 식스샵에 합류하면 어떤 일을 하게 되나요?
+
+![Image 1](/images/hire-product-designer-img-1.png)
 
 
 현재 스토어매니저 팀, 스토어프론트 팀에서 프로덕트 디자이너를 찾고 있습니다.
@@ -158,6 +161,8 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 
 
 많은 브랜드가 유니크한 경험 제공을 통해 더 많은 고객과 관계 맺길 바라며, 웹사이트 디자인은 이들에게 브랜드의 매력을 선명하게 표현하고, 고유의 자기다움을 전달할 수 있는 주요 수단입니다.
+
+![Image 2](/images/hire-product-designer-img-2.png)
 
 
 식스샵은 아직 개발자의 손을 빌려야만 웹사이트를 구축할 수 있던 시절, 초보 판매자를 위한 위지윅(WYSIWYG) 쇼핑몰 빌더 식스샵을 출시해 국내 DIY(do-it-your·self) 쇼핑몰 시장을 개척해왔으며, 많은 판매자들이 멋진 브랜드 쇼핑몰을 직접 구축하고 관리할 수 있다는 매력에 끌려 식스샵을 선택했습니다.
@@ -249,6 +254,8 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 - 위지윅 제작 도구 관련 경험이 있거나 관련 제품에 관심이 많으신 분.
 - 뛰어난 그래픽 디자인, 아트웍 역량을 갖추신 분.
 
+![Image 3](/images/hire-product-designer-img-3.png)
+
 ---
 
 
@@ -332,4 +339,6 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 
 
 잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 4](/images/hire-product-designer-img-4.png)
 

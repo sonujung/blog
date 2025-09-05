@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-think-stack.jpg"
 ---
 
 
@@ -25,6 +26,8 @@ excerpt: ""
 
 # Think Stack
 
+![Image 1](/images/think-stack-img-1.png)
+
 
 노트, 캘린더 등 생산성 관리 도구로 분류되는 앱들이 나오면 이것저것 가입해서 사용해보는 편인데 그동안 여러 도구들을 거쳤지만 현재는 아래 다섯 개의 도구에 정착해서 사용 중이다.
 
@@ -39,6 +42,8 @@ excerpt: ""
 
 
 그때그때 떠오르는 생각을 메모하거나 전자책, 블로그 글을 읽다 특정 문장을 북마크 하고 싶을 때 주로 사용하고 있다. Keep이란 제품 전반의 사용자 경험에 만족도가 높다기 보단 구글 캘린더와 함께 사용하기 좋기 때문에 작년부터 사용하기 시작해 정착하게 되었다.
+
+![Image 2](/images/think-stack-img-2.png)
 
 
 ### Pocket
@@ -58,6 +63,8 @@ excerpt: ""
 
 [바로가기](https://workflowy.com/invite/198ce1c0.lnx)
 
+![Image 3](/images/think-stack-img-3.png)
+
 
 
 
@@ -73,6 +80,8 @@ excerpt: ""
 
 
 
+
+![Image 4](/images/think-stack-img-4.png)
 
 
 
@@ -90,6 +99,8 @@ excerpt: ""
 
 
 개인/업무 일정 모두 구글 캘린더를 활용해 관리하고 있다. 활용 방식은 이전 [타임박싱 관련 글](https://sonujung.com/how-to-be-a-manager-time-boxing)에서 소개한 적 있는데 그때와 크게 달라진 점은 없으나 현재 써드파티 앱은 쓰지 않고 Keep, Task 등 구글 캘린더와 호환되는 퍼스트 파티 피쳐만 활용하는 중이다.
+
+![Image 5](/images/think-stack-img-5.png)
 
 
 ---
@@ -111,4 +122,6 @@ excerpt: ""
 
 
 잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 6](/images/think-stack-img-6.png)
 

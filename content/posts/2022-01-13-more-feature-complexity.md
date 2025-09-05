@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-more-feature-complexity.jpg"
 ---
 
 
@@ -30,6 +31,8 @@ excerpt: ""
 
 
 '많은 기능'에 대한 흔한 오해는 과거 보수적인 기업 문화와 이들에게 판매되던 소프트웨어의 산물이라고 볼 수 있는데, 과거 기업 구성원이 자신이 사용할 도구를 선택할 수 있는 권한을 갖지 못했고 이는 하나의 소프트웨어에 기능 구겨넣기를 반복하게 만든 원인이 되었기 때문입니다. ([이전 글 참고](https://sonujung.com/the-consumerization-of-enterprise-software))
+
+![Image 1](/images/more-feature-complexity-img-1.png)
 
 
 하지만 이미 현 세대의 프로덕트와 기술들은 복잡성 문제를 해결할 수 있는 다양한 솔루션을 제시하고 있습니다. 
@@ -57,4 +60,6 @@ excerpt: ""
 
 
 잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 2](/images/more-feature-complexity-img-2.png)
 

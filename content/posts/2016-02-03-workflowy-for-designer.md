@@ -24,6 +24,8 @@ coverImage: /images/cover-workflowy-for-designer.jpg
 
 ## Simple is Best를 몸소 증명한다.
 
+![Image 1](/images/workflowy-for-designer-img-1.png)
+
 
 ‘Make List Not War’라는 슬로건을 내건(최근 Organize Your Brain으로 변경되었다.) WorkFlowy는 쉽게 말해 ‘목록 관리 도구’이다. 제공하는 기능 역시 목록을 만드는 것으로, 생김새는 아래와 같다.
 
@@ -38,6 +40,8 @@ coverImage: /images/cover-workflowy-for-designer.jpg
 
 
 ## 지금 당신의 머릿속은 ‘혼돈’에 가깝다.
+
+![Image 2](/images/workflowy-for-designer-img-2.png)
 
 
 사실 WorkFlowy는 디자이너를 위해 만들어진 도구가 아니다. 업종을 불문하고 무언가를 정리하고 관리해야 하는 사람들에게는 다름없는 유용함을 제공하며, 실제로 소개했을 때 가장 반긴 이들은 소프트웨어 엔지니어였다.
@@ -57,6 +61,8 @@ coverImage: /images/cover-workflowy-for-designer.jpg
 
 이는 작은 것에서 시작해 자유롭게 다양한 분야로 발상을 넓혀가는 형태의 사고방식을 표현한 것으로, 다학제적이며 다양한 콘텍스트를 다루는 디자이너의 직업적 특성을 적절히 반영하는 단어이기도 하다.
 
+![Image 3](/images/workflowy-for-designer-img-3.png)
+
 
 디자이너가 되기 위해 거치는 대부분의 훈련들은 이 ‘확산적 사고'를 개발하는데 초점이 맞춰져 있다. 만약 그림으로 표현한다면 아래의 모습과 유사할 것이다.
 
@@ -71,6 +77,8 @@ innovation Mind Map by Paul Foreman
 
 
 때문에 디자이너의 이러한 능력은 보편적 문제 해결 과정에서 맞닥뜨리는 한계를 극복하는데 매우 유용하게 사용되며, 디자인 싱킹(Design Thinking)이라는 이름으로 널리 알려진 비즈니스 혁신 방법론은 디자이너의 확산적 사고방식을 문제 해결에 적극 활용한다.
+
+![Image 4](/images/workflowy-for-designer-img-4.png)
 
 
 ## 엎지른 물도 마시려면 주워 담아야 한다.
@@ -87,6 +95,8 @@ innovation Mind Map by Paul Foreman
 
 그리고 이 과정에서 실현 가능성은 최고의 고려 대상이 아니다.
 
+![Image 5](/images/workflowy-for-designer-img-5.png)
+
 
 하지만 하나의 가치 있는 아이디어를 찾아내기 위해선 반복적인 수렴(Converge)을 통해 수 많은 가능성을 비교 검토하고 실현 가능한 결정(Make Choices)을 도출하는 과정이 필히 동반되는데, 이 구간에서 필요한 사고의 형태를 수렴적 사고(Convergent Thinking)라 부른다.
 
@@ -101,6 +111,8 @@ innovation Mind Map by Paul Foreman
 >
 
 > 그에 비해 음악가, 디자이너, 예술가는 작은 것에서 시작해 자유롭게 다양한 분야로 발상을 넓혀가는 확산적 사고(divergent thinking)를 하지요.
+
+![Image 6](/images/workflowy-for-designer-img-6.png)
 
 >
 
@@ -118,6 +130,8 @@ innovation Mind Map by Paul Foreman
 
 
 말을 조금 비틀어 보자면 디자이너는 아이디어를 펼치는 데는 능숙하지만 그것을 걸러내는 데는 익숙하지 않다는 얘기인 셈이다.
+
+![Image 7](/images/workflowy-for-designer-img-7.png)
 
 
 만약 당신이 디지털 프로덕트를 만드는 일에 종사한다면 지금까지 나온 얘기를 통해 디자이너 & 개발자 사이의 어려운 커뮤니케이션 문제를 떠올려 볼 수 있을 것이다. (혹시 당신이 개발자와 의사소통하는데 어려움을 겪고 있다면 그건 당연한 일이니 자책하지 말자, 그저 여태껏 습득해 온 사고방식이 다르기 때문이니까..)
@@ -137,6 +151,8 @@ innovation Mind Map by Paul Foreman
 
 잠시, 앞서 살펴본 다이아몬드꼴 도식을 확대하여 확산에서 수렴으로 이어지는 중간 과정을 살펴보자.
 
+![Image 8](/images/workflowy-for-designer-img-8.png)
+
 
 
 
@@ -154,6 +170,8 @@ WorkFlowy는 이 Exploring 과정에서 정보를 보다 손쉽게 파악, 관�
 
 
 그리고 잘 만들어진 정보 구조는 다음 단계의 개발과정을 보다 수월하게 만들어 주는 열쇠 역할을 한다.
+
+![Image 9](/images/workflowy-for-designer-img-9.png)
 
 
 ---
@@ -173,6 +191,8 @@ WorkFlowy는 이 Exploring 과정에서 정보를 보다 손쉽게 파악, 관�
 
 
 
+![Image 10](/images/workflowy-for-designer-img-10.png)
+
 
 
 이 책장은 매우 깊다. 분류하기에 따라 아주 깊숙한 영역까지 정보의 꼬리를 이어갈 수 있으며 언제든 특정 층계(depth)로 손쉽게 이동할 수 있다.
@@ -187,6 +207,8 @@ WorkFlowy는 이 Exploring 과정에서 정보를 보다 손쉽게 파악, 관�
 WorkFlowy를 활용하면 프로젝트의 A부터 Z까지 모든 정보를 목록의 형태로 구조화할 수 있으며 시각적으로 관리할 수 있다.
 
 
+
+![Image 11](/images/workflowy-for-designer-img-11.png)
 
 
 
@@ -203,6 +225,8 @@ WorkFlowy를 활용하면 프로젝트의 A부터 Z까지 모든 정보를 목�
 
 
 또한 태스크 관리 도구처럼 활용할 수도 있어서 전체 프로세스의 진행과정을 손쉽게 파악할 수 있다.
+
+![Image 12](/images/workflowy-for-designer-img-12.png)
 
 
 
@@ -221,6 +245,8 @@ WorkFlowy를 활용하면 프로젝트의 A부터 Z까지 모든 정보를 목�
 
 
 가끔은 본래의 목적과 관계없이 유행처럼 소비되거나 스펙 쌓기의 일환으로 다뤄지는 경우를 접하기도 한다.
+
+![Image 13](/images/workflowy-for-designer-img-13.png)
 
 
 특히 학생 혹은 엔트리 레벨의 디자이너와 대화를 나누다 보면 최신 도구를 통해 프로토타이핑을 처음 접하는 경우가 되려 정보의 접점을 작게 만들 수도 있다는 생각을 하게 된다. (컴퓨터로 디자인을 접한 세대가 쉽게 놓치는 것이 있듯이..)
@@ -242,4 +268,6 @@ WorkFlowy를 활용하면 프로젝트의 A부터 Z까지 모든 정보를 목�
 
 
 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 14](/images/workflowy-for-designer-img-14.png)
 

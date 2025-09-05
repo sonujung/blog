@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/cover-2021-interim-findings.jpg"
 ---
 
 
@@ -83,6 +84,8 @@ excerpt: ""
 - **5월 27일** - [No.1 이커머스 플랫폼 쇼피파이의 성장 스토리](https://sonujung.com/a-brief-history-of-shopify)
 - **5월 31일** - [히트 리프레시 - 혁신이 멈춘 기업, 새로고침 버튼을 누르다.](https://sonujung.com/hit-refresh-reading-note)
 
+![Image 1](/images/2021-interim-findings-img-1.png)
+
 ### 🛑 6월
 
 - **6월 28일** - [프로덕트 디자인 in 스타트업](https://sonujung.com/product-design-in-startup)
@@ -151,4 +154,6 @@ excerpt: ""
 
 
 잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
+
+![Image 2](/images/2021-interim-findings-img-2.png)
 
