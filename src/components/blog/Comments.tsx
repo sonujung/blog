@@ -10,6 +10,19 @@ export default function Comments({ slug }: CommentsProps) {
   const commentsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Debug environment variables
+    console.log('Giscus Environment Variables:', {
+      repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
+      repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID,
+      categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID
+    });
+    
+    // Temporarily disabled until Giscus setup is fixed
+    if (!process.env.NEXT_PUBLIC_GISCUS_REPO_ID) {
+      console.log('Giscus disabled: No REPO_ID found');
+      return;
+    }
+    
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', process.env.NEXT_PUBLIC_GISCUS_REPO || 'sonujung/blog');
