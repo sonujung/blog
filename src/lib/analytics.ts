@@ -42,20 +42,25 @@ export interface AnalyticsStats {
 
 // Analytics 데이터 파일이 없으면 생성
 function ensureAnalyticsFile() {
-  const dataDir = path.dirname(ANALYTICS_FILE);
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  
-  if (!fs.existsSync(ANALYTICS_FILE)) {
-    fs.writeFileSync(ANALYTICS_FILE, JSON.stringify([], null, 2));
+  try {
+    const dataDir = path.dirname(ANALYTICS_FILE);
+    if (!fs.existsSync(dataDir)) {
+      fs.mkdirSync(dataDir, { recursive: true });
+    }
+    
+    if (!fs.existsSync(ANALYTICS_FILE)) {
+      fs.writeFileSync(ANALYTICS_FILE, JSON.stringify([], null, 2));
+    }
+  } catch (error) {
+    console.warn('Analytics 파일 시스템 초기화 실패:', error);
+    // 서버리스 환경에서는 파일 생성이 불가능할 수 있음
   }
 }
 
 // 페이지뷰 데이터 로드
 export function getPageViews(): PageView[] {
-  ensureAnalyticsFile();
   try {
+    ensureAnalyticsFile();
     const data = fs.readFileSync(ANALYTICS_FILE, 'utf8');
     return JSON.parse(data) as PageView[];
   } catch (error) {
@@ -175,7 +180,13 @@ export function addPageView(data: {
     new Date(view.timestamp) > thirtyDaysAgo
   );
 
-  fs.writeFileSync(ANALYTICS_FILE, JSON.stringify(filteredViews, null, 2));
+  try {
+    fs.writeFileSync(ANALYTICS_FILE, JSON.stringify(filteredViews, null, 2));
+  } catch (error) {
+    console.error('Analytics 데이터 저장 실패:', error);
+    // 서버리스 환경에서는 파일 저장이 실패할 수 있음 - 에러를 던지지 않음
+    console.warn('Analytics 데이터가 임시로 저장되지 못했습니다. 외부 DB 연결을 고려해보세요.');
+  }
   return pageView;
 }
 

@@ -22,18 +22,24 @@ export async function POST(request: NextRequest) {
       ? forwardedFor.split(',')[0].trim()
       : realIp || 'unknown';
 
-    const pageView = addPageView({
-      path,
-      title,
-      userAgent,
-      referrer: referrer || '',
-      utmSource,
-      utmMedium,
-      utmCampaign,
-      ip
-    });
+    try {
+      const pageView = addPageView({
+        path,
+        title,
+        userAgent,
+        referrer: referrer || '',
+        utmSource,
+        utmMedium,
+        utmCampaign,
+        ip
+      });
 
-    return NextResponse.json({ success: true, id: pageView.id });
+      return NextResponse.json({ success: true, id: pageView.id });
+    } catch (analyticsError) {
+      console.warn('페이지뷰 저장 실패:', analyticsError);
+      // 서버리스 환경에서 파일 저장 실패 시에도 클라이언트에는 성공으로 응답
+      return NextResponse.json({ success: true, id: 'temp-id', note: 'Analytics temporarily unavailable' });
+    }
 
   } catch (error) {
     console.error('Analytics POST 오류:', error);
@@ -68,13 +74,31 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    const stats = getAnalyticsStats(days);
-    
-    return NextResponse.json({
-      success: true,
-      period: `${days} days`,
-      stats
-    });
+    try {
+      const stats = getAnalyticsStats(days);
+      
+      return NextResponse.json({
+        success: true,
+        period: `${days} days`,
+        stats
+      });
+    } catch (analyticsError) {
+      console.warn('Analytics 통계 조회 실패:', analyticsError);
+      // 서버리스 환경에서 파일 접근 실패 시 기본값 반환
+      return NextResponse.json({
+        success: true,
+        period: `${days} days`,
+        stats: {
+          totalPageViews: 0,
+          uniqueVisitors: 0,
+          topPages: [],
+          channels: [],
+          recentViews: [],
+          dailyStats: []
+        },
+        note: 'Analytics data temporarily unavailable'
+      });
+    }
 
   } catch (error) {
     console.error('Analytics GET 오류:', error);
