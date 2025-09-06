@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'),
@@ -56,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="antialiased">
+        <Analytics />
         {children}
       </body>
     </html>

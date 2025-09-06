@@ -3,7 +3,7 @@ import { BlogPost } from '@/types/blog';
 export function generateRSS(posts: BlogPost[]): string {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'sonujung.com';
-  const siteDescription = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || '학구적이고 미니멀한 개발 블로그';
+  const siteDescription = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 'Product & Development Blog';
 
   const rssItems = posts
     .slice(0, 20) // 최신 20개 포스트만

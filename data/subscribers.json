@@ -19,5 +19,12 @@
     "subscribedAt": "2025-08-24T06:34:21.184Z",
     "status": "unsubscribed",
     "unsubscribeToken": "pw7decodhjc"
+  },
+  {
+    "id": "mf730ebm4t9je0vx58w",
+    "email": "sonujung@kakao.com",
+    "subscribedAt": "2025-09-05T17:01:05.795Z",
+    "status": "active",
+    "unsubscribeToken": "nw2y2e8k3ib"
   }
 ]

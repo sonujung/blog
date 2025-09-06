@@ -180,6 +180,9 @@ export default function PostContent({ post }: PostContentProps) {
                 {children}
               </blockquote>
             ),
+            hr: () => (
+              <hr className="border-0 border-t border-gray-200 my-8" />
+            ),
             img: ({ src, alt }) => {
               if (!src) return null;
               

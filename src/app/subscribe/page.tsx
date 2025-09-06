@@ -1,12 +1,16 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function SubscribePage() {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
+
+  useEffect(() => {
+    document.title = '뉴스레터 구독 | sonujung';
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -54,12 +58,9 @@ export default function SubscribePage() {
       {/* Header */}
       <header className="max-w-2xl mx-auto px-4 py-8 flex justify-between items-center border-b border-gray-100">
         <Link href="/" className="text-xl font-semibold text-black hover:text-gray-600 transition-colors">
-          sonujung.com
+          Sonu Jung
         </Link>
         <nav className="flex gap-4">
-          <Link href="/search" className="text-gray-600 hover:text-black text-sm transition-colors">
-            Search
-          </Link>
           <span className="text-gray-900 text-sm font-medium">Subscribe</span>
         </nav>
       </header>
@@ -71,7 +72,6 @@ export default function SubscribePage() {
             <h1 className="text-3xl font-semibold text-gray-900 mb-4">뉴스레터 구독</h1>
             <p className="text-lg text-gray-600 leading-relaxed">
               새로운 포스트가 발행되면 이메일로 알림을 받아보세요.
-              학구적이고 미니멀한 개발 인사이트를 정기적으로 전해드립니다.
             </p>
           </header>
 
@@ -141,7 +141,7 @@ export default function SubscribePage() {
       {/* Footer */}
       <footer className="max-w-2xl mx-auto px-4 py-8 border-t border-gray-100">
         <p className="text-gray-400 text-sm">
-          © 2024 Sonu Jung. 학구적이고 미니멀한 개발 블로그.
+          © 2024 Sonu Jung
         </p>
       </footer>
     </div>

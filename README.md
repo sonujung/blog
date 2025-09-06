@@ -17,7 +17,7 @@
 - ✅ 깔끔한 URL 구조 (`/blog/post-title`)
 - ✅ 태그 기반 분류
 - ✅ RSS 피드 생성
-- ✅ 뉴스레터 구독 (Resend 연동)
+- ✅ 뉴스레터 구독 시스템 (Resend 연동, 관리자 대시보드)
 - ✅ 댓글 시스템 (Giscus)
 - ✅ SEO 최적화 (메타데이터, 사이트맵, robots.txt)
 - ✅ 이미지 최적화 및 로컬 저장
@@ -89,14 +89,67 @@ git push origin main
 content/posts/2024-01-01-example-post.md
 ```
 
-## 📧 이메일 구독 설정
+## 📧 이메일 구독 시스템
 
-Resend 설정이 필요합니다. 자세한 내용은 `RESEND_SETUP.md`를 참고하세요.
+완전히 구현된 이메일 뉴스레터 시스템을 제공합니다.
 
-1. [resend.com](https://resend.com)에서 계정 생성
-2. API 키 발급
-3. `.env.local`에 API 키 설정
-4. 개발 서버 재시작
+### 기능
+- ✅ **웰컴 이메일**: 구독 시 전문적인 환영 이메일 발송
+- ✅ **새 포스트 알림**: 포스트 발행 시 모든 구독자에게 자동 알림
+- ✅ **구독 취소**: 원클릭 구독 취소 + 확인 이메일
+- ✅ **관리자 대시보드**: 구독자 통계, 테스트 발송, 관리 기능
+- ✅ **반응형 이메일 템플릿**: 모든 이메일 클라이언트 호환
+
+### 설정 방법
+
+1. **Resend 계정 설정**
+   - [resend.com](https://resend.com)에서 계정 생성
+   - API 키 발급
+   - `.env.local`에 설정
+   ```bash
+   RESEND_API_KEY=re_your_api_key_here
+   NOTIFICATION_API_KEY=secure_random_key_for_notifications
+   NEXT_PUBLIC_ADMIN_PASSWORD=your_admin_password
+   ```
+
+2. **기능 테스트**
+   ```bash
+   # 개발 서버 실행
+   npm run dev
+   
+   # 구독 페이지 접속
+   http://localhost:3000/subscribe
+   
+   # 관리자 대시보드 접속
+   http://localhost:3000/admin/subscribers
+   ```
+
+3. **새 포스트 알림 발송**
+   ```bash
+   # API 호출로 알림 발송
+   curl -X POST http://localhost:3000/api/notify-subscribers \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer your_notification_api_key" \
+     -d '{"slug": "your-post-slug", "action": "notify"}'
+   ```
+
+### 파일 구조
+```
+src/
+├── app/
+│   ├── subscribe/page.tsx      # 구독 페이지
+│   ├── unsubscribe/page.tsx    # 구독취소 페이지
+│   ├── admin/subscribers/      # 관리자 대시보드
+│   └── api/
+│       ├── subscribe/          # 구독 API
+│       ├── unsubscribe/        # 구독취소 API
+│       └── notify-subscribers/ # 알림 발송 API
+├── lib/
+│   ├── subscribers.ts          # 구독자 데이터 관리
+│   └── email-templates.ts      # 이메일 템플릿
+└── data/
+    └── subscribers.json        # 구독자 데이터 (자동 생성)
+```
 
 ## 🚀 배포
 
