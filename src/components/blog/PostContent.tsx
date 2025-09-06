@@ -157,17 +157,30 @@ export default function PostContent({ post }: PostContentProps) {
                       prose-img:rounded-lg prose-img:mx-auto">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
-          rehypePlugins={[rehypeHighlight, rehypeRaw]}
+          rehypePlugins={[rehypeRaw, rehypeHighlight]}
+          skipHtml={false}
           components={{
             h1: ({ children }) => <h1 className="text-3xl font-semibold text-gray-900 mt-8 mb-4 leading-tight">{children}</h1>,
             h2: ({ children }) => <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 leading-tight">{children}</h2>,
             h3: ({ children }) => <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3 leading-tight">{children}</h3>,
             p: ({ children }) => <p className="text-gray-700 leading-relaxed mb-4">{children}</p>,
-            a: ({ href, children }) => (
-              <a href={href} className="text-gray-900 underline decoration-gray-300 hover:decoration-gray-600 transition-colors">
-                {children}
-              </a>
-            ),
+            a: ({ href, children }) => {
+              if (!href) return <span>{children}</span>;
+              
+              const isExternal = href.startsWith('http://') || href.startsWith('https://');
+              const isHashnode = href.includes('hashnode');
+              
+              return (
+                <a 
+                  href={href} 
+                  className="text-gray-900 underline decoration-gray-300 hover:decoration-gray-600 transition-colors"
+                  target={isExternal ? '_blank' : '_self'}
+                  rel={isExternal ? 'noopener noreferrer' : undefined}
+                >
+                  {children}
+                </a>
+              );
+            },
             code: ({ children, className }) => {
               const isInline = !className;
               if (isInline) {

@@ -8,7 +8,7 @@ export function generateRSS(posts: BlogPost[]): string {
   const rssItems = posts
     .slice(0, 20) // 최신 20개 포스트만
     .map((post) => {
-      const postUrl = `${siteUrl}/blog/${post.slug}`;
+      const postUrl = `${siteUrl}/${post.slug}`;
       const publishDate = new Date(post.publishedAt).toUTCString();
       
       return `

@@ -110,5 +110,71 @@
     "referrerDomain": "",
     "channel": "direct",
     "ipHash": "96e83caa3b11ccc7"
+  },
+  {
+    "id": "c0a591bc-a809-4fe9-bb61-ac4f3e75d31c",
+    "path": "/",
+    "title": "Sonu Jung",
+    "timestamp": "2025-09-06T17:50:37.787Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "referrer": "",
+    "referrerDomain": "",
+    "channel": "direct",
+    "ipHash": "96e83caa3b11ccc7"
+  },
+  {
+    "id": "c8964a72-12eb-408a-a00a-bca7967daae6",
+    "path": "/blog/minimum-lovavle-with-kano-model",
+    "title": "MLP와 카노모델 | sonujung.com | Sonu Jung",
+    "timestamp": "2025-09-06T17:50:38.668Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "referrer": "",
+    "referrerDomain": "",
+    "channel": "direct",
+    "ipHash": "96e83caa3b11ccc7"
+  },
+  {
+    "id": "71dd667c-99fd-4a6b-8b59-c11bc98748bc",
+    "path": "/blog/minimum-lovavle-with-kano-model",
+    "title": "Sonu Jung",
+    "timestamp": "2025-09-06T17:52:54.729Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "referrer": "http://localhost:3001/blog/minimum-lovavle-with-kano-model",
+    "referrerDomain": "localhost",
+    "channel": "referral",
+    "ipHash": "96e83caa3b11ccc7"
+  },
+  {
+    "id": "3dd1b826-bdae-4f1c-aaf4-9a71e6c9d455",
+    "path": "/blog/minimum-lovavle-with-kano-model",
+    "title": "Sonu Jung",
+    "timestamp": "2025-09-06T17:53:08.275Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "referrer": "http://localhost:3001/blog/minimum-lovavle-with-kano-model",
+    "referrerDomain": "localhost",
+    "channel": "referral",
+    "ipHash": "96e83caa3b11ccc7"
+  },
+  {
+    "id": "a86c6da8-3296-4dbe-8025-427afea8a0ba",
+    "path": "/minimum-lovavle-with-kano-model",
+    "title": "MLP와 카노모델 | sonujung.com | Sonu Jung",
+    "timestamp": "2025-09-06T17:55:32.661Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "referrer": "",
+    "referrerDomain": "",
+    "channel": "direct",
+    "ipHash": "96e83caa3b11ccc7"
+  },
+  {
+    "id": "1ecbacdb-0dc1-4f4a-941e-294404571a46",
+    "path": "/",
+    "title": "Sonu Jung",
+    "timestamp": "2025-09-06T17:55:34.574Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "referrer": "",
+    "referrerDomain": "",
+    "channel": "direct",
+    "ipHash": "96e83caa3b11ccc7"
   }
 ]

@@ -17,7 +17,7 @@ export default function PostItem({ post }: PostItemProps) {
 
   return (
     <article className="py-3 border-b border-gray-100 last:border-b-0">
-      <Link href={`/blog/${post.slug}`} className="group flex items-baseline gap-4">
+      <Link href={`/${post.slug}`} className="group flex items-baseline gap-4">
         <time className="text-gray-400 text-xs font-normal shrink-0 w-20">
           {formatDate(post.publishedAt).replace(/\./g, '').replace(/ /g, '.')}
         </time>

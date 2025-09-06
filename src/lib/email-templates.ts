@@ -113,7 +113,7 @@ Don't want to receive these emails? Unsubscribe: ${unsubscribeUrl}
 
 // 새 포스트 알림 이메일 템플릿
 export function generateNewPostEmail(post: BlogPost, subscriber: Subscriber): EmailTemplate {
-  const postUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'}/blog/${post.slug}`;
+  const postUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'}/${post.slug}`;
   const blogUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com';
   const unsubscribeUrl = `${blogUrl}/unsubscribe?token=${subscriber.unsubscribeToken}`;
   
