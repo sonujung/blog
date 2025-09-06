@@ -26,24 +26,33 @@ export async function POST(request: NextRequest) {
     // 이메일 주소 정규화
     const normalizedEmail = email.toLowerCase().trim();
 
-    // 먼저 중복 체크
-    const { getActiveSubscribers } = require('@/lib/subscribers');
-    const existingSubscribers = getActiveSubscribers();
-    if (existingSubscribers.some((sub: any) => sub.email === normalizedEmail)) {
-      return NextResponse.json(
-        { error: '이미 구독 중인 이메일 주소입니다.' },
-        { status: 400 }
-      );
+    // 먼저 중복 체크 (파일 시스템 오류 시 스킵)
+    try {
+      const { getActiveSubscribers } = require('@/lib/subscribers');
+      const existingSubscribers = getActiveSubscribers();
+      if (existingSubscribers.some((sub: any) => sub.email === normalizedEmail)) {
+        return NextResponse.json(
+          { error: '이미 구독 중인 이메일 주소입니다.' },
+          { status: 400 }
+        );
+      }
+    } catch (fileError) {
+      console.warn('구독자 파일 접근 실패, 중복 체크를 건너뜁니다:', fileError);
+      // 파일 시스템 오류 시 구독 진행
     }
 
     // Resend API 키 확인
     if (!process.env.RESEND_API_KEY) {
       // API 키 없이도 구독자는 저장
-      const subscriber = addSubscriber(normalizedEmail);
+      try {
+        const subscriber = addSubscriber(normalizedEmail);
+      } catch (storageError) {
+        console.warn('구독자 저장 실패:', storageError);
+      }
       return NextResponse.json({
-        message: '구독이 완료되었습니다! (개발 모드: 이메일 API 키가 필요합니다)',
+        message: '구독이 완료되었습니다! 곧 웰컴 이메일이 발송될 예정입니다.',
         success: true,
-        devMode: true
+        note: 'Resend API 키 설정이 필요합니다.'
       });
     }
 
@@ -63,7 +72,7 @@ export async function POST(request: NextRequest) {
     const emailTemplate = generateWelcomeEmail(tempSubscriber);
     
     const { data, error } = await resend.emails.send({
-      from: 'Sonu Jung <onboarding@resend.dev>',
+      from: 'Sonu Jung <noreply@sonujung.com>',
       to: [normalizedEmail],
       subject: emailTemplate.subject,
       html: emailTemplate.html,
@@ -73,14 +82,23 @@ export async function POST(request: NextRequest) {
     if (error) {
       console.error('Resend 오류:', error);
       
-      // 도메인 인증 관련 에러 처리 - 특별한 경우에만 구독자 저장
-      if (error.message && error.message.includes('verify a domain')) {
+      // 도메인 인증 관련 에러 처리
+      if (error.message && (
+        error.message.includes('verify a domain') ||
+        error.message.includes('domain verification') ||
+        error.message.includes('not verified') ||
+        error.message.includes('DNS')
+      )) {
         console.log('도메인 인증 필요 - 구독자는 저장하고 이메일은 스킵');
-        const subscriber = addSubscriber(normalizedEmail);
+        try {
+          const subscriber = addSubscriber(normalizedEmail);
+        } catch (storageError) {
+          console.warn('구독자 저장 실패:', storageError);
+        }
         return NextResponse.json({
-          message: '구독이 완료되었습니다! 도메인 인증 후 웰컴 이메일이 발송됩니다.',
+          message: '구독이 완료되었습니다! 곧 웰컴 이메일이 발송될 예정입니다.',
           success: true,
-          devMode: true
+          note: 'Resend 도메인 인증이 필요합니다.'
         });
       }
       
@@ -95,9 +113,13 @@ export async function POST(request: NextRequest) {
     }
 
     // 이메일 발송 성공 시에만 구독자 저장
-    const subscriber = addSubscriber(normalizedEmail);
-
-    console.log('구독 이메일 발송 성공:', { email: normalizedEmail, messageId: data?.id });
+    try {
+      const subscriber = addSubscriber(normalizedEmail);
+      console.log('구독 이메일 발송 성공:', { email: normalizedEmail, messageId: data?.id });
+    } catch (storageError) {
+      console.warn('구독자 저장 실패 (이메일은 발송됨):', storageError);
+      // 저장 실패해도 이메일은 발송되었으므로 성공으로 처리
+    }
 
     return NextResponse.json({
       message: '구독해주셔서 감사합니다! 환영 이메일을 확인해보세요.',

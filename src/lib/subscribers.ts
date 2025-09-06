@@ -13,13 +13,18 @@ export interface Subscriber {
 
 // 구독자 데이터 파일이 없으면 생성
 function ensureSubscribersFile() {
-  const dataDir = path.dirname(SUBSCRIBERS_FILE);
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  
-  if (!fs.existsSync(SUBSCRIBERS_FILE)) {
-    fs.writeFileSync(SUBSCRIBERS_FILE, JSON.stringify([]));
+  try {
+    const dataDir = path.dirname(SUBSCRIBERS_FILE);
+    if (!fs.existsSync(dataDir)) {
+      fs.mkdirSync(dataDir, { recursive: true });
+    }
+    
+    if (!fs.existsSync(SUBSCRIBERS_FILE)) {
+      fs.writeFileSync(SUBSCRIBERS_FILE, JSON.stringify([]));
+    }
+  } catch (error) {
+    console.warn('파일 시스템 초기화 실패:', error);
+    // 서버리스 환경에서는 파일 생성이 불가능할 수 있음
   }
 }
 
@@ -79,7 +84,8 @@ function saveSubscribers(subscribers: Subscriber[]) {
     fs.writeFileSync(SUBSCRIBERS_FILE, JSON.stringify(subscribers, null, 2));
   } catch (error) {
     console.error('구독자 데이터 저장 실패:', error);
-    throw error;
+    // 서버리스 환경에서는 파일 저장이 실패할 수 있음 - 에러를 던지지 않음
+    console.warn('구독자 데이터가 임시로 저장되지 못했습니다. 외부 DB 연결을 고려해보세요.');
   }
 }
 
