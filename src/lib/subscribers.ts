@@ -78,7 +78,7 @@ export function addSubscriber(email: string): Subscriber {
 }
 
 // 구독자 데이터 저장
-function saveSubscribers(subscribers: Subscriber[]) {
+export function saveSubscribers(subscribers: Subscriber[]) {
   try {
     ensureSubscribersFile();
     fs.writeFileSync(SUBSCRIBERS_FILE, JSON.stringify(subscribers, null, 2));
