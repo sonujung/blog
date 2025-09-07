@@ -66,7 +66,7 @@ const baseStyles = {
 
 // 웰컴 이메일 템플릿
 export function generateWelcomeEmail(subscriber: Subscriber): EmailTemplate {
-  const unsubscribeUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'}/unsubscribe?token=${subscriber.unsubscribeToken}`;
+  const unsubscribeUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'}/unsubscribe?email=${encodeURIComponent(subscriber.email)}`;
   const blogUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com';
 
   return {
@@ -115,7 +115,7 @@ Don't want to receive these emails? Unsubscribe: ${unsubscribeUrl}
 export function generateNewPostEmail(post: BlogPost, subscriber: Subscriber): EmailTemplate {
   const postUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com'}/${post.slug}`;
   const blogUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sonujung.com';
-  const unsubscribeUrl = `${blogUrl}/unsubscribe?token=${subscriber.unsubscribeToken}`;
+  const unsubscribeUrl = `${blogUrl}/unsubscribe?email=${encodeURIComponent(subscriber.email)}`;
   
   const formattedDate = new Date(post.publishedAt).toLocaleDateString('ko-KR', {
     year: 'numeric',

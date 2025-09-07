@@ -17,6 +17,11 @@ interface AnalyticsStats {
     count: number;
     percentage: number;
   }>;
+  topReferrers?: Array<{
+    domain: string;
+    count: number;
+    percentage: number;
+  }>;
   dailyStats: Array<{
     date: string;
     views: number;

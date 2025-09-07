@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { addSubscriber } from '@/lib/subscribers';
+import { addSubscriber, type Subscriber } from '@/lib/subscribers';
 import { generateWelcomeEmail } from '@/lib/email-templates';
 
 // Resend 클라이언트를 지연 초기화하는 함수
@@ -60,12 +60,13 @@ export async function POST(request: NextRequest) {
     const resend = getResendClient();
     
     // 임시 구독자 객체 생성 (아직 저장하지 않음)
-    const tempSubscriber = {
+    const tempSubscriber: Subscriber = {
       id: Math.random().toString(36).substring(2, 15),
       email: normalizedEmail,
-      subscribedAt: new Date().toISOString(),
-      status: 'active' as const,
-      unsubscribeToken: Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
+      created_at: new Date().toISOString(),
+      first_name: undefined,
+      last_name: undefined,
+      unsubscribed: false
     };
     
     // 개선된 Welcome 이메일 생성 및 발송
@@ -83,14 +84,14 @@ export async function POST(request: NextRequest) {
       console.error('Resend 오류:', error);
       
       // 도메인 인증 관련 에러 처리
-      const errorMsg = error.message || error.error || '';
+      const errorMsg = (error as any)?.message || (error as any)?.error || '';
       if (errorMsg && (
         errorMsg.includes('verify a domain') ||
         errorMsg.includes('domain verification') ||
         errorMsg.includes('not verified') ||
         errorMsg.includes('DNS') ||
         errorMsg.includes('domain is not verified') ||
-        error.statusCode === 403
+        (error as any)?.statusCode === 403
       )) {
         console.log('도메인 인증 필요 - 구독자는 Audience에 저장하고 이메일은 스킵');
         try {
@@ -109,7 +110,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { 
           error: '이메일 발송 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.',
-          details: error.message || '알 수 없는 오류'
+          details: (error as any)?.message || '알 수 없는 오류'
         },
         { status: 500 }
       );

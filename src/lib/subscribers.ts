@@ -97,7 +97,20 @@ export async function addSubscriber(email: string, firstName?: string, lastName?
     }
 
     console.log(`✅ 구독자 추가 성공:`, { email, id: data?.id });
-    return data || null;
+    
+    // Resend API 응답을 Subscriber 타입으로 변환
+    if (data) {
+      return {
+        id: data.id,
+        email: email,
+        first_name: firstName,
+        last_name: lastName,
+        created_at: new Date().toISOString(),
+        unsubscribed: false
+      };
+    }
+    
+    return null;
   } catch (error) {
     console.error('❌ 구독자 추가 실패:', error);
     throw error;

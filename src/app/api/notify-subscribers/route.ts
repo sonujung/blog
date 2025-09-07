@@ -87,7 +87,7 @@ export async function POST(request: NextRequest) {
             html: emailTemplate.html,
             text: emailTemplate.text,
             headers: {
-              'List-Unsubscribe': `<${process.env.NEXT_PUBLIC_SITE_URL}/unsubscribe?token=${subscriber.unsubscribeToken}>`
+              'List-Unsubscribe': `<${process.env.NEXT_PUBLIC_SITE_URL}/unsubscribe?email=${encodeURIComponent(subscriber.email)}>`
             }
           });
 
