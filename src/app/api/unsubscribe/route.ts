@@ -1,32 +1,32 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { unsubscribeByToken, getSubscribers } from '@/lib/subscribers';
+import { unsubscribeByEmail, getSubscribers } from '@/lib/subscribers';
 import { generateUnsubscribeConfirmEmail } from '@/lib/email-templates';
 
 export async function POST(request: NextRequest) {
   try {
-    const { token } = await request.json();
+    const { email } = await request.json();
 
-    if (!token) {
+    if (!email) {
       return NextResponse.json(
-        { error: '구독 취소 토큰이 필요합니다.' },
+        { error: '이메일 주소가 필요합니다.' },
         { status: 400 }
       );
     }
 
     // 구독자 정보 조회 (구독 취소 전에)
-    const subscribers = getSubscribers();
-    const subscriber = subscribers.find(sub => sub.unsubscribeToken === token);
+    const subscribers = await getSubscribers();
+    const subscriber = subscribers.find(sub => sub.email === email);
 
     if (!subscriber) {
       return NextResponse.json(
-        { error: '유효하지 않은 구독 취소 링크입니다.' },
+        { error: '해당 이메일 주소로 구독된 기록이 없습니다.' },
         { status: 404 }
       );
     }
 
     // 이미 구독 취소된 경우
-    if (subscriber.status === 'unsubscribed') {
+    if (subscriber.unsubscribed) {
       return NextResponse.json({
         message: '이미 구독이 취소된 이메일 주소입니다.',
         success: true
@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
     }
 
     // 구독 취소 처리
-    const success = unsubscribeByToken(token);
+    const success = await unsubscribeByEmail(email);
 
     if (!success) {
       return NextResponse.json(
@@ -50,21 +50,21 @@ export async function POST(request: NextRequest) {
         const confirmEmail = generateUnsubscribeConfirmEmail(subscriber.email);
 
         await resend.emails.send({
-          from: 'Sonu Jung <onboarding@resend.dev>',
-          to: [subscriber.email],
+          from: 'Sonu Jung <iam@sonujung.com>',
+          to: [email],
           subject: confirmEmail.subject,
           html: confirmEmail.html,
           text: confirmEmail.text
         });
 
-        console.log(`구독 취소 확인 이메일 발송 완료: ${subscriber.email}`);
+        console.log(`구독 취소 확인 이메일 발송 완료: ${email}`);
       }
     } catch (emailError) {
       console.error('구독 취소 확인 이메일 발송 실패:', emailError);
       // 이메일 발송 실패는 구독 취소 자체를 방해하지 않음
     }
 
-    console.log(`구독 취소 처리 완료: ${subscriber.email} (토큰: ${token})`);
+    console.log(`구독 취소 처리 완료: ${email}`);
 
     return NextResponse.json({
       message: '구독이 성공적으로 취소되었습니다.',
