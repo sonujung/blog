@@ -27,28 +27,63 @@ export default function SubscribersPage() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
+    checkAuthentication();
+  }, []);
+
+  useEffect(() => {
     if (isAuthenticated) {
       loadSubscribers();
     }
   }, [isAuthenticated]);
 
-  const handleAuthentication = () => {
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    if (password === adminPassword) {
-      setIsAuthenticated(true);
-    } else {
-      alert('잘못된 비밀번호입니다.');
+  const checkAuthentication = async () => {
+    try {
+      const response = await fetch('/api/auth/verify');
+      if (response.ok) {
+        setIsAuthenticated(true);
+      }
+    } catch (error) {
+      console.error('Authentication check failed:', error);
+    }
+  };
+
+  const handleAuthentication = async () => {
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ password }),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok && data.success) {
+        setIsAuthenticated(true);
+        setPassword('');
+      } else {
+        alert(data.message || '로그인에 실패했습니다.');
+      }
+    } catch (error) {
+      console.error('Login error:', error);
+      alert('로그인 처리 중 오류가 발생했습니다.');
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+      setIsAuthenticated(false);
+    } catch (error) {
+      console.error('Logout error:', error);
     }
   };
 
   const loadSubscribers = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch('/api/subscribers', {
-        headers: {
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_ADMIN_PASSWORD}`
-        }
-      });
+      const response = await fetch('/api/subscribers');
       
       if (response.ok) {
         const data = await response.json();
@@ -73,8 +108,7 @@ export default function SubscribersPage() {
       const response = await fetch('/api/subscribers', {
         method: 'PATCH',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_ADMIN_PASSWORD}`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           id: subscriberId,
@@ -102,8 +136,7 @@ export default function SubscribersPage() {
       const response = await fetch('/api/subscribers', {
         method: 'PATCH',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_ADMIN_PASSWORD}`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           id: subscriberId,
@@ -167,7 +200,7 @@ export default function SubscribersPage() {
               </Link>
             </div>
             <button
-              onClick={() => setIsAuthenticated(false)}
+              onClick={handleLogout}
               className="text-gray-600 hover:text-gray-900 text-sm"
             >
               Logout

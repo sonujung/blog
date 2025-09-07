@@ -50,6 +50,10 @@ export default function AdminDashboard() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    checkAuthentication();
+  }, []);
+
+  useEffect(() => {
     if (isAuthenticated) {
       loadDashboardData();
     }
@@ -61,12 +65,47 @@ export default function AdminDashboard() {
     }
   }, [analyticsPeriod, isAuthenticated]);
 
-  const handleAuthentication = () => {
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    if (password === adminPassword) {
-      setIsAuthenticated(true);
-    } else {
-      alert('잘못된 비밀번호입니다.');
+  const checkAuthentication = async () => {
+    try {
+      const response = await fetch('/api/auth/verify');
+      if (response.ok) {
+        setIsAuthenticated(true);
+      }
+    } catch (error) {
+      console.error('Authentication check failed:', error);
+    }
+  };
+
+  const handleAuthentication = async () => {
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ password }),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok && data.success) {
+        setIsAuthenticated(true);
+        setPassword('');
+      } else {
+        alert(data.message || '로그인에 실패했습니다.');
+      }
+    } catch (error) {
+      console.error('Login error:', error);
+      alert('로그인 처리 중 오류가 발생했습니다.');
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+      setIsAuthenticated(false);
+    } catch (error) {
+      console.error('Logout error:', error);
     }
   };
 
@@ -74,11 +113,7 @@ export default function AdminDashboard() {
     setIsLoading(true);
     try {
       // Load posts
-      const postsResponse = await fetch('/api/posts?limit=10', {
-        headers: {
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_ADMIN_PASSWORD}`
-        }
-      });
+      const postsResponse = await fetch('/api/posts?limit=10');
       
       if (postsResponse.ok) {
         const postsData = await postsResponse.json();
@@ -96,11 +131,7 @@ export default function AdminDashboard() {
 
   const loadAnalytics = async () => {
     try {
-      const response = await fetch(`/api/analytics?days=${analyticsPeriod}`, {
-        headers: {
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_ADMIN_PASSWORD}`
-        }
-      });
+      const response = await fetch(`/api/analytics?days=${analyticsPeriod}`);
       
       if (response.ok) {
         const data = await response.json();
@@ -234,7 +265,7 @@ export default function AdminDashboard() {
               </nav>
             </div>
             <button
-              onClick={() => setIsAuthenticated(false)}
+              onClick={handleLogout}
               className="text-gray-600 hover:text-gray-900 text-sm"
             >
               Logout

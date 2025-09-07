@@ -1,19 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSubscribers, getSubscriberStats, saveSubscribers } from '@/lib/subscribers';
+import { requireAdminAuth } from '@/lib/auth';
 
 // 구독자 목록 조회 (관리자용)
 export async function GET(request: NextRequest) {
   try {
-    // 관리자 권한 확인
-    const authHeader = request.headers.get('authorization');
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    
-    if (!adminPassword || authHeader !== `Bearer ${adminPassword}`) {
-      return NextResponse.json(
-        { error: 'Unauthorized' },
-        { status: 401 }
-      );
-    }
+    // JWT 토큰으로 관리자 권한 확인
+    requireAdminAuth(request);
 
     try {
       const subscribers = getSubscribers();
@@ -51,16 +44,8 @@ export async function GET(request: NextRequest) {
 // 구독자 상태 업데이트 (관리자용)
 export async function PATCH(request: NextRequest) {
   try {
-    // 관리자 권한 확인
-    const authHeader = request.headers.get('authorization');
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    
-    if (!adminPassword || authHeader !== `Bearer ${adminPassword}`) {
-      return NextResponse.json(
-        { error: 'Unauthorized' },
-        { status: 401 }
-      );
-    }
+    // JWT 토큰으로 관리자 권한 확인
+    requireAdminAuth(request);
 
     const { id, action } = await request.json();
 
