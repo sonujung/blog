@@ -47,7 +47,9 @@ export async function POST(request: NextRequest) {
     }
 
     // 활성 구독자 조회
-    const activeSubscribers = getActiveSubscribers();
+    const activeSubscribers = await getActiveSubscribers();
+    
+    console.log(`🔍 구독자 조회 결과: ${activeSubscribers.length}명 발견`);
     
     if (activeSubscribers.length === 0) {
       return NextResponse.json({

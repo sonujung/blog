@@ -25,23 +25,31 @@ export interface Subscriber {
 export async function getSubscribers(): Promise<Subscriber[]> {
   try {
     if (!AUDIENCE_ID) {
+      console.error('❌ RESEND_AUDIENCE_ID 환경변수가 설정되지 않았습니다.');
       throw new Error('RESEND_AUDIENCE_ID 환경변수가 설정되지 않았습니다.');
     }
 
+    console.log(`🔍 Resend Audience 조회 시작 (ID: ${AUDIENCE_ID})`);
+    
     const resend = getResendClient();
     const { data, error } = await resend.contacts.list({
       audienceId: AUDIENCE_ID,
     });
 
     if (error) {
-      console.error('Resend API 오류:', error);
+      console.error('❌ Resend API 오류:', error);
       return [];
     }
+
+    console.log(`✅ Resend API 응답 성공:`, { 
+      totalContacts: data?.data?.length || 0,
+      rawData: data?.data?.slice(0, 2) // 처음 2개만 로그로 확인
+    });
 
     // Resend 응답을 우리 인터페이스에 맞게 변환
     return data?.data || [];
   } catch (error) {
-    console.error('구독자 데이터 로드 실패:', error);
+    console.error('❌ 구독자 데이터 로드 실패:', error);
     return [];
   }
 }
@@ -56,8 +64,11 @@ export async function getActiveSubscribers(): Promise<Subscriber[]> {
 export async function addSubscriber(email: string, firstName?: string, lastName?: string): Promise<Subscriber | null> {
   try {
     if (!AUDIENCE_ID) {
+      console.error('❌ RESEND_AUDIENCE_ID 환경변수가 설정되지 않았습니다.');
       throw new Error('RESEND_AUDIENCE_ID 환경변수가 설정되지 않았습니다.');
     }
+
+    console.log(`🔍 구독자 추가 시도: ${email}`);
 
     const resend = getResendClient();
     
@@ -65,11 +76,14 @@ export async function addSubscriber(email: string, firstName?: string, lastName?
     const existingSubscribers = await getSubscribers();
     const existingSubscriber = existingSubscribers.find(sub => sub.email === email);
     
+    console.log(`🔍 중복 체크 결과: 기존 구독자 ${existingSubscribers.length}명, 중복 여부: ${!!existingSubscriber}`);
+    
     if (existingSubscriber && !existingSubscriber.unsubscribed) {
       throw new Error('이미 구독 중인 이메일 주소입니다.');
     }
 
     // Resend Audience에 추가
+    console.log(`📝 Resend Audience에 구독자 추가 중...`);
     const { data, error } = await resend.contacts.create({
       audienceId: AUDIENCE_ID,
       email,
@@ -78,13 +92,14 @@ export async function addSubscriber(email: string, firstName?: string, lastName?
     });
 
     if (error) {
-      console.error('구독자 추가 오류:', error);
+      console.error('❌ 구독자 추가 오류:', error);
       throw new Error('구독자 추가에 실패했습니다.');
     }
 
+    console.log(`✅ 구독자 추가 성공:`, { email, id: data?.id });
     return data || null;
   } catch (error) {
-    console.error('구독자 추가 실패:', error);
+    console.error('❌ 구독자 추가 실패:', error);
     throw error;
   }
 }

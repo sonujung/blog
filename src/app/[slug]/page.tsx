@@ -1,6 +1,5 @@
 import { getPostBySlug, getAllPosts } from '@/lib/markdown';
 import PostContent from '@/components/blog/PostContent';
-import Comments from '@/components/blog/Comments';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -83,9 +82,6 @@ export default async function PostPage({ params }: PostPageProps) {
 
       {/* Post Content */}
       <PostContent post={post} />
-
-      {/* Comments */}
-      <Comments slug={post.slug} />
 
       {/* Navigation */}
       <nav className="max-w-2xl mx-auto px-4 py-8 border-t border-gray-100">
