@@ -115,13 +115,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // 이메일 발송 성공 시에만 구독자 저장
+    // 이메일 발송 성공 시에만 Resend Audience에 구독자 추가
     try {
-      const subscriber = addSubscriber(normalizedEmail);
-      console.log('구독 이메일 발송 성공:', { email: normalizedEmail, messageId: data?.id });
-    } catch (storageError) {
-      console.warn('구독자 저장 실패 (이메일은 발송됨):', storageError);
-      // 저장 실패해도 이메일은 발송되었으므로 성공으로 처리
+      const subscriber = await addSubscriber(normalizedEmail);
+      console.log('구독 이메일 발송 및 Audience 추가 성공:', { email: normalizedEmail, messageId: data?.id });
+    } catch (apiError) {
+      console.warn('Resend Audience 추가 실패 (이메일은 발송됨):', apiError);
+      // Audience 추가 실패해도 이메일은 발송되었으므로 성공으로 처리
     }
 
     return NextResponse.json({
