@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { addPageView, getAnalyticsStats } from '@/lib/analytics';
+import { requireAdminAuth } from '@/lib/auth';
 
 // 페이지뷰 데이터 수집
 export async function POST(request: NextRequest) {
@@ -53,16 +54,8 @@ export async function POST(request: NextRequest) {
 // Analytics 통계 조회 (관리자용)
 export async function GET(request: NextRequest) {
   try {
-    // 관리자 권한 확인 (간단한 방법)
-    const authHeader = request.headers.get('authorization');
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    
-    if (!adminPassword || authHeader !== `Bearer ${adminPassword}`) {
-      return NextResponse.json(
-        { error: 'Unauthorized' },
-        { status: 401 }
-      );
-    }
+    // JWT 토큰으로 관리자 권한 확인
+    requireAdminAuth(request);
 
     const { searchParams } = new URL(request.url);
     const days = parseInt(searchParams.get('days') || '7');

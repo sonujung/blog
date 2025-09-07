@@ -26,19 +26,19 @@ export async function POST(request: NextRequest) {
     // 이메일 주소 정규화
     const normalizedEmail = email.toLowerCase().trim();
 
-    // 먼저 중복 체크 (파일 시스템 오류 시 스킵)
+    // Resend Audience에서 중복 체크
     try {
-      const { getActiveSubscribers } = require('@/lib/subscribers');
-      const existingSubscribers = getActiveSubscribers();
+      const { getActiveSubscribers } = await import('@/lib/subscribers');
+      const existingSubscribers = await getActiveSubscribers();
       if (existingSubscribers.some((sub: any) => sub.email === normalizedEmail)) {
         return NextResponse.json(
           { error: '이미 구독 중인 이메일 주소입니다.' },
           { status: 400 }
         );
       }
-    } catch (fileError) {
-      console.warn('구독자 파일 접근 실패, 중복 체크를 건너뜁니다:', fileError);
-      // 파일 시스템 오류 시 구독 진행
+    } catch (apiError) {
+      console.warn('Resend API 접근 실패, 중복 체크를 건너뜁니다:', apiError);
+      // Resend API 오류 시 구독 진행
     }
 
     // Resend API 키 확인
@@ -72,7 +72,7 @@ export async function POST(request: NextRequest) {
     const emailTemplate = generateWelcomeEmail(tempSubscriber);
     
     const { data, error } = await resend.emails.send({
-      from: 'Sonu Jung <noreply@sonujung.com>',
+      from: 'Sonu Jung <iam@sonujung.com>',
       to: [normalizedEmail],
       subject: emailTemplate.subject,
       html: emailTemplate.html,
@@ -83,17 +83,20 @@ export async function POST(request: NextRequest) {
       console.error('Resend 오류:', error);
       
       // 도메인 인증 관련 에러 처리
-      if (error.message && (
-        error.message.includes('verify a domain') ||
-        error.message.includes('domain verification') ||
-        error.message.includes('not verified') ||
-        error.message.includes('DNS')
+      const errorMsg = error.message || error.error || '';
+      if (errorMsg && (
+        errorMsg.includes('verify a domain') ||
+        errorMsg.includes('domain verification') ||
+        errorMsg.includes('not verified') ||
+        errorMsg.includes('DNS') ||
+        errorMsg.includes('domain is not verified') ||
+        error.statusCode === 403
       )) {
-        console.log('도메인 인증 필요 - 구독자는 저장하고 이메일은 스킵');
+        console.log('도메인 인증 필요 - 구독자는 Audience에 저장하고 이메일은 스킵');
         try {
-          const subscriber = addSubscriber(normalizedEmail);
-        } catch (storageError) {
-          console.warn('구독자 저장 실패:', storageError);
+          const subscriber = await addSubscriber(normalizedEmail);
+        } catch (apiError) {
+          console.warn('Resend Audience 추가 실패:', apiError);
         }
         return NextResponse.json({
           message: '구독이 완료되었습니다! 곧 웰컴 이메일이 발송될 예정입니다.',

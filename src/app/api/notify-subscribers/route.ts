@@ -161,16 +161,16 @@ export async function POST(request: NextRequest) {
 // GET 요청으로 구독자 통계 조회
 export async function GET() {
   try {
-    const activeSubscribers = getActiveSubscribers();
+    const activeSubscribers = await getActiveSubscribers();
     
     return NextResponse.json({
       totalActiveSubscribers: activeSubscribers.length,
       recentSubscribers: activeSubscribers
-        .sort((a, b) => new Date(b.subscribedAt).getTime() - new Date(a.subscribedAt).getTime())
+        .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
         .slice(0, 5)
         .map(sub => ({
           email: sub.email.replace(/(.{2}).*@/, '$1***@'), // 이메일 마스킹
-          subscribedAt: sub.subscribedAt
+          subscribedAt: sub.created_at
         }))
     });
   } catch (error) {

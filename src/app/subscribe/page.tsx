@@ -138,12 +138,6 @@ export default function SubscribePage() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="max-w-2xl mx-auto px-4 py-8 border-t border-gray-100">
-        <p className="text-gray-400 text-sm">
-          © 2024 Sonu Jung
-        </p>
-      </footer>
     </div>
   );
 }

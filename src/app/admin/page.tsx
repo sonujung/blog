@@ -147,7 +147,10 @@ export default function AdminDashboard() {
       const response = await fetch('/api/notify-subscribers');
       if (response.ok) {
         const data = await response.json();
+        console.log('Subscriber stats loaded:', data);
         setSubscriberStats(data);
+      } else {
+        console.error('Subscriber stats API failed:', response.status);
       }
     } catch (error) {
       console.error('Subscriber stats load error:', error);
@@ -297,8 +300,16 @@ export default function AdminDashboard() {
               <div className="bg-white p-6 rounded-lg shadow">
                 <h3 className="text-sm font-medium text-gray-500">Active Subscribers</h3>
                 <p className="text-2xl font-bold text-gray-900">
-                  {subscriberStats?.totalActiveSubscribers || '-'}
+                  {subscriberStats?.totalActiveSubscribers ?? '-'}
                 </p>
+                {/* 디버그 정보 */}
+                {process.env.NODE_ENV === 'development' && (
+                  <div className="text-xs text-gray-400 mt-1">
+                    Debug: {subscriberStats ? 'Data loaded' : 'No data'} | 
+                    Count: {subscriberStats?.totalActiveSubscribers} | 
+                    Recent: {subscriberStats?.recentSubscribers?.length}
+                  </div>
+                )}
               </div>
               <div className="bg-white p-6 rounded-lg shadow">
                 <h3 className="text-sm font-medium text-gray-500">Total Posts</h3>
@@ -368,6 +379,29 @@ export default function AdminDashboard() {
                   </div>
                 </div>
 
+                {/* Top Referrers */}
+                <div className="bg-white p-6 rounded-lg shadow">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-4">Top Referrers</h2>
+                  <div className="space-y-3">
+                    {analyticsStats.topReferrers?.map((referrer, index) => (
+                      <div key={index} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-0">
+                        <div className="flex-1">
+                          <div className="text-sm font-medium text-gray-900">
+                            {referrer.domain === 'direct' ? 'Direct Traffic' : referrer.domain}
+                          </div>
+                        </div>
+                        <div className="flex items-center space-x-3">
+                          <span className="text-sm text-gray-600">{referrer.count} visits</span>
+                          <span className="text-xs text-gray-400 w-10 text-right">{referrer.percentage}%</span>
+                        </div>
+                      </div>
+                    ))}
+                    {(!analyticsStats.topReferrers || analyticsStats.topReferrers.length === 0) && (
+                      <p className="text-gray-500 text-sm italic">No referral data yet</p>
+                    )}
+                  </div>
+                </div>
+
                 {/* Top Pages */}
                 <div className="bg-white p-6 rounded-lg shadow">
                   <h2 className="text-xl font-semibold text-gray-900 mb-4">Top Pages</h2>
@@ -416,21 +450,34 @@ export default function AdminDashboard() {
             {/* Subscriber Stats */}
             <div className="bg-white p-6 rounded-lg shadow">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Subscriber Statistics</h2>
+              
+              {/* 디버그 섹션 */}
+              {process.env.NODE_ENV === 'development' && (
+                <div className="mb-4 p-3 bg-gray-50 rounded text-xs">
+                  <div>subscriberStats: {subscriberStats ? 'exists' : 'null'}</div>
+                  <div>totalActiveSubscribers: {subscriberStats?.totalActiveSubscribers}</div>
+                  <div>recentSubscribers length: {subscriberStats?.recentSubscribers?.length}</div>
+                  <div>Raw data: {JSON.stringify(subscriberStats, null, 2)}</div>
+                </div>
+              )}
+              
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <div className="text-3xl font-bold text-blue-600">
-                    {subscriberStats?.totalActiveSubscribers || 0}
+                    {subscriberStats?.totalActiveSubscribers ?? 0}
                   </div>
                   <div className="text-sm text-gray-500">Active Subscribers</div>
                 </div>
                 <div>
                   <div className="text-sm text-gray-600">Recent Subscribers</div>
                   <div className="mt-2 space-y-1">
-                    {subscriberStats?.recentSubscribers.slice(0, 3).map((sub, index) => (
+                    {subscriberStats?.recentSubscribers?.slice(0, 3).map((sub, index) => (
                       <div key={index} className="text-xs text-gray-500">
                         {sub.email} - {new Date(sub.subscribedAt).toLocaleDateString()}
                       </div>
-                    ))}
+                    )) || (
+                      <div className="text-xs text-gray-400">No recent subscribers yet</div>
+                    )}
                   </div>
                 </div>
               </div>

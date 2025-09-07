@@ -32,6 +32,11 @@ export interface AnalyticsStats {
     count: number;
     percentage: number;
   }>;
+  topReferrers: Array<{
+    domain: string;
+    count: number;
+    percentage: number;
+  }>;
   recentViews: PageView[];
   dailyStats: Array<{
     date: string;
@@ -234,6 +239,22 @@ export function getAnalyticsStats(days: number = 7): AnalyticsStats {
     }))
     .sort((a, b) => b.count - a.count);
 
+  // Referrer 도메인별 통계
+  const referrerStats = recentViews.reduce((acc, view) => {
+    const domain = view.referrerDomain || 'direct';
+    acc[domain] = (acc[domain] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+
+  const topReferrers = Object.entries(referrerStats)
+    .map(([domain, count]) => ({
+      domain,
+      count,
+      percentage: Math.round((count / totalPageViews) * 100)
+    }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10);
+
   // 일별 통계
   const dailyStats = Array.from({ length: days }, (_, i) => {
     const date = new Date();
@@ -256,6 +277,7 @@ export function getAnalyticsStats(days: number = 7): AnalyticsStats {
     uniqueVisitors,
     topPages,
     channels,
+    topReferrers,
     recentViews: recentViews.slice(0, 20),
     dailyStats
   };

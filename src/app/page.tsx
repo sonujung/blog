@@ -60,7 +60,7 @@ export default async function Home() {
   posts = posts.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="bg-white">
       {/* Header */}
       <header className="max-w-2xl mx-auto px-4 py-8 flex justify-between items-center border-b border-gray-100">
         <Link href="/" className="text-xl font-semibold text-black hover:text-gray-600 transition-colors">
@@ -74,18 +74,11 @@ export default async function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-2xl mx-auto px-4 py-8">
         {posts.map((post) => (
           <PostItem key={post.id} post={post} />
         ))}
-      </main>
-
-      {/* Footer */}
-      <footer className="max-w-2xl mx-auto px-4 py-8 border-t border-gray-100">
-        <p className="text-gray-400 text-sm">
-          © 2024 Sonu Jung. 정선우의 블로그입니다.
-        </p>
-      </footer>
+      </div>
     </div>
   );
 }

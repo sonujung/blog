@@ -1,18 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAllPosts } from '@/lib/markdown';
+import { requireAdminAuth } from '@/lib/auth';
 
 export async function GET(request: NextRequest) {
   try {
-    // 관리자 권한 확인
-    const authHeader = request.headers.get('authorization');
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    
-    if (!adminPassword || authHeader !== `Bearer ${adminPassword}`) {
-      return NextResponse.json(
-        { error: 'Unauthorized' },
-        { status: 401 }
-      );
-    }
+    // JWT 토큰으로 관리자 권한 확인
+    requireAdminAuth(request);
 
     const { searchParams } = new URL(request.url);
     const limit = parseInt(searchParams.get('limit') || '10');

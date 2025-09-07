@@ -63,21 +63,6 @@ export default function Comments({ slug }: CommentsProps) {
   return (
     <div className="max-w-2xl mx-auto px-4 py-16">
       <h3 className="text-xl font-semibold text-gray-900 mb-8">Comments</h3>
-      {/* Temporarily show setup message - remove after GitHub Discussions is enabled */}
-      <div className="mb-4 p-4 bg-yellow-50 border border-yellow-200 rounded-md">
-        <p className="text-sm text-yellow-800">
-          💬 댓글 시스템을 설정 중입니다. GitHub Discussions를 활성화해야 합니다.
-          <br />
-          <a 
-            href="https://github.com/sonujung/blog/settings" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="underline hover:no-underline"
-          >
-            저장소 설정에서 Discussions 활성화하기 →
-          </a>
-        </p>
-      </div>
       <div ref={commentsRef} />
     </div>
   );

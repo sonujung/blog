@@ -6,9 +6,10 @@ import Link from 'next/link';
 interface Subscriber {
   id: string;
   email: string;
-  subscribedAt: string;
-  status: 'active' | 'unsubscribed';
-  unsubscribeToken?: string;
+  first_name?: string;
+  last_name?: string;
+  created_at: string;
+  unsubscribed: boolean;
 }
 
 interface SubscriberStats {
@@ -157,7 +158,8 @@ export default function SubscribersPage() {
 
   // Filter subscribers based on status and search term
   const filteredSubscribers = subscribers.filter(subscriber => {
-    const matchesFilter = filter === 'all' || subscriber.status === filter;
+    const status = subscriber.unsubscribed ? 'unsubscribed' : 'active';
+    const matchesFilter = filter === 'all' || status === filter;
     const matchesSearch = subscriber.email.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesFilter && matchesSearch;
   });
@@ -328,18 +330,18 @@ export default function SubscribersPage() {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                           <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
-                            subscriber.status === 'active'
+                            !subscriber.unsubscribed
                               ? 'bg-green-100 text-green-800'
                               : 'bg-red-100 text-red-800'
                           }`}>
-                            {subscriber.status}
+                            {subscriber.unsubscribed ? 'unsubscribed' : 'active'}
                           </span>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                          {new Date(subscriber.subscribedAt).toLocaleString()}
+                          {new Date(subscriber.created_at).toLocaleString()}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                          {subscriber.status === 'active' ? (
+                          {!subscriber.unsubscribed ? (
                             <button
                               onClick={() => handleUnsubscribe(subscriber.id)}
                               className="text-red-600 hover:text-red-900"
