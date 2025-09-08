@@ -151,6 +151,8 @@ Intercom에서는 이 문제 정의 과정을 정교하게 만들기 위해 큰 
 
 ![Image 7](/images/great-pms-dont-spend-time-on-solution-by-paul-adams-img-7.png)
 
+![Image 8](/images/great-pms-dont-spend-time-on-solution-by-paul-adams-img-8.png)
+
 
 2. 매력적인 포트폴리오가 되지 않는 경우가 많습니다. 연구보고서, 새로운 UI 시안, 프로토타입과 달리 질문과 답변은 포장이 없습니다. 요즘의 많은 팀에게 깊은 이해를 위해 성찰하고 탐구하는 것은 흥미롭거나 중요한 것으로 여겨지지 않습니다. 이건 최악입니다. 중요하고 매력적이지 않은 일을 하는 게 필요합니다.
 
@@ -170,10 +172,6 @@ Intercom에서는 이 문제 정의 과정을 정교하게 만들기 위해 큰 
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 8](/images/great-pms-dont-spend-time-on-solution-by-paul-adams-img-8.png)
 

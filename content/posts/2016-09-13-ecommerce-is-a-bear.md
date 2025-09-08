@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/ecommerce-is-a-bear-img-1.png"
 ---
 
 
@@ -126,6 +127,8 @@ Jeff Bezos(아마존 창업자)는 초창기 월스트리트로 부터의 수많
 
 ![Image 1](/images/ecommerce-is-a-bear-img-1.png)
 
+![Image 2](/images/ecommerce-is-a-bear-img-2.png)
+
 
 역자 주 - 국내의 [스타일난다](http://stylenanda.com/)가 비교할 수 있는 대표적인 케이스라고 볼 수 있을 것 같습니다. 초반 다양한 동대문 보세 브랜드를 스타일난다만의 콘셉트와 스타일로 큐레이션 하여 고객들의 반응을 이끌어냈으며 강력한 팬덤을 형성하는 데 성공했습니다. 이후 점차 다양한 라인의 자체 브랜드(PB)를 런칭하며 현재는 1000억 원 대의 매출을 내는 브랜드로 성장했습니다.
 
@@ -241,10 +244,5 @@ Jeff Bezos(아마존 창업자)는 초창기 월스트리트로 부터의 수많
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/ecommerce-is-a-bear-img-2.png)
 

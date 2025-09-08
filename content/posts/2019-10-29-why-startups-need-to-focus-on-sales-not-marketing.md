@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/why-startups-need-to-focus-on-sales-not-marketing-img-1.png"
 ---
 
 > 와이컴비네이터의 파트너이자 공동 창업자인 제시카 리빙스톤이 2014년 월스트리트 저널에 기고한 칼럼 '[Jessica Livingston: Why Startups Need to Focus on Sales, Not Marketing'를](https://blogs.wsj.com/accelerators/2014/06/03/jessica-livingston-why-startups-need-to-focus-on-sales-not-marketing/?fbclid=IwAR3Xtqvrh8NnqGGbGhOvGxToZIlwLkVDjsKzPtTu1JlUPiy78zss7pl8DdQ) 번역한 글입니다.
@@ -59,14 +60,4 @@ excerpt: ""
 
 이제는 꽤나 널리 알려진 내용의 글인데 오래전에 저장해 둔 글을 다시 읽으니 감회가 또 다르네요. 지금은 전 세계가 주목하는 와이컴비네이터의 잘 알려진 '우리 제품을 좋아해 주는 100명보다 사랑해주는 1명이 더욱 값지다'는 말의 또 다른 버전인 글이었습니다. 다시 보니 머리로는 알면서도 실행으로 옮기지 못했던 쓰라린 기억이 새록새록 떠오르네요.
 
-
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
 ![Image 1](/images/why-startups-need-to-focus-on-sales-not-marketing-img-1.png)
-

@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/hire-designer-and-work-at-startups-img-1.png"
 ---
 
 
@@ -136,6 +137,8 @@ excerpt: ""
 
 ![Image 1](/images/hire-designer-and-work-at-startups-img-1.png)
 
+![Image 2](/images/hire-designer-and-work-at-startups-img-2.png)
+
 
 비교적 젊은 구성원들의 비중이 높고, 아직 근무환경이라는 것이 형성되기 이전 기업들이 많기 때문에 자유로운 분위기를 유지하는 곳들도 상당수 존재하지만. 수 천 수 만개의 기업들의 업무환경을 일반화하여 생각했다가는 후회하기 십상이다. 더군다나 생존을 두고 보다 치열하게 경쟁하는 환경이라는 점을 고려한다면 보다 타이트한 일정과 과중한 업무가 일상이 될 수도 있다는 점을 고려해야 한다.
 
@@ -264,12 +267,4 @@ excerpt: ""
 
 
 ---
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/hire-designer-and-work-at-startups-img-2.png)
 

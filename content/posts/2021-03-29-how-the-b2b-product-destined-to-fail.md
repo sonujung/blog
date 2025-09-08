@@ -405,6 +405,9 @@ Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 
 
 ![Image 28](/images/how-the-b2b-product-destined-to-fail-img-28.png)
 
+결론적으로, 진정한 고객의 문제를 찾아내는 것이 성공적인 B2B 제품을 만드는 열쇠입니다.
+
+![Image 29](/images/how-the-b2b-product-destined-to-fail-img-29.png)
 
 4. 제품 관리자가 되는 것은 중요한 책임을 맡는다는 것입니다. 당신이 갖는 생각에 대해 엄격해야 하며 의도의 순수성을 유지하는 것이 엔지니어, 디자이너, 운영, 마케팅, 영업 등 집단의 수만 시간의 노력을 헛되이 하지 않는 방법입니다.
 
@@ -415,10 +418,6 @@ Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 29](/images/how-the-b2b-product-destined-to-fail-img-29.png)
 

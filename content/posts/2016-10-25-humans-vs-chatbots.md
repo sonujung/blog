@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/humans-vs-chatbots-img-1.png"
 ---
 
 
@@ -154,6 +155,8 @@ excerpt: ""
 
 ![Image 5](/images/humans-vs-chatbots-img-5.png)
 
+![Image 6](/images/humans-vs-chatbots-img-6.png)
+
 
 ### 2. 뉴스 읽기
 
@@ -176,10 +179,6 @@ excerpt: ""
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 6](/images/humans-vs-chatbots-img-6.png)
 

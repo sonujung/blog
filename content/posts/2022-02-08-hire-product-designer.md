@@ -256,6 +256,8 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 
 ![Image 3](/images/hire-product-designer-img-3.png)
 
+![Image 4](/images/hire-product-designer-img-4.png)
+
 ---
 
 
@@ -338,7 +340,4 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 4](/images/hire-product-designer-img-4.png)
 

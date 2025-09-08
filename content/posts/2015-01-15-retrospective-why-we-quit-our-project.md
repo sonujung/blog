@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/retrospective-why-we-quit-our-project-img-6.png"
 ---
 
 > ⚠️ 이 글은 2014년 6월 15일 작성된 프로젝트 회고글을 옮긴 것입니다.
@@ -177,6 +178,8 @@ excerpt: ""
 
 ![Image 5](/images/retrospective-why-we-quit-our-project-img-5.png)
 
+![Image 6](/images/retrospective-why-we-quit-our-project-img-6.png)
+
 
 물론 우리 모두 이 악물고 제품을 출시 할 수도 있었겠지만, 하나의 제품이 시장에서 성장 가능한 지점에 다다르기 까지의 시간이 결코 짧지 않다는 점을 고려하면 우리는 프로덕트 인큐베이터와 스타트업 중 하나의 아이덴티티를 선택해야만 한다.
 
@@ -203,15 +206,4 @@ excerpt: ""
 
 
 우리의 미션을 달성하기 위해 내린 선택이고 두근거림을 멈출수가 없다.
-
-
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 6](/images/retrospective-why-we-quit-our-project-img-6.png)
 

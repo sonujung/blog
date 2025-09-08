@@ -72,14 +72,19 @@ export async function addSubscriber(email: string, firstName?: string, lastName?
 
     const resend = getResendClient();
     
-    // 먼저 중복 체크
-    const existingSubscribers = await getSubscribers();
-    const existingSubscriber = existingSubscribers.find(sub => sub.email === email);
-    
-    console.log(`🔍 중복 체크 결과: 기존 구독자 ${existingSubscribers.length}명, 중복 여부: ${!!existingSubscriber}`);
-    
-    if (existingSubscriber && !existingSubscriber.unsubscribed) {
-      throw new Error('이미 구독 중인 이메일 주소입니다.');
+    // 먼저 중복 체크 (안전하게 처리)
+    try {
+      const existingSubscribers = await getSubscribers();
+      const existingSubscriber = existingSubscribers.find(sub => sub.email === email);
+      
+      console.log(`🔍 중복 체크 결과: 기존 구독자 ${existingSubscribers.length}명, 중복 여부: ${!!existingSubscriber}`);
+      
+      if (existingSubscriber && !existingSubscriber.unsubscribed) {
+        throw new Error('이미 구독 중인 이메일 주소입니다.');
+      }
+    } catch (duplicateCheckError) {
+      console.warn('⚠️ 중복 체크 실패, 구독자 추가를 시도합니다:', duplicateCheckError);
+      // 중복 체크 실패해도 구독자 추가는 시도함 (Resend API에서 중복 처리)
     }
 
     // Resend Audience에 추가
@@ -89,14 +94,33 @@ export async function addSubscriber(email: string, firstName?: string, lastName?
       email,
       firstName,
       lastName,
+      unsubscribed: false,
     });
 
     if (error) {
-      console.error('❌ 구독자 추가 오류:', error);
-      throw new Error('구독자 추가에 실패했습니다.');
+      console.error('❌ 구독자 추가 오류:', {
+        email,
+        audienceId: AUDIENCE_ID,
+        error,
+        errorType: typeof error,
+        errorMessage: (error as any)?.message || String(error)
+      });
+      
+      // 중복 에러인지 확인
+      const errorMsg = (error as any)?.message || String(error);
+      if (errorMsg.includes('already exists') || errorMsg.includes('duplicate')) {
+        throw new Error('이미 구독 중인 이메일 주소입니다.');
+      }
+      
+      throw new Error(`구독자 추가에 실패했습니다: ${errorMsg}`);
     }
 
-    console.log(`✅ 구독자 추가 성공:`, { email, id: data?.id });
+    console.log(`✅ 구독자 추가 성공:`, { 
+      email, 
+      id: data?.id,
+      audienceId: AUDIENCE_ID,
+      timestamp: new Date().toISOString()
+    });
     
     // Resend API 응답을 Subscriber 타입으로 변환
     if (data) {

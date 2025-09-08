@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/framerx-vs-protopie-img-1.png"
 ---
 
 
@@ -98,6 +99,8 @@ excerpt: ""
 
 ![Image 1](/images/framerx-vs-protopie-img-1.png)
 
+![Image 2](/images/framerx-vs-protopie-img-2.png)
+
 
 반면 프로토파이의 워크플로는 철저히 **디자이너의 사고 과정을 옮기는 것**에 초점이 맞춰져있다.
 
@@ -187,10 +190,6 @@ excerpt: ""
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/framerx-vs-protopie-img-2.png)
 

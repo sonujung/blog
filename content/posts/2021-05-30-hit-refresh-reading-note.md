@@ -112,6 +112,8 @@ MS의 놀라운 행보는 여기서 멈추지 않았다. 2015년 비주얼 스�
 
 ![Image 1](/images/hit-refresh-reading-note-img-1.jpeg)
 
+![Image 2](/images/hit-refresh-reading-note-img-2.jpeg)
+
 
 이 책이 바로 MS의 새로 고침 버튼이다.
 
@@ -210,10 +212,6 @@ MS의 놀라운 행보는 여기서 멈추지 않았다. 2015년 비주얼 스�
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/hit-refresh-reading-note-img-2.jpeg)
 

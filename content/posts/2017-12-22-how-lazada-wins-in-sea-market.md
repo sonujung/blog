@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/how-lazada-wins-in-sea-market-img-1.png"
 ---
 
 
@@ -133,6 +134,8 @@ Bittner는 업계가 당면한 가장 큰 과제는 판매량의 증대가 아�
 
 ![Image 4](/images/how-lazada-wins-in-sea-market-img-4.png)
 
+![Image 5](/images/how-lazada-wins-in-sea-market-img-5.png)
+
 
 ## 든든한 후원자
 
@@ -165,10 +168,6 @@ This is part of the coverage of  [Tech in Asia Jakarta 2017](This is part of the
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 5](/images/how-lazada-wins-in-sea-market-img-5.png)
 

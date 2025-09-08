@@ -102,6 +102,8 @@ coverImage: "/images/cover-think-stack.jpg"
 
 ![Image 5](/images/think-stack-img-5.png)
 
+![Image 6](/images/think-stack-img-6.png)
+
 
 ---
 
@@ -118,10 +120,4 @@ coverImage: "/images/cover-think-stack.jpg"
 그리고 도구 사용 방식도 예전과 달라진 점이 있는데, 원래는 스케쥴러 속지도 직접 디자인해서 쓸 만큼 포매팅을 중요하게 생각해서, 제품을 사용할 때도 제공하는 거의 모든 피쳐를 활용해 용도와 목적에 완전히 핏한 양식을 만들었다면 최근에는 가능한 단순한 포맷으로 유연성을 더 중시하게 되었다. 확장성을 고려하지 않고 지나치게 추상화해 버리면 작은 변경에도 대공사가 필요하다는 사실을 몇 차례 경험으로 배웠기 때문인 듯싶다.
 
 
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 6](/images/think-stack-img-6.png)
 

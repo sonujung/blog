@@ -102,6 +102,8 @@ SaaS가 기업 시장에 침투할 수 있었던 또 다른 원인 중 하나는
 
 ![Image 1](/images/the-consumerization-of-enterprise-software-img-1.png)
 
+![Image 2](/images/the-consumerization-of-enterprise-software-img-2.png)
+
 
 Ben Thompson은 그의 블로그 Stratechery에서 [Jira의 사례](https://stratechery.com/2016/chat-and-the-consumerization-of-it/)를 예로 들었다.
 
@@ -188,10 +190,4 @@ P.S.
 2016년 [SaaS에 대한 글](https://sonujung.com/b2b-software-business-post-2015)을 적을 때 까지만 해도 국내에 SaaS 기업이 많지 않았던데다 많은 사람들이 시장 전망에 대해 비관적이었던 것을 생각해보면 최근 빠르게 커지는 국내 SaaS 생태계가 얼마나 반가운지 모른다.
 
 
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/the-consumerization-of-enterprise-software-img-2.png)
 

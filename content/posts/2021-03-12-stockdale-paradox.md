@@ -119,14 +119,4 @@ coverImage: "/images/cover-stockdale-paradox.jpg"
 
 만약 지금 몸담은 조직과 당신이 중시하는 핵심 가치가 일치한다면, 회사에서 마주할 어려움을 다루는게 좀 다 쉬워지지 않을까?
 
-
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
 ![Image 1](/images/stockdale-paradox-img-1.png)
-

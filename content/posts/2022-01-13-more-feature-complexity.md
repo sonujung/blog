@@ -34,6 +34,8 @@ coverImage: "/images/cover-more-feature-complexity.jpg"
 
 ![Image 1](/images/more-feature-complexity-img-1.png)
 
+![Image 2](/images/more-feature-complexity-img-2.png)
+
 
 하지만 이미 현 세대의 프로덕트와 기술들은 복잡성 문제를 해결할 수 있는 다양한 솔루션을 제시하고 있습니다. 
 
@@ -56,10 +58,4 @@ coverImage: "/images/cover-more-feature-complexity.jpg"
 좁은 범위의 문제에 집중해 심플한 해법을 제공하는 제품도, 개인화된 다양한 니즈를 해결하기 다기능 제품도 그저 고객과 시장을 공략하기 위한 전략일 뿐 좋고 나쁨의 문제로 볼 수는 없지 않을까요?
 
 
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/more-feature-complexity-img-2.png)
 

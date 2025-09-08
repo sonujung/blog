@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/kpcb-designin-tech-report-2016-img-1.png"
 ---
 
 
@@ -1199,6 +1200,9 @@ Vannevar Bush, 1945 at MIT
 
 ![Image 50](/images/kpcb-designin-tech-report-2016-img-50.png)
 
+이제 기술 영역에서의 디자인을 살펴보겠습니다.
+
+![Image 51](/images/kpcb-designin-tech-report-2016-img-51.png)
 
 ### **컴퓨테이셔널 디자인 (기술 영역)**
 
@@ -1216,10 +1220,4 @@ Vannevar Bush, 1945 at MIT
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 51](/images/kpcb-designin-tech-report-2016-img-51.png)
 

@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/political-correctness-in-product-img-1.png"
 ---
 
 
@@ -84,6 +85,8 @@ excerpt: ""
 
 ![Image 2](/images/political-correctness-in-product-img-2.png)
 
+![Image 3](/images/political-correctness-in-product-img-3.png)
+
 
 하루에 디지털 프로덕트를 사용하는 시간이 얼마나 될까?
 
@@ -116,13 +119,4 @@ excerpt: ""
 - 여성의 신체를 남성을 위한 도구처럼 표현하여 물의를 빚은 미미박스의 광고 이미지
 > 사회는 빠르게 변하고 있다. 그것들을 따라잡기 위해서는 한시도 긴장을 놓을 수 없는 현실이다. 만약 당신이 그 빠른 변화에 기여하고 싶은 사람이라면 눈앞의 커다란 기회와 함께 따라오는 책임에 대해서도 함께 고민해야만 하지 않을까?
 
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 3](/images/political-correctness-in-product-img-3.png)
 

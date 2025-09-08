@@ -86,6 +86,8 @@ coverImage: "/images/cover-2021-interim-findings.jpg"
 
 ![Image 1](/images/2021-interim-findings-img-1.png)
 
+![Image 2](/images/2021-interim-findings-img-2.png)
+
 ### 🛑 6월
 
 - **6월 28일** - [프로덕트 디자인 in 스타트업](https://sonujung.com/product-design-in-startup)
@@ -153,7 +155,4 @@ coverImage: "/images/cover-2021-interim-findings.jpg"
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 2](/images/2021-interim-findings-img-2.png)
 

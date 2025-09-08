@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/hire-sixhop-designers-img-1.png"
 ---
 
 
@@ -425,6 +426,8 @@ Glass Half Full 마인드셋
 
 ![Image 9](/images/hire-sixhop-designers-img-9.png)
 
+![Image 10](/images/hire-sixhop-designers-img-10.png)
+
 - 일에서 추구하는 가치는 무엇인가요? (길이 제한 없음)
 - 식스샵의 프로덕트 디자이너 포지션에 지원하신 이유가 무엇인가요?  (길이 제한 없음)
 - 본인의 역량이 식스샵에 본인의 역량이 식스샵에 어떤 도움을 줄 수 있을 것이라고 생각하시나요? (길이 제한 없음)
@@ -464,10 +467,6 @@ Glass Half Full 마인드셋
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 10](/images/hire-sixhop-designers-img-10.png)
 

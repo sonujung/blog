@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/review-naver-renewal-img-1.png"
 ---
 
 
@@ -120,6 +121,8 @@ excerpt: ""
 
 ![Image 3](/images/review-naver-renewal-img-3.png)
 
+![Image 4](/images/review-naver-renewal-img-4.png)
+
 
 ### 4. 개별 콘텐츠 영역의 독립성 강화
 
@@ -151,13 +154,4 @@ excerpt: ""
 하여튼 스마트폰 한쪽 구석에 처박혀 있던 네이버 아이콘이 첫 화면에 떡하니 자리 잡게 되었으니 자주 열어보게 될 것 같다.
 
 
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 4](/images/review-naver-renewal-img-4.png)
 

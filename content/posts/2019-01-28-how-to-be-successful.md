@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/how-to-be-successful-img-1.png"
 ---
 
 > 이 글은 Y-Combinator의 샘 알트만이 2019년 1월 25일 작성한 글을 번역한 내용이며 원문은 [http://blog.samaltman.com/how-to-be-successful](http://blog.samaltman.com/how-to-be-successful) 에서 확인할 수 있습니다.
@@ -345,11 +346,4 @@ excerpt: ""
 
 ---
 
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
 ![Image 1](/images/how-to-be-successful-img-1.png)
-

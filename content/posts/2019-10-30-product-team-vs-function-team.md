@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/product-team-vs-function-team-img-1.png"
 ---
 
 > 이 글은 국내에서도 잘 알려진 제품 관리자를 위한 서적 인스파이어드의 저자 마티 케이건이 SVPG 웹사이트에 게재한 글 [Product Team VS Feture Team을](https://svpg.com/product-vs-feature-teams/) 번역한 글입니다.
@@ -146,14 +147,4 @@ excerpt: ""
 
 요즘 들어 더더욱 많은 고민을 하게 만드는 '제품팀' 콘셉트에 대한 좋은 가이드가 되어준 글이라 이미 널리 알려진 글임에도 번역하여 공유합니다. 결국 진정한 의미의 '제품팀'이 만들어지는데 가장 필요한 것은 기업 리더들의 신뢰와 확신이라는 생각을 하는 요즘입니다.
 
-
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
 ![Image 1](/images/product-team-vs-function-team-img-1.png)
-

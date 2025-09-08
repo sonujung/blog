@@ -989,6 +989,8 @@ LA에 위치한 Downtown Dog Rescue의 창립자 Lori Weise는 유기견 문제�
 
 ![Image 5](/images/product-principles-of-sixshop-img-5.png)
 
+![Image 6](/images/product-principles-of-sixshop-img-6.png)
+
 
 그럼에도 불구하고 학습이 필요할 수 있습니다. 온보딩 과정에서의 적절한 가이드와 사용법을 위한 튜토리얼과 사용 매뉴얼 그리고 1:1 고객 상담과 포럼 등을 통해 고객이 알아야 하는 것들을 잘 전달합니다.
 
@@ -1175,10 +1177,4 @@ PG사와 계약하는 과정에서 팩스와 등기로 보내야만 하던 서�
 지금 출시하는 기능과 내일 출시할 기능이 함께 사용되었을 때 각각 사용되었을 때 보다 더 큰 가치를 만들어 낼 수 있도록 계획하고 고민해야 합니다.
 
 
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 6](/images/product-principles-of-sixshop-img-6.png)
 

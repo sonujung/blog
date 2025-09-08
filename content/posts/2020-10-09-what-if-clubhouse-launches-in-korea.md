@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/what-if-clubhouse-launches-in-korea-img-1.png"
 ---
 
 
@@ -491,6 +492,8 @@ excerpt: ""
 
 ![Image 7](/images/what-if-clubhouse-launches-in-korea-img-7.png)
 
+![Image 8](/images/what-if-clubhouse-launches-in-korea-img-8.png)
+
 
 ## 6-2. 상시 접근 가능한 컨텐츠 제공
 
@@ -549,14 +552,4 @@ excerpt: ""
 
 여러모로 이렇게 빠르게 성장하는 제품들을 볼 때마다 좋은 제품을 만드는 일이 참으로 어렵고 놀라운 일이라는 것을 느낀다.
 
-
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-
-
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 8](/images/what-if-clubhouse-launches-in-korea-img-8.png)
 

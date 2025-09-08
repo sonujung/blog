@@ -266,6 +266,8 @@ coverImage: "/images/cover-2021-retrospective-part2.jpg"
 
 ![Image 4](/images/2021-retrospective-part2-img-4.png)
 
+![Image 5](/images/2021-retrospective-part2-img-5.png)
+
 
 스타트업은 결핍을 상정하고 성장을 지향하는 조직이다. 애초에 시스템이 성장을 제때 따라가지 못하는 상황을 의도적으로 선택했다고 볼 수 있다. 그래서 국내건 실리콘밸리 건, 루키 스타트업이건 유니콘 스타트업이건 완숙 단계(Mature Phase)에 접어든 조직이 아닌 이상 조직의 시스템과 체계 변화로 구성원이 혼란을 겪는 상황은 어디에나 끝없이 발생하고 있었다. 
 
@@ -327,7 +329,4 @@ coverImage: "/images/cover-2021-retrospective-part2.jpg"
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 5](/images/2021-retrospective-part2-img-5.png)
 

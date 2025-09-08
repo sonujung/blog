@@ -5,6 +5,7 @@ updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/how-to-be-a-manager-time-boxing-img-1.png"
 ---
 
 
@@ -265,6 +266,8 @@ excerpt: ""
 
 ![Image 6](/images/how-to-be-a-manager-time-boxing-img-6.png)
 
+![Image 7](/images/how-to-be-a-manager-time-boxing-img-7.png)
+
 
 
 리클레임은 앞서 소개한 캘린더 활용을 더욱 편리하게 만들어주는 도구이다. 해야 할 일의 우선순위와 크기(range), 버퍼 등의 개념을 포함하고 있고 직접 일정을 변경 하는데 드는 노고를 줄여준다.
@@ -302,10 +305,6 @@ excerpt: ""
 ---
 
 
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
 
 
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
-
-![Image 7](/images/how-to-be-a-manager-time-boxing-img-7.png)
 

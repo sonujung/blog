@@ -121,8 +121,19 @@ export async function POST(request: NextRequest) {
       const subscriber = await addSubscriber(normalizedEmail);
       console.log('구독 이메일 발송 및 Audience 추가 성공:', { email: normalizedEmail, messageId: data?.id });
     } catch (apiError) {
-      console.warn('Resend Audience 추가 실패 (이메일은 발송됨):', apiError);
+      console.error('❌ Resend Audience 추가 실패 (이메일은 발송됨):', {
+        email: normalizedEmail,
+        error: apiError,
+        errorMessage: (apiError as any)?.message || String(apiError),
+        timestamp: new Date().toISOString()
+      });
       // Audience 추가 실패해도 이메일은 발송되었으므로 성공으로 처리
+      // 하지만 사용자에게는 부분적 실패임을 알림
+      return NextResponse.json({
+        message: '이메일 발송은 완료되었지만, 구독자 목록 추가에 문제가 있었습니다. 고객센터에 문의해주세요.',
+        success: true,
+        warning: '부분적 성공'
+      });
     }
 
     return NextResponse.json({

@@ -1,10 +1,11 @@
 ---
-title: "Luke Jones ‘시각적인 보정’을 읽고 든 생각."
+title: "Luke Jones '시각적인 보정'을 읽고 든 생각."
 publishedAt: "2015-12-31"
 updatedAt: "2025-08-22"
 author: "Sonu"
 tags: ["일하는 삶"]
 excerpt: ""
+coverImage: "/images/critique-about-optical-adjustment-by-luke-jones-img-1.svg"
 ---
 
 
@@ -229,9 +230,4 @@ UX디자이너, UI디자이너, 인터랙션 디자이너 등으로 불리는 �
 
 그리고 더 나아가서 변화에 걸맞은 새로운 시스템을 만드는 일에 적극적으로 앞장서는 것이야 말로 디자이너의 역할을 대체불가한 것으로 만들어 주리라 생각한다.
 
-
----
-
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁
 
