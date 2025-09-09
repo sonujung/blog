@@ -18,7 +18,7 @@
 
 ### 백엔드 & API
 - **API Routes**: Next.js 서버리스 함수
-- **콘텐츠 소스**: Notion API
+- **콘텐츠 소스**: 정적 마크다운 파일
 - **데이터 캐싱**: Next.js ISR (Incremental Static Regeneration)
 - **이미지 최적화**: Vercel Image Optimization
 
@@ -92,7 +92,7 @@
 │   │   └── search/
 │   │       └── SearchBox.tsx   # 깔끔한 검색창
 │   ├── lib/
-│   │   ├── notion.ts           # Notion API 클라이언트
+│   │   ├── markdown.ts         # 마크다운 파일 처리
 │   │   ├── blog.ts             # 블로그 데이터 로직
 │   │   ├── search.ts           # 검색 로직
 │   │   ├── rss.ts              # RSS 생성
@@ -100,7 +100,7 @@
 │   │   └── utils.ts            # 유틸리티
 │   ├── types/
 │   │   ├── blog.ts             # 블로그 타입 정의
-│   │   └── notion.ts           # Notion API 타입
+│   │   └── blog.ts             # 블로그 콘텐츠 타입
 │   └── styles/
 │       ├── globals.css         # Pretendard 폰트 import
 │       └── components.css      # 미니멀 커스텀 스타일
@@ -112,8 +112,7 @@
 │   └── sitemap.xml
 ├── scripts/
 │   ├── migrate-hashnode.ts     # Hashnode 마이그레이션
-│   ├── hashnode-to-notion.ts   # Hashnode → Notion 이전
-│   └── setup-notion.ts         # Notion 데이터베이스 설정
+│   └── notify-new-post.ts      # 새 포스트 알림 스크립트
 ├── docs/                       # 프로젝트 문서
 ├── .env.local                  # 환경 변수
 ├── next.config.js

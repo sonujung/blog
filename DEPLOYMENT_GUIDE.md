@@ -10,10 +10,6 @@
 ### 1. 환경 변수 설정 ✅
 현재 `.env.local`에 설정된 항목들:
 ```bash
-# Notion API (콘텐츠 동기화용)
-NOTION_TOKEN=✅ 설정됨
-NOTION_DATABASE_ID=✅ 설정됨
-
 # Resend 이메일 서비스  
 RESEND_API_KEY=⚠️ 실제 키 필요
 
@@ -32,8 +28,9 @@ NEXT_PUBLIC_GISCUS_CATEGORY_ID=✅ 설정됨
 ```bash
 # Vercel CLI로 환경 변수 추가
 vercel env add RESEND_API_KEY
-vercel env add NOTION_TOKEN
-vercel env add NOTION_DATABASE_ID
+vercel env add NOTIFICATION_API_KEY
+vercel env add NEXT_PUBLIC_ADMIN_PASSWORD
+vercel env add NEXT_PUBLIC_SITE_URL
 
 # 또는 Vercel 대시보드에서 직접 설정
 ```
@@ -107,7 +104,7 @@ Google Tag Manager 설정
 cp -r content/posts/ backup/posts-$(date +%Y%m%d)/
 
 # Notion 데이터베이스 백업 (스크립트 실행)
-npm run sync:notion
+npm run notify-post
 ```
 
 ### GitHub 백업
@@ -119,7 +116,7 @@ npm run sync:notion
 ```bash
 # 1. Notion에서 포스트 작성
 # 2. 로컬에서 동기화
-npm run sync:notion
+npm run notify-post
 
 # 3. 확인 후 배포
 git add content/posts/

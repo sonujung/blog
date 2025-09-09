@@ -20,7 +20,7 @@
 - [x] **이메일 구독**: Resend API 연동, 환영 이메일 자동 발송
 - [x] **댓글 시스템**: Giscus (GitHub 기반)
 - [x] **SEO 최적화**: 메타데이터, 사이트맵, RSS 피드
-- [x] **반자동 워크플로우**: `npm run sync:notion` 명령어로 Notion → 마크다운 동기화
+- [x] **마크다운 기반 워크플로우**: 직접 마크다운 파일 편집 및 관리
 
 ### 개발 환경 및 배포
 - [x] **개발 환경**: 로컬 개발 서버 완벽 작동 (http://localhost:3003)
@@ -71,7 +71,7 @@ blog/
 ├── src/app/                    # Next.js App Router
 ├── content/posts/              # 68개 마크다운 포스트 파일
 ├── content/images/             # 로컬 이미지 파일들
-├── scripts/notion-to-markdown.ts  # Notion 동기화 스크립트
+├── scripts/notify-new-post.ts     # 포스트 알림 스크립트
 ├── RESEND_SETUP.md            # 이메일 설정 가이드
 ├── MIGRATION_LOG.md           # 마이그레이션 전체 기록
 └── DEPLOYMENT_GUIDE.md        # 배포 가이드
@@ -80,8 +80,6 @@ blog/
 ### 환경 변수 (.env.local)
 ```bash
 # Notion API (동기화용)
-NOTION_TOKEN=설정됨
-NOTION_DATABASE_ID=설정됨
 
 # Resend 이메일 (실제 키 필요)
 RESEND_API_KEY=your_resend_api_key_here
@@ -100,7 +98,7 @@ NEXT_PUBLIC_GISCUS_CATEGORY_ID=설정됨
 ```bash
 npm run dev          # 개발 서버 (현재 port 3003에서 실행 중)
 npm run build        # 프로덕션 빌드
-npm run sync:notion  # Notion → 마크다운 동기화
+npm run notify-post  # 새 포스트 알림 발송
 ```
 
 ## 🚀 다음 세션 작업 계획

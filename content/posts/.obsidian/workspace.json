@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "19e6e3c871e487dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c92089b4b46c20f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac70320098462054",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2018-08-11-political-correctness-in-product.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2018-08-11-political-correctness-in-product"
+            }
+          },
+          {
+            "id": "d3908835d552e87c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2015-12-31-critique-about-optical-adjustment-by-luke-jones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2015-12-31-critique-about-optical-adjustment-by-luke-jones"
+            }
+          },
+          {
+            "id": "3aecd8e713590957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-09-02-minimum-lovavle-with-kano-model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-02-minimum-lovavle-with-kano-model"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79f46f0b0d2b3f76",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2d238887db4ae07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85a220d56e0299a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "008243a1218c849c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e1e1e3c2e2ba3a7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5e1e9d726f99f6af",
+    "type": "split",
+    "children": [
+      {
+        "id": "b92c677336c7d396",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a2f2ff47fb7e546",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2016-02-03-workflowy-for-designer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2016-02-03-workflowy-for-designer 의 백링크"
+            }
+          },
+          {
+            "id": "7885d33950be77b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2016-02-03-workflowy-for-designer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2016-02-03-workflowy-for-designer 의 나가는 링크"
+            }
+          },
+          {
+            "id": "3345863c790723f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "6d45269772aabc84",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2016-02-03-workflowy-for-designer.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2016-02-03-workflowy-for-designer 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "3aecd8e713590957",
+  "lastOpenFiles": [
+    "2015-01-15-retrospective-why-we-quit-our-project.md",
+    "2019-10-29-why-startups-need-to-focus-on-sales-not-marketing.md",
+    "2020-02-10-brandless-simple-pricing-policy-could-be-toxic.md",
+    "2020-10-09-what-if-clubhouse-launches-in-korea.md",
+    "2020-03-02-how-remote-work-works.md",
+    "2018-11-20-why-vision-fund-invests-to-coupang.md",
+    "2018-08-11-political-correctness-in-product.md",
+    "2016-12-03-the-earth-is-your-canvas.md",
+    "2016-04-13-kpcb-designin-tech-report-2016.md",
+    "2015-01-15-thoughts-about-design-agency.md",
+    "2021-03-19-product-judgment-article.md",
+    "2018-09-12-review-naver-renewal.md",
+    "2021-04-15-today-i-learned-2021-04.md",
+    "2017-12-22-how-lazada-wins-in-sea-market.md",
+    "2019-01-28-how-to-be-successful.md",
+    "2016-02-03-workflowy-for-designer.md",
+    "2021-02-08-julie-zhuo-product-thinking.md",
+    "2024-04-28-adieu-sixshop.md",
+    "2024-03-27-2023-03-27-one-more-step-by-yoonsang-deleted.md",
+    "2024-03-25-20240326-frank-sinatra-sings-for-only-the-lonely-deleted.md",
+    "2023-03-19-delegation-of-authority.md",
+    "2016-03-03-b2b-software-business-post-2015.md",
+    "2016-01-07-just-a-korean-webdesigner.md",
+    "images/critique-about-optical-adjustment-by-luke-jones-img-1.svg",
+    "images/15mW2f96t.png",
+    "images/eYxIAUnD4.png",
+    "images/5lobbMziV.png",
+    "images/Z_cTdCyMX.png",
+    "images/dO9NSYQzm.png",
+    "images/Njh2ob1p_.png",
+    "images/hq-pnZac_.png",
+    "images/hnt4rkliY.png",
+    "images/yZXErQztk.png",
+    "2024-03-29-20240328-beethoven-moonlight-deleted.md",
+    "2024-03-31-20240330-deleted.md",
+    "2015-12-31-critique-about-optical-adjustment-by-luke-jones.md",
+    "attachments/unused",
+    "attachments"
+  ]
+}

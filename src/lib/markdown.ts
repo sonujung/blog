@@ -25,16 +25,24 @@ export async function getAllPosts(): Promise<BlogPost[]> {
       // gray-matter로 frontmatter와 내용 파싱
       const { data, content } = matter(fileContents);
 
+      // 이미지 경로를 상대경로에서 절대경로로 변환 (images/ → /images/)
+      const processedContent = content.replace(/!\[([^\]]*)\]\(images\//g, '![$1](/images/');
+      
+      // coverImage 경로도 변환
+      const processedCoverImage = data.coverImage?.startsWith('images/') 
+        ? `/${data.coverImage}` 
+        : data.coverImage;
+
       return {
         id: slug,
         slug,
         title: data.title || fileName.replace(/\.md$/, ''),
         excerpt: data.excerpt || data.description || '',
-        content,
+        content: processedContent,
         publishedAt: data.publishedAt || data.date || new Date().toISOString().split('T')[0],
         updatedAt: data.updatedAt || data.publishedAt || data.date || new Date().toISOString().split('T')[0],
         tags: data.tags || [],
-        coverImage: data.coverImage,
+        coverImage: processedCoverImage,
         author: {
           name: data.author || 'Sonu Jung'
         },

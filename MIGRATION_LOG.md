@@ -77,7 +77,7 @@
 - **안정성**: API 장애 위험 완전 제거
 
 ### 개발 경험 개선
-- **콘텐츠 관리**: Notion에서 글쓰기 → `npm run sync:notion` → Git 커밋
+- **콘텐츠 관리**: 마크다운 파일 직접 편집 → Git 커밋
 - **개발 속도**: 정적 파일 기반으로 개발 서버 빠른 시작
 - **디버깅**: API 의존성 없어 로컬 개발 환경 안정화
 
@@ -105,13 +105,13 @@
 
 ### 새 포스트 발행
 1. Notion에서 포스트 작성
-2. `npm run sync:notion` 실행
+2. 마크다운 파일 편집
 3. `git add content/posts/ && git commit -m "새 포스트"`
 4. `git push origin main` (Vercel 자동 배포)
 
 ### 기존 포스트 수정
 1. Notion에서 수정
-2. `npm run sync:notion` 실행
+2. 마크다운 파일 편집
 3. Git 커밋 및 푸시
 
 ### 직접 편집

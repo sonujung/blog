@@ -1,10 +1,9 @@
 ---
-title: "MLP와 카노모델"
-publishedAt: "2025-09-02"
-updatedAt: "2025-09-02"
-author: "Sonu Jung"
-tags: ["일하는 삶"]
-excerpt: ""
+title: MLP와 카노모델
+publishedAt: '2025-09-02'
+updatedAt: '2025-09-02'
+author: Sonu Jung
+excerpt: ''
 ---
 
 

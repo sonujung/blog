@@ -1,379 +1,197 @@
 ---
-title: "b2b 프로덕트가 제대로 망하는 과정"
-publishedAt: "2021-03-29"
-updatedAt: "2025-08-22"
-author: "Sonu"
-tags: ["일하는 삶"]
-excerpt: ""
-coverImage: "/images/cover-how-the-b2b-product-destined-to-fail.jpg"
+title: b2b 프로덕트가 제대로 망하는 과정
+excerpt: >-
+  스트라이프의 프로덕트 매니저 Shreyas Doshi가 게재한 트위터 스레드를 번역하였습니다. 오리지널 아티클 B2B Product
+  Management Story 을 Shaun Miller의 일러스트레이션과 함께 스레드로 보여주는게 생각보다 잘 읽히네요. B2B 프로덕트
+  매니지먼트 스토리: 고객이 진짜로 관심 두는 문제 발견하기 우리의 이야기는 새로운...
+publishedAt: '2021-03-29'
+updatedAt: '2024-03-18'
 ---
-
+![Cover Image](images/G0s_FHluH.png)
 
 스트라이프의 프로덕트 매니저 [Shreyas Doshi](https://twitter.com/shreyas)가 게재한 [트위터 스레드](https://twitter.com/shreyas/status/1376033615029538828)를 번역하였습니다. 오리지널 아티클 [B2B Product Management Story](https://www.reckontalk.com/b2b-product-management-story/) 을  [Shaun Miller](https://twitter.com/shaunemiller)의 일러스트레이션과 함께 스레드로 보여주는게 생각보다 잘 읽히네요.
-
 
 # B2B 프로덕트 매니지먼트 스토리: 고객이 진짜로 관심 두는 문제 발견하기
 
 
-
-
-
-![Image 1](/images/how-the-b2b-product-destined-to-fail-img-1.png)
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023541997/N6BifEN-8.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023619053/KE9V3Scyp.png)
 우리의 이야기는 새로운 제품 아이디어에서부터 시작합니다.
-
 
 PM은 이 제품이 고객의 문제를 해결할 수 있을지 부지런히 대화합니다.
 
-
 -----
 
-![Image 2](/images/how-the-b2b-product-destined-to-fail-img-2.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023654529/d1IHEICaf.png)
 고객이 그렇다고 하네요!
 
-
 -----
 
-![Image 3](/images/how-the-b2b-product-destined-to-fail-img-3.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023675942/QPlOSXhFo.png)
 PM은 이 결과를 경영진에게 보고합니다. 흥분은 고조되고 사람들이 프로젝트에 참여하기 시작합니다.
 
-
 -----
 
-![Image 4](/images/how-the-b2b-product-destined-to-fail-img-4.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023802120/bq9lCKwbV.png)
 첫 버전이 출시됩니다.
 
-
 -----
 
-
-
-![Image 5](/images/how-the-b2b-product-destined-to-fail-img-5.png)
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023817415/qfc_Rg_Di.png)
 사람들이 거의 관심 두지 않습니다.
 
-
 -----
-
 
 제품 리뷰에서 PM은 긍정 신호에 집중합니다.
 
-![Image 6](/images/how-the-b2b-product-destined-to-fail-img-6.png)
-
-
 "이것이 우리가 배운 내용입니다."
-
 
 학습에는 일반적으로 다음이 포함됩니다.
 
-
 "MVP만으로는 충분하지 않습니다. 고객의 고민을 제거하기 위해 우리는 X, Y, Z 기능을 추가해야 합니다."
-
 
 -----
 
-![Image 7](/images/how-the-b2b-product-destined-to-fail-img-7.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024012768/GIEnkNega.png)
 PM은 팀이 해당 기능을 구축하도록 요청합니다.
-
 
 "6개월이 필요합니다."
 
-
 -----
 
-![Image 8](/images/how-the-b2b-product-destined-to-fail-img-8.png)
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024054988/5_LOAyCE7.png)
 > 6개월이 흘렀다.
 
 -----
 
-
-
-
-
-![Image 9](/images/how-the-b2b-product-destined-to-fail-img-9.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024099613/o8EucUWtS.png)
 2.0 버전 출시.
 
-
 -----
 
-
-
-
-
-![Image 10](/images/how-the-b2b-product-destined-to-fail-img-10.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024122907/ARlOtFA5k.png)
 고객의 관심은 여전히 깜깜무소식
 
-
 -----
 
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024157380/kq6BunoVu.png)
 제품 리뷰에서 영업과 마케팅이 참여하기 시작합니다.
-
-![Image 11](/images/how-the-b2b-product-destined-to-fail-img-11.png)
-
 
 PM은 "우리는 고객에게 필요한 제품을 만들었습니다. Go-To-Market 전략만 가다듬으면 됩니다."
 
-
 -----
 
-
-
-
-
-
-
-![Image 12](/images/how-the-b2b-product-destined-to-fail-img-12.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024216889/A2o5I3YXt.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024613666/qDfRPqvwo.png)
 
 이제 돌이킬 수 없습니다. 못 먹어도 고!
 
-
 경영진과 PM은 골똘히 머리를 맞대고 가격 인하, 교차 판매, 번들, 이메일 캠페인, 영업 팀 재구성 등 제품을 더 잘 판매할 방법에 대해 논의합니다.
-
 
 뭔가 이것저것 바뀝니다.
 
-
 -----
 
-
-
-![Image 13](/images/how-the-b2b-product-destined-to-fail-img-13.png)
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024633003/bUvwh_KpN.png)
 
 여전히 고객은 반응하지 않습니다.
 
-
 -----
 
-
-
-
-
-![Image 14](/images/how-the-b2b-product-destined-to-fail-img-14.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024651154/PJTZaBEep.png)
 원래 있던 PM은 팀을 떠났고, 새로운 PM이 합류했습니다.
 
-
 그는 합류 후 90일간의 고객 청취 투어로 몇 가지 추가 개선 사항을 파악하고.
-
-
 이를 포함한 수정된 계획을 경영진에게 제안, 권한을 얻습니다.
 
-
 -----
 
-
-
-![Image 15](/images/how-the-b2b-product-destined-to-fail-img-15.png)
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025095286/UYJdEmuwO.png)
 이제 무엇을 할까요? 몇 칸 앞쪽으로 돌아가서 다시 프로세스를 여러 차례 반복합니다.
 
-
 -----
 
-
-
-
-
-![Image 16](/images/how-the-b2b-product-destined-to-fail-img-16.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025142435/HikOQOB98.png)
 몇 번의 개선 이후에도 계속해서 성장의 기미가 보이지 않습니다.
-
 
 그래서 결국...
 
-
 -----
 
-
-
-
-
-![Image 17](/images/how-the-b2b-product-destined-to-fail-img-17.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025172823/9DipdSskg.png)
 경영진은 제품을 보내주기로 합니다.
-
 
 학습한 내용을 수집하여 조직에 광범위하게 공유하며 이렇게 말합니다.
 
-
 "우리는 실패하지 않았고 배웠습니다."
-
 
 물론 그 어디쯤 에디슨의 말이 인용됩니다. "천재는 99번..."
 
-
 -----
 
-![Image 18](/images/how-the-b2b-product-destined-to-fail-img-18.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025253692/YodOLWNVM.png)
 대체 무슨 일이 벌어진 걸까요?
-
 
 이 여정의 실패 원인에는 여러가지 그럴듯한 시나리오가 있지만.
 
-
 가장 중요한 포인트는 아래와 같습니다.
-
 
 (A) 이 제품은 애초에 만들어지지 말았어야 했습니다.
 
-![Image 19](/images/how-the-b2b-product-destined-to-fail-img-19.png)
-
-
 (B) 제품의 잘못된 결정이 피벗 과정에서도 줄곧 상속되었다.
-
 
 -----
 
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025541075/q-NZlUPGq.png)
 
 제품은 a라는 문제를 해결했습니다. 하지만 사실 그건 해결해야 할 문제가 아니었습니다.
 
-![Image 20](/images/how-the-b2b-product-destined-to-fail-img-20.png)
-
-
 -----
 
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025596633/4v18BfLAa.png)
 제품팀은 사분면의 우상단을 향해 달려갑니다.
 
-
 -----
 
-![Image 21](/images/how-the-b2b-product-destined-to-fail-img-21.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025662932/wEZnBakvz.png)
 그러나 위 모델은 모든 문제의 중요성이 동일하게 중요하다는 전제에서나 말이 됩니다. 실제로는 훨씬 복잡한 퍼즐을 풀어가야 하는 일이 다반사입니다.
 
-
 -----
 
-
-
-
-
-![Image 22](/images/how-the-b2b-product-destined-to-fail-img-22.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025732111/CEsFR-zhy.png)
 우리는 '가장 중요한 문제'를 '매우 잘 해결'해야 합니다.
 
-
 -----
 
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025783599/r9aFGYmRI.png)
 Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 없습니다."라고 말합니다.
-
 
 이것이 허상 쫓기(Focusing Illusion)입니다.
 
-![Image 23](/images/how-the-b2b-product-destined-to-fail-img-23.png)
-
-
 -----
 
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025911425/JAKi4-UEM.png)
 이를 비즈니스에 대입하면:
-
-
 "당신이 얘기하는 것만큼 중요한 일(Silver-bullet)은 비즈니스에서 실재하지 않습니다."
 
-![Image 24](/images/how-the-b2b-product-destined-to-fail-img-24.png)
-
-
 -----
 
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617027551980/ibe1HCEI2.png)
 고객에게 어떤 문제에 대한 얘기를 꺼내면 그들은 그것을 제외한 문제들은 머릿속에 지우고 당신이 꺼내든 문제에만 집중합니다. 이러한 집중은 기울어진 관심으로 인해 문제 해결을 어렵게 만듭니다.
 
-
 -----
 
-
-
-![Image 25](/images/how-the-b2b-product-destined-to-fail-img-25.png)
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617027661780/b2TVni8dz.png)
 이럴 때 추천하는 방법이 있습니다. 그것은 CPSR(Customer Problems Stack Rank).
 
-
 고객을 위해 해결하고자 하는 여러 문제를 보여주고 중요한 순서대로 나열하도록 합니다.
-
-
 또한 그와 유사한 환경에서 일하는 다른 페르소나로부터 CPSR을 전달받습니다.
-
 
 이제 조금 더 진실에 가까워졌습니다.
 
-
 -----
 
-![Image 26](/images/how-the-b2b-product-destined-to-fail-img-26.png)
-
-
-
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617027799907/Uu6Q5jBwk.png)
 당신이 PM 이건 제품 리더건 혹은 임원이건 관계없이 아래의 수칙을 기억하세요.
 
 - 허상 쫓기에 대해 이해한다.
@@ -383,41 +201,18 @@ Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 
 
 -----
 
-
-
-![Image 27](/images/how-the-b2b-product-destined-to-fail-img-27.png)
-
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617028070793/YhHUf7geeb.png)
 
 -----
 
-
 ## 더 보기
-
-
 1. 생각보다 많은 PM이 고객 인터뷰를 자신의 아이디어를 정당화하거나 임원을 설득하기 위한 용도로 사용합니다. 방심하지 마십쇼 당신도 모르게 같은 일을 하고 있을지도 모릅니다.
-
-
 2. 당신이 고객의 조직이 겪을 것이라고 예상하는 문제들을 나열하고 고객이 우선순위를 정하게 하는 CPRS는 생각보다 효과적으로 기업이 겪는 문제의 형태를 잘 드러냅니다.
-
-
 3. 우리 업계에서 PMF(Product-Market-Fit)을 찾으려고 노력하는 것은 합리적이고 꽤 고상한 노력처럼 다뤄집니다. 그게 몇 년이 걸린다 해도 잘못된 것은 아닙니다. 다만 그것만이 방법이라는 생각을 가질 필요는 없습니다.
-
-![Image 28](/images/how-the-b2b-product-destined-to-fail-img-28.png)
-
-결론적으로, 진정한 고객의 문제를 찾아내는 것이 성공적인 B2B 제품을 만드는 열쇠입니다.
-
-![Image 29](/images/how-the-b2b-product-destined-to-fail-img-29.png)
-
 4. 제품 관리자가 되는 것은 중요한 책임을 맡는다는 것입니다. 당신이 갖는 생각에 대해 엄격해야 하며 의도의 순수성을 유지하는 것이 엔지니어, 디자이너, 운영, 마케팅, 영업 등 집단의 수만 시간의 노력을 헛되이 하지 않는 방법입니다.
-
-
 5. 삶에서든 비즈니스에서건 한 방에 턱하고 문제를 해결해주는 솔루션은 없습니다. 그렇게 생각해도 언제든 허상을 좇게 되는 상황은 쉽게 마주할 수 있습니다. 그것이 허상인지 제대로 인지하려는 노력이 중요합니다.
-
 
 ---
 
-
-
-
-
+잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
+여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁

@@ -6,7 +6,7 @@
 
 - **뉴욕 스타일 에디토리얼 디자인**: 카드 없는 목록 형태의 미니멀한 레이아웃
 - **Pretendard 폰트**: 한글 최적화된 산세리프 타이포그래피
-- **반자동 Notion 워크플로우**: 노션에서 글쓰기 → 스크립트로 마크다운 변환 → Git 관리
+- **마크다운 기반 워크플로우**: 직접 마크다운 파일 편집 → Git 관리
 - **완전 정적**: API 의존성 제거로 빠른 로딩과 안정성 확보
 - **완전 무료**: Vercel 호스팅 + GitHub + 무료 서비스들만 사용
 
@@ -33,7 +33,7 @@
 - **Next.js 14** (App Router) + **TypeScript**
 - **Tailwind CSS** + **Pretendard Font**
 - **정적 마크다운 파일** (content/posts/)
-- **Notion API** (콘텐츠 동기화용)
+- **정적 마크다운 파일** (content/posts/)
 - **Resend** (이메일 구독 서비스)
 - **Vercel** (호스팅 + 이미지 최적화)
 - **Giscus** (GitHub 기반 댓글)
@@ -48,10 +48,6 @@ npm install
 ### 2. 환경 변수 설정
 `.env.local`에 다음 값들을 설정:
 ```bash
-# Notion API (콘텐츠 동기화용)
-NOTION_TOKEN=your_notion_integration_token
-NOTION_DATABASE_ID=your_notion_database_id
-
 # Resend 이메일 서비스
 RESEND_API_KEY=your_resend_api_key
 
@@ -73,20 +69,18 @@ npm run dev
 
 ## 🔄 콘텐츠 관리 워크플로우
 
-### Notion에서 새 포스트 작성 후 동기화
-```bash
-# Notion → 마크다운 파일 변환
-npm run sync:notion
+### 마크다운 파일 편집
+`content/posts/` 디렉토리에서 직접 마크다운 파일을 편집합니다.
 
-# 변경사항 커밋 및 배포
+```
+content/posts/2024-01-01-example-post.md
+```
+
+### 변경사항 배포
+```bash
 git add content/posts/
 git commit -m "새 포스트 추가"
 git push origin main
-```
-
-### 직접 마크다운 파일 편집
-```
-content/posts/2024-01-01-example-post.md
 ```
 
 ## 📧 이메일 구독 시스템
@@ -161,8 +155,9 @@ npx vercel --prod
 ### 환경 변수 설정
 ```bash
 vercel env add RESEND_API_KEY
-vercel env add NOTION_TOKEN
-vercel env add NOTION_DATABASE_ID
+vercel env add NOTIFICATION_API_KEY
+vercel env add NEXT_PUBLIC_ADMIN_PASSWORD
+vercel env add NEXT_PUBLIC_SITE_URL
 ```
 
 ### 커스텀 도메인 연결
@@ -187,8 +182,7 @@ blog/
 │   ├── posts/              # 마크다운 포스트 파일들
 │   └── images/             # 로컬 이미지 파일들
 ├── scripts/
-│   ├── notion-to-markdown.ts    # Notion 동기화 스크립트
-│   └── debug-notion-properties.ts
+│   └── notify-new-post.ts       # 포스트 알림 스크립트
 ├── RESEND_SETUP.md         # 이메일 설정 가이드
 └── package.json
 ```
@@ -214,7 +208,7 @@ blog/
 npm run dev          # 개발 서버 시작
 npm run build        # 프로덕션 빌드
 npm run start        # 프로덕션 서버 시작
-npm run sync:notion  # Notion → 마크다운 동기화
+npm run notify-post  # 새 포스트 알림 발송
 npm run lint         # ESLint 실행
 npm run typecheck    # TypeScript 체크
 ```
