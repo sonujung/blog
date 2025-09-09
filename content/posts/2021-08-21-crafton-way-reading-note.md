@@ -167,7 +167,3 @@ updatedAt: '2021-12-18'
 
 <iframe src="https://coupa.ng/b5O872" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
 > 위 링크는 쿠팡 파트너스를 통해 제공되는 크래프톤 웨이 구매 링크입니다. 위 링크를 통해 책을 구매할 경우 쿠팡이 저에게 일정액의 수수료를 지급합니다.
-
----
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요? 여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁

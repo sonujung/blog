@@ -120,6 +120,3 @@ Bittner는 앞으로의 경쟁구도가 어떻게 될 것 같냐는 질문에 �
 This is part of the coverage of  [Tech in Asia Jakarta 2017](This is part of the coverage of Tech in Asia Jakarta 2017, our conference that took place November 1 and 2.) , our conference that took place November 1 and 2.
 
 ---
-
-잘 읽으셨나요? 혹시 이 글이 도움이 되셨다면 아래 버튼을 눌러 커피 한 잔 어떠세요?
-여러분의 작은 후원이 창작자에게 큰 힘이 됩니다! 😁

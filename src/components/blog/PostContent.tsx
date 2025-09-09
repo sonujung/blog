@@ -107,25 +107,6 @@ export default function PostContent({ post }: PostContentProps) {
         <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mt-2 mb-4 leading-tight">
           {post.title}
         </h1>
-
-        {post.excerpt && (
-          <p className="text-lg text-gray-600 leading-relaxed">
-            {post.excerpt}
-          </p>
-        )}
-
-        {post.tags && post.tags.length > 0 && (
-          <div className="flex gap-2 mt-6">
-            {post.tags.map((tag, index) => (
-              <span
-                key={index}
-                className="text-xs text-gray-500 border border-gray-200 px-2 py-1 rounded"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
       </header>
 
       {/* Cover Image */}
@@ -195,6 +176,53 @@ export default function PostContent({ post }: PostContentProps) {
             ),
             hr: () => (
               <hr className="border-0 border-t border-gray-200 my-8" />
+            ),
+            ul: ({ children }) => (
+              <ul className="list-disc list-inside text-gray-700 mb-4 ml-4 space-y-1">
+                {children}
+              </ul>
+            ),
+            ol: ({ children }) => (
+              <ol className="list-decimal list-inside text-gray-700 mb-4 ml-4 space-y-1">
+                {children}
+              </ol>
+            ),
+            li: ({ children }) => (
+              <li className="text-gray-700 mb-1 leading-relaxed">
+                {children}
+              </li>
+            ),
+            table: ({ children }) => (
+              <div className="overflow-x-auto my-6">
+                <table className="min-w-full border border-gray-200 rounded-lg">
+                  {children}
+                </table>
+              </div>
+            ),
+            thead: ({ children }) => (
+              <thead className="bg-gray-50">
+                {children}
+              </thead>
+            ),
+            tbody: ({ children }) => (
+              <tbody className="bg-white divide-y divide-gray-200">
+                {children}
+              </tbody>
+            ),
+            tr: ({ children }) => (
+              <tr>
+                {children}
+              </tr>
+            ),
+            th: ({ children }) => (
+              <th className="px-4 py-2 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">
+                {children}
+              </th>
+            ),
+            td: ({ children }) => (
+              <td className="px-4 py-2 text-sm text-gray-700 border-b border-gray-200">
+                {children}
+              </td>
             ),
             img: ({ src, alt }) => {
               if (!src) return null;
