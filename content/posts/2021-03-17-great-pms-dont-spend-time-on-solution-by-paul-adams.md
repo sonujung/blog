@@ -29,15 +29,15 @@ Intercom이 지금껏 성장하는데 기여한 중요한 요소 중 하나는 '
 
 아래는 상당수의 회사가 따르는 매우 표준적인 제품 개발 프로세스입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615996809016/q745EbVDW.png)
+![image.png](images/q745EbVDW.png)
 
 만약 당신의 팀이 '폭포수 모델' 보다는 좀 더 '애자일'한 방식을 지향한다면 아래와 같은 모습일 겁니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615996906879/RRyttOzDC.png)
+![image.png](images/RRyttOzDC.png)
 
 그리고 이런 것들을 수행하겠죠.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615996923110/sx-C0MqcU.png)
+![image.png](images/sx-C0MqcU.png)
 
 아마도 당신 팀의 프로세스가 위의 모습과 완전히 일치하진 않을 수 있겠죠, 베타 출시 후 디자인 작업으로 돌아간다거나 말이죠. 하지만 이런 차이가 중요한 것은 아닙니다.
 
@@ -47,13 +47,13 @@ Intercom이 지금껏 성장하는데 기여한 중요한 요소 중 하나는 '
 
 대부분의 제품 팀들은 아래와 같지 않을까 싶습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615997262249/sbV5G_M-b.png)
+![image.png](images/sbV5G_M-b.png)
 
 문제의 우선순위를 정하기로 하고 문제를 정의한 다음에 디자인에 좀 더 많은 시간을 사용하고 그것을 구현하는데 가장 많은 시간을 할애하지 않나요?
 
 게다가 가끔은 이런 경우도 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615997409903/7Rdv8Ub1Q.png)
+![image.png](images/7Rdv8Ub1Q.png)
 
 이 모습은 상위의 포지션의 중요한 사람이 뭔가 아이디어를 갖거나 만들기를 원할 때의 모습입니다. 이 '엄청 중요한 아이디어'는 대체로 운전 중에 떠올랐거나, 샤워하다가, 혹은 그들의 이웃('그들 기준에 자신과 비슷한 보통 사람들')으로 부터 얻는 경우가 많죠.
 
@@ -65,7 +65,7 @@ Intercom이 지금껏 성장하는데 기여한 중요한 요소 중 하나는 '
 
 내가 페이스북에서 경험한 방식은 이렇습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615998227249/vXuOihQiN.png)
+![image.png](images/vXuOihQiN.png)
 
 구글에서의 경험보다는 나았지만, 페이스북에서는 아래의 두 가지가 특히 강조되었습니다.
 
@@ -77,7 +77,7 @@ Intercom이 지금껏 성장하는데 기여한 중요한 요소 중 하나는 '
 
 Intercom에서 우리가 시간을 활용하는 방식은 아래와 같습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615998985398/nmDzJWRY2.png)
+![image.png](images/nmDzJWRY2.png)
 
 100중 40은 디자인에 들어가기 전에 사용합니다. 우리는 문제의 우선순위와 제대로 된 문제 정의에 집착합니다. 저는 종종 우리가 해결하려는 문제를 정말 깊이 이해하고 있는지 확인하기 위해 동료들을 미치게 만들 때도 있습니다. 저는 PM들이 이제 막 고민하기 시작한 문제들을 공개적으로 공유하고 토론의 장에 내놓는 것을 좋아합니다.
 
@@ -92,7 +92,7 @@ Intercom에서는 이 문제 정의 과정을 정교하게 만들기 위해 큰 
 
 우리는 때때로 우리가 여전히 문제를 충분히 이해하지 못한다는 것을 깨닫고 그것을 확인하기 위해 베타 버전을 출시할 때도 있습니다. 아래처럼요.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615999588884/5qjwtdS2Y.png)
+![image.png](images/5qjwtdS2Y.png)
 
 
 그렇다면 왜 당신의 팀은 문제를 제대로 이해하기 위한 투자를 하지 않는 걸까요? 나는 여기에 세 가지 큰 이유가 있다고 생각합니다.

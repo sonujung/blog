@@ -13,7 +13,7 @@ updatedAt: '2024-03-18'
 
 > 소프트뱅크가 2015년 1조 투자에 이어 최근 2조가량의 금액을 쿠팡에 투자했다.소프트뱅크는 왜 3조나 되는 돈을 투자했을까? 또 이게 국내 이커머스 업계에 어떤 영향을 미칠까?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611508234564/URj2owi6o.png)
+![image.png](images/URj2owi6o.png)
 
 소프트뱅크 주도로 운영되는 비전 펀드에서 쿠팡에 2조 원을 추가 투자하기로 결정하면서 쿠팡이 10조 규모의 데카콘(10조 이상 규모의 스타트업을 일컫는 용어) 이커머스 기업이 되었다. (블룸버그 기사 보기 [https://bloom.bg/2Bmaxzy](https://bloom.bg/2Bmaxzy))
 

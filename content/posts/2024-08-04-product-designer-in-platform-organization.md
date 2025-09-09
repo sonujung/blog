@@ -104,7 +104,7 @@ PaaP는 위와 같은 플랫폼 조직의 특성을 전제로 실행의 관점�
 
 ### 디자인 시스템 (Design System):
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722749870335/0c27f649-88fe-48c4-ad6a-372fb8c5efd7.png align="center")
+![](images/0c27f649-88fe-48c4-ad6a-372fb8c5efd7.png)
 
 디자인 시스템은 '디자인 플랫폼'의 관점에서 내부 제품 팀에 제공되는 솔루션입니다. 이를 통해 제품 팀은 일관된 브랜드 이미지, 사용자 경험, 고객 메시지를 유지할 수 있으며, 제품 구현 과정에서의 소통 비용을 줄일 수 있습니다.
 
@@ -112,7 +112,7 @@ PaaP는 위와 같은 플랫폼 조직의 특성을 전제로 실행의 관점�
 
 ### 공통 서비스 (Common Services):
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722750505078/a9aa5621-99ca-438d-a626-41d982aa0340.png align="center")
+![](images/a9aa5621-99ca-438d-a626-41d982aa0340.png)
 
 플랫폼 조직 내 프로덕트 디자이너는 노티피케이션, 활동 로그, 댓글, 사용 권한, 시스템 설정, 캘린더, 파일 업로드 및 다운로드 등 여러 제품 영역에서 공통적으로 사용되는 시스템과 모듈을 설계합니다.
 
@@ -120,7 +120,7 @@ PaaP는 위와 같은 플랫폼 조직의 특성을 전제로 실행의 관점�
 
 ### 내부 도구 (Internal Tools):
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722751532147/9624d752-c36c-42d1-8308-83d1bc9e6c2e.png align="center")
+![](images/9624d752-c36c-42d1-8308-83d1bc9e6c2e.png)
 
 플랫폼 조직 내 프로덕트 디자이너는 기업 내 제품 팀뿐 아니라 운영, 경영지원 등 다양한 부서의 업무를 원활하게 할 수 있도록 돕는 내부 도구를 설계합니다.
 

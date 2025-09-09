@@ -10,7 +10,7 @@ updatedAt: '2024-03-18'
 전 페이스북 디자인 총괄이자 Inspirit을 공동 창업하여 여러 기업에 제품 관련 조언을 전하고 있는 Julie Zhuo의 트위터 스레드 글 중 재미난 내용이 있어 급히 번역하여 공유합니다.  [원본 스레드 보기](https://twitter.com/joulee/status/1357748477548089344?s=21)
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612797710176/zqjo1P60N.png)
+![image.png](images/zqjo1P60N.png)
 
 ### 훌륭한 디자이너는 제품 중심 사고에 능합니다.
 

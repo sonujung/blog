@@ -54,13 +54,13 @@ updatedAt: '2024-03-18'
 그리고 인간은 직업이 있기 아주 오래전부터 도구를 만들어왔다.
 > 도구를 사용하는 사람 - 'Homo Habilis' 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624729925645/4mmyfPiLg.png) 
+![image.png](images/4mmyfPiLg.png) 
 누군가 자연의 것을 가공하는 것으로 그들이 하려는 일을 더 잘하는 데 사용할 수 있다는 것을 깨달았다. 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624729940441/sD3l8k9w5t.png) 
+![image.png](images/sD3l8k9w5t.png) 
 그리고 그것을 더 편리하게 사용하기 위해 고민하고 개선하기 시작했다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624730023240/e_qM0aEtB.png) 
+![image.png](images/e_qM0aEtB.png) 
 또한 모두가 사용하는 도구에 차이를 가함으로써 집단 안에서, 혹은 여러 집단 사이에서 스스로를 차별화하거나 모두에게 동질감을 부여할 수 있다는 것 또한 알게 되었다. 
 
 그래서 자연스럽게 도구를 선택하는 과정에서 아래 두 가지는 매우 중요한 선택의 기준이 되었다.
@@ -77,13 +77,13 @@ updatedAt: '2024-03-18'
 ## 테크 업계의 잡타이틀
 아래 이미지를 보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624731997514/M92DjfJi9.png)
+![image.png](images/M92DjfJi9.png)
 
 일상생활에서 익히 접할 수 있는 직업이다. 의사는 병을 고치는 것을 업으로 하는 사람이고 전문 분야에 따라 의사란 단어 앞에 잡 타이틀이 붙는다. 귀나 코가 아프면 '이비인후과 의사'를 만나러 가고 눈이 아프면 '안과 의사'를 만나러 가면 된다. 헷갈릴 일이 잘 없다. 
 
 그렇다면 디자이너도 아래와 같이 구분하여 부를 수 있지 않을까? 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624732013883/ET5fp5ca0.png) 
+![image.png](images/ET5fp5ca0.png) 
 
 책을 디자인하면 북디자이너, 자동차를 디자인하면 자동차 디자이너. 정말 알기 쉽다. 마찬가지로 모바일 앱이나 웹 앱을 디자인하는 우리 같은 사람들은 소프트웨어 디자이너나 디지털 프로덕트 디자이너라고 부르면 딱일 것 같다. 
 
@@ -93,7 +93,7 @@ updatedAt: '2024-03-18'
 
 왜 그럴까? 디자이너 직함을 정하는 공식 기관이 있는 것도 아니고 누가 자꾸 이름을 바꿔서 우리를 혼란스럽게 하는걸까?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624733485583/pHeiCVqa1.png)
+![image.png](images/pHeiCVqa1.png)
 
 답은 심플하다. 
 > 기업이 정한다. 
@@ -119,7 +119,7 @@ updatedAt: '2024-03-18'
 
 아래 그림을 보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624736732228/LL50ggYVR.png)
+![image.png](images/LL50ggYVR.png)
 
 일반적인 국내 IT기업에서 제품을 만드는 조직의 구조를 간략히 그려본 그림이다.
 
@@ -133,7 +133,7 @@ updatedAt: '2024-03-18'
 
 이어서 다음 그림을 보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624737219079/r4dibBGLY.png) 
+![image.png](images/r4dibBGLY.png) 
 
 해외나 국내 스타트업에서 종종 볼 수 있는 팀 구조를 간략히 그린 도표이다. 
 - 뉴스피드 팀, 검색 팀, 채팅 팀 등이 페이스북이란 앱을 만들어가고 있다. 
@@ -210,12 +210,12 @@ Minimum Viable Product(최소 가능 제품)의 약자로 최소의 리소스로
 #### MVP 사례 #1 - 원티드
  [원티드](https://www.wanted.co.kr/)는 현재의 서비스를 런칭하기 전 [페이스북 페이지](https://www.facebook.com/wantedkr/posts/451654711652817)에 채용 공고를 올리고 [구글 폼](https://docs.google.com/forms/d/e/1FAIpQLSd00OdIQfJBX73YnBzxC7nYpyvBDUGN8Ws99hczNA_w03XiBQ/viewform?c=0&w=1)을 통해 주변의 좋은 인재를 추천한 사람에게 보상하는 방식으로 비즈니스를 검증했다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624819679343/xnB_Aobo2.png)
+![image.png](images/xnB_Aobo2.png)
 
 #### MVP 사례 #2 - 클래스101
 [클래스101](https://class101.net/)은 수 십 개의 아이디어를 여러 웹페이지로 제작, 이를 랜딩 페이지로 페이스북 광고를 집행하여 가장 반응이 좋은 강의 큐레이션 앱을 빠르게 만들어 런칭하고 초기 단계부터 수익 모델 검증을 위해 [텀블벅 크라우드 펀딩](https://www.tumblbug.com/brewing)을 통해 유료 콘텐츠의 가능성을 확인해보았다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624819924583/aUsTlqxOf.png)
+![image.png](images/aUsTlqxOf.png)
 
 #### MVP 사례 #3 - 식스샵
 [식스샵](http://sixshop.com/)은 쇼핑몰 제작에 느끼는 어려움을 확인하기 위해 코딩 없이 웹사이트를 직접 제작할 수 있는 웹사이트 빌더 데모 영상을 웹사이트에 게재하고 사전 결제를 진행하여 비즈니스를 검증했다.
@@ -244,7 +244,7 @@ Minimum Viable Product(최소 가능 제품)의 약자로 최소의 리소스로
 
 ### PMF란 무엇인가요?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624821131984/TFlYLzsv7.png)
+![image.png](images/TFlYLzsv7.png)
 > 출처: [Les Ottolenghi의 블로그](https://lesottolenghi.medium.com/crossing-the-chasm-making-the-leap-to-the-mainstream-market-8e90f2e184c)
 
 Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하는 큰 불편 혹은 니즈를 발굴, 이를 해소함으로써 빠른 성장을 이루는 것을 뜻한다. PMF를 찾지 못해 성장이 더딘 상태를 캐즘이라 부르며 PMF를 찾아낸 경우 고속 성장 단계에 들어섰다고 볼 수 있다. 실리콘밸리 투자사 A16Z의 마크 안데르센에 의해 널리 알려진 용어이다.
@@ -252,12 +252,12 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 #### PMF 발견 사례 #1 - 마이리얼트립
 [마이리얼트립](https://www.myrealtrip.com/)은 세계 각지의 일반인 가이드가 만든 특색있는 여행 상품을 매칭하는 초기 비즈니스 모델에서 여행지 교통편, 광광지 입장권 등의 티켓 상품 판매를 시작하며 기존 서비스와 시너지를 내며 빠른 성장 곡선을 그리기 시작했다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624821472272/X7aT1-m42.png)
+![image.png](images/X7aT1-m42.png)
 
 #### PMF 발견 사례 #2 - 마켓 컬리
 [마켓 컬리](https://www.kurly.com/shop/main/index.php)는 각종 먹거리를 다음날 새벽까지 배송하는 차별화 포인트로 비즈니스를 시작하였다. 컬리는 맘까페, SNS를 활용해 고객 니즈를 파악하는데 집중하여 '오월의 종', '본앤브레드' 등 인기 브랜드 유치 및 배송 지역을 확장하며 성장 속도를 높였다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624821649119/kwZ0EM2D8.png)
+![image.png](images/kwZ0EM2D8.png)
 
 
 ## 시리즈 라운드 🌳
@@ -284,7 +284,7 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 ### 시리즈 라운드 기업의 피할 수 없는 확장성 지옥
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624822411076/B0BohWhvu.png)
+![image.png](images/B0BohWhvu.png)
 
 시리즈 라운드를 거치며 기업은 선두 지위를 위해 다른 카테고리로 수평 확장하거나 밸류 체인 안에서 수직 확장하여 수익화할 수 있는 영역을 늘려간다. 하나 이때쯤 기존 제품의 설계 이슈 등 곳곳에서 문제가 터지기 시작하고 리팩터링 혹은 리빌딩의 필요성이 대두된다. 또한 조직 내 커뮤니케이션 비용 문제가 두드러지기 시작하여 많은 결정과 변화가 요구되는 시기인 만큼 역량 있는 시니어의 필요성이 커지기도 한다.
 
@@ -307,7 +307,7 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 ### 프리 IPO 기업의 리스크 관리
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624823098691/Kf1l1RBJ4.png)
+![image.png](images/Kf1l1RBJ4.png)
 
 프리 IPO 이후 단계 기업은 이미 높은 인지도를 확보한 상태로 다양한 유형의 고객이 사용중인 만큼 제품의 작은 변화에도 고객의 불만이 발생할 수 있다. 특히 제품의 정책 변경이나 잘못된 용어 사용 등의 문제가 제품 보이콧으로 이어지는 경우도 있는 만큼 체계적인 가이드와 검수 프로세스의 중요성이 높아지는 시기다. 그래서 종종 실행 속도가 더디거나 관료적인 업무 방식으로 잘못 변질되는 경우도 있다.
 
@@ -316,7 +316,7 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 ## 공통 필수 역량
 ### 사고 역량
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624823269063/myS1mcG9-.png)
+![image.png](images/myS1mcG9-.png)
 
 사고 역량은 디자이너에게 있어 가장 중요한 것 중 하나이다. 하나의 질문에서 여러 가능성으로 뻗어나가고 이를 다시 하나의 최우선 해법으로 수렴하는 방법에 익숙해지자.
 
@@ -324,7 +324,7 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 ### 끝없는 호기심과 질문
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624823358423/6v6CAIAfM.png)
+![image.png](images/6v6CAIAfM.png)
 
 디자이너로써 성장하는데 필요한 단 하나를 꼽는다면 호기심을 꼽을 것이다. 특히 고객에 대한 강한 호기심을 갖는 것이 내가 무엇을 해야 하는지 알려주는 나침반의 역할을 한다.
 
@@ -332,13 +332,13 @@ Product-Market Fit(시장-제품 적합성)의 약자로 시장 내에 존재하
 
 ### 사용자 경험에 대한 이해
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624823459482/AfbB1jaDv.png)
+![image.png](images/AfbB1jaDv.png)
 
 멘탈 모델에 대한 기본 이해와 인지 심리학 기초 지식을 갖추어 보편적 사용성에 대한 기준을 수립하는 것이 중요하다. 다만 용어나 이론 자체를 아는 것이 중요한 것은 아니다.
 
 ### 인터페이스 디자인 역량
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1624823505373/YhP-pSzsmN.png)
+![image.png](images/YhP-pSzsmN.png)
 
 디자인 패턴에 대한 이해와 기술 환경에 대한 기본적인 지식을 기반으로 한 인터페이스 설계 역량은 당연히도 프로덕트 디자이너에게 필수 역량이다.
 

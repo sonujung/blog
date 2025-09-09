@@ -15,7 +15,7 @@ updatedAt: '2024-03-18'
 
 # 도구의 발전과 디자이너의 역할 변화
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611492572258/O-2Q7zcId.png)
+![image.png](images/O-2Q7zcId.png)
 *Source from ‘Objectified’ by Gary Hustwit*
 
 2013년 유명 매체인 Business Insider는 ‘부모님에게 설명하기 어려운 직업’ 10가지를 소개했습니다.
@@ -30,7 +30,7 @@ updatedAt: '2024-03-18'
 
 지금 구글 검색창에 What is UX Design?이라고 검색해보세요. 아마도 아래와 같이 수많은 검색 결과를 확인할 수 있을 것입니다. 아마 많은 이들이 궁금해하고 있기 때문이겠죠.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611492613154/X5KSFVt-f.png)
+![image.png](images/X5KSFVt-f.png)
 
 어떤 분들은 새롭게 등장하는 용어에 알레르기 반응을 보이기도 합니다. 혹은 정 반대로 단어 자체에 지나치게 매몰되거나 이를 버즈워드로 소비하는 모습도 종종 발견할 수 있습니다.
 
@@ -50,7 +50,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **행위에 전문성을 요할 때 직업이 생겨난다.**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611493199936/9zlQzARKp.png)
+![image.png](images/9zlQzARKp.png)
 *Source from Illustration Art Gallery by Book Palace*
 
 잠시 타임머신을 타고 과거로 돌아가 보겠습니다. 아마 그때에도 병에 걸리거나 다친 사람들을 치료하는 ‘행위’는 존재했겠죠? 또한 누군가가 다투면 이를 중재하는 ‘행위’가 존재했을 테고요. 그리고 이러한 행위들은 시간이 흘러 인간이 집단과 사회의 형태를 갖춰가는 과정 중에 ‘의사’, ‘판사’와 같은 직업의 형태로 발전하게 됩니다.
@@ -65,7 +65,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **맹수로부터 살아남기**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494343136/NVmq-G-RP.png)
+![image.png](images/NVmq-G-RP.png)
 *Source from Museum of Vietnamese History*
 
 아시다시피 초기 인류는 수렵과 채취를 통해 식량을 조달했습니다.
@@ -76,7 +76,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 > “아 저번에 뾰족한 돌(나무)로 찔렀더니 훅 가던데? 피도 막 뿜고 말이야..”
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494407673/D5XvhOQ2O.png)
+![image.png](images/D5XvhOQ2O.png)
 *Source from Us History Images*
 
 그래서 동료들은 주변의 뾰족한 돌을 모으거나 돌을 쪼개어 날카롭게 만들기 시작했습니다. 그리고 다음 사냥에서 사용했더니 보다 적은 희생으로 매머드를 포획할 수 있게 된 거죠. 돌을 가공하는 것 만으로 생존율이 상승했습니다.
@@ -85,7 +85,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 > “얘들아 돌멩이를 나뭇가지 끝에 묶어두면 매머드 위에 올라타지 않아도 멀리서 찌를 수 있지 않겠어?”
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494441989/z1BaoBLA_.png)
+![image.png](images/z1BaoBLA_.png)
 
 이로써 이들은 맹수에 올라타지 않고서도 사냥을 할 수 있게 되었습니다. 당연히 생존할 확률도 훨씬 늘어났겠죠.
 
@@ -97,7 +97,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **생존의 문제에서 편의의 문제로 그리고..**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494580847/DL5ys71Cl.png)
+![image.png](images/DL5ys71Cl.png)
 
 끝없이 떠돌아다니던 인류가 정착하고 수렵 및 채집에서 농경생활로 삶의 근간이 바뀌는 과정을 거치며 도구란 단순히 생존의 의미를 넘어서는 것이 되었습니다.
 
@@ -117,11 +117,11 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **1, 2차 산업혁명: 철기 이후의 가장 큰 패러다임 시프트**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494676587/79xVDimX4.png)
+![image.png](images/79xVDimX4.png)
 
 사전에서 설명하는 디자인의 의미는 아래와 같습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494695095/mGGc82iDH.png)
+![image.png](images/mGGc82iDH.png)
 
 우리는 과거로 돌아가 도구의 탄생을 살펴보며 디자인 그리고 디자이너라는 직업과 맞닿는 ‘행위’에 대해 생각해보았습니다. 하지만 행위 만으로 하나의 직업이 성립되기에 부족한 까닭은 글 초두에 밝혔듯 ‘전문성’은 직업을 정의하는데 필수 불가결한 요소이기 때문입니다.
 
@@ -135,14 +135,14 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **독일 공작 연맹 그리고 바우하우스**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494712388/mubJ6CjAk.png)
+![image.png](images/mubJ6CjAk.png)
 *피터 베렌스: 전기 주전자, 1909 — © Die Neue Sammlung*
 
 한편 1907년 독일에선 독일 공작 연맹이란 단체가 생겨났는데 이들은 같은 문제에 대한 해법으로 ‘수공예로의 회기’가 아닌 공업 생산품의 질적 향상을 위한 ‘기계공작의 발전’을 표방하였습니다. 미술공예 운동과 문제의식을 공유하였으나 반대의 방향의 해법을 내놓은 셈이죠.
 
 이들은 예술과 산업 발전의 괴리를 극복하고 시대에 맞는 생산방식을 통한 ‘양질화’, ‘규격화’된 생산을 강조하였고 제품의 설계 과정에서 생산효율뿐 아니라 기능성과 미학적 완성도를 동시에 갖추길 요구하였습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494732192/FStbDnifp.png)
+![image.png](images/FStbDnifp.png)
 *발터 그로피우스가 설계한 바우하우스 건물*
 
 이어 독일 공작 연맹의 소속 회원이던 발터 그로피우스는 바이마르 미술 아카데미와 바이마르 공예 학교를 통합한 교육기관 바우하우스의 초대 학장이 되었고. 독일 공작 연맹의 정신을 계승한 교육 방침으로 현대 디자인 교육의 기반을 마련하였습니다.
@@ -155,7 +155,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 독일 공작 연맹, 바우하우스 등 근대 디자인 역사에 중요한 위치를 차치하고 있는 독일이, 마찬가지로 전쟁의 역사에도 빠질 수 없는 나라인 것은 참으로 아이러니한 일이 아닐 수 없습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494777761/d10C37UON.png)
+![image.png](images/d10C37UON.png)
 *2차 세계대전 당시 독일 군이 사용하여 500만명 이상을 사살한 무기 MG42*
 
 제2차 세계대전이 종결된 후 폐허가 된 국가 재건을 위한 각 국의 산업화 경쟁이 시작되면서 디자인은 더 이상 독자적인 연구활동이나 창조적인 실험에 머무르지 않고 후기 산업 사회의 물질문화적 상징으로 여겨지기 시작했습니다.
@@ -164,7 +164,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **디자이너, 치열한 경쟁의 구원 투수**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494801206/BKVz6ykMn.png)
+![image.png](images/BKVz6ykMn.png)
 *a limited-edition set of stamps commemorating some of industrial design’s pioneers*
 
 20세기 중. 후반에 들어서며 눈부시게 빠르게 발전하는 과학 기술은 수많은 도구를 만들어냈고 이 도구들은 우리가 사는 공간의 빈 곳 들을 하나 둘 메워가기 시작했습니다.
@@ -175,16 +175,16 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 이런 상황에서 디자인은 기업의 간지러운 곳을 긁어주는 구원투수로 적격이었습니다. 기업들은 ‘도구의 편의성과 생산성을 높이고 무형의 가치를 통해 소비 심리를 자극할 수 있는’ 디자인의 가치에 매력을 느꼈고 곧이어 기업들의 치열한 디자인 경쟁이 시작되었습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494831892/6OFNcXa2J.png)
+![image.png](images/6OFNcXa2J.png)
 *The Cisitalia 202 designed by Pinin Farina in 1947. (www.made-in-italy.com)*
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494851626/L3kceco2B.png)
+![image.png](images/L3kceco2B.png)
 *Braun SK5 Radio and Record Player designed by Dieter Rams in 1958 (www.designxsaber.com)
 *
 
 유명한 스타 디자이너들이 등장하였고 ‘디자인 경영’, ‘디자인 매니지먼트’ 등 다양한 단어들이 등장하며 디자인은 기업 경쟁의 전면에 부각되기 시작했습니다. 바야흐로 디자인의 황금기가 찾아왔고 다양한 산업 분야에서 디자이너를 고용했으며 디자인 전문 교육기관이 연이어 생겨나기 시작했습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494951833/3Jj6OW34f.png)
+![image.png](images/3Jj6OW34f.png)
 
 삼성전자는 90년대 들어서 디자인을 기업의 최우선 경쟁력으로 부각하기 시작했다.
 
@@ -194,7 +194,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **퍼스널 컴퓨터의 등장**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494965942/QEJ-i_F9M.png)
+![image.png](images/QEJ-i_F9M.png)
 *The IBM 5150*
 
 지금까지 살펴본 바에 따르면 새로운 기술은 새로운 도구를 탄생시키고 디자인은 이에 발맞춰 진화해왔음을 알 수 있습니다. 퍼스널 컴퓨터(PC)라는 새로운 도구가 탄생하기 전까지 제품 디자인이란 것은 비교적 이해하기 명료한 개념이었습니다. 누르기 편한 곳에 버튼이 달려있고, 거실이나 방 한편에 놓았을 때 보기 좋다면 좋은 디자인이라고 말할 수 있는 종류의 것이었죠.
@@ -205,7 +205,7 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **물리적 도구 하드웨어, 디지털 도구 소프트웨어**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611494985478/oNZvqbojw.png)
+![image.png](images/oNZvqbojw.png)
 *Microsoft CLI based Operating System : MS-DOS*
 
 이윽고 사람들은 고민하기 시작합니다. ‘분명 도구는 도구인데 기존의 도구와는 전혀 다른 이 녀석을 어떻게 설명해야 하지?’ 아마 이런 식의 고민이지 않았을까 싶습니다. 이 새로운 도구를 정의하기 위해서는 기존 도구의 개념을 확장시킬 필요가 있었습니다.
@@ -214,14 +214,14 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 또한 이 ‘소프트웨어’라는 새로운 도구가 등장하므로 인해 디자인 역시 새로운 차원의 정의가 필요해지게 되었습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495004455/rpiFtoqMD.png)
+![image.png](images/rpiFtoqMD.png)
 *Grid Compass designed by Bill Moggridge in 1979*
 
 1979년 그리드 시스템이라는 기업에게 휴대용 컴퓨터 디자인을 의뢰받은 빌 모그리지(IDEO의 공동 창업자)는 이 새로운 개념을 인터랙션 디자인*(IxD) — 인간-컴퓨터 상호작용(HCI: Human-Computer Interaction) — 라 명명하기로 했습니다.
 
 새로운 도구를 디자인하는 과정에선 사용자와 하드웨어 그리고 소프트웨어 사이의 상호작용에 대한 충분한 이해와 고민이 필수적이라는 것이 그의 주장이었습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495026521/NOgRGzUov.png)
+![image.png](images/NOgRGzUov.png)
 *매킨토시의 그래픽 유저 인터페이스*
 
 그리고 1981년 출시된 제록스 스타(Xerox Star)에서 애플의 매킨토시 그리고 마이크로소프트 윈도우로 이어지며 빠르게 보급된 그래픽 유저 인터페이스(GUI: Graphic User Interface)의 등장은 가히 획기적이었습니다. What you see is What you get(WYSIWYG)라는 개념으로 사용자에게 보다 직관적인 컴퓨팅 환경을 제공하는 GUI의 등장으로 기술자의 영역에 머무르던 인터페이스 설계 업무는 전문 디자너의 영역으로 옮겨왔습니다.
@@ -236,23 +236,23 @@ UX 디자인이라는 단어가 널리 통용된 기간은 불과 10년 내외�
 
 ## **World Wide Web. 세상을 연결하다.**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495047017/qJMcX78_l.png)
+![image.png](images/qJMcX78_l.png)
 *https://www.w3.org*
 
 1990년 팀 버너스리에 의해 시작된 월드 와이드 웹은 실질적 의미에서 IT(Information Technology)의 시작을 알리는 혁신적인 발명이었습니다.
 
 HTML(Hyper Text Markup Language)이란 컴퓨터 언어로 작성된 문서를 웹 브라우저라는 소프트웨어를 통해 전 세계 사람들과 공유할 수 있는 웹의 등장은 가히 폭발적인 반향을 일궈냈고 급속도로 성장하며 전 세계로 퍼져나갔습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495065723/bYwTe1M-V.png)
+![image.png](images/bYwTe1M-V.png)
 *세계 최초의 웹사이트 (http://info.cern.ch/hypertext/WWW/TheProject.html)*
 
 최초의 웹은 온라인을 통해 공유 가능한 간결한 ‘문서’ 형태를 띠고 있었습니다. 간단한 사진과 텍스트 만으로도 충분히 위력적인 도구였으니까요. 하지만 머지않아 웹의 성장세가 심상치 않다는 것을 깨닫게 된 많은 기업들이 너나 할 것 없이 자사 웹사이트를 구축하기 시작합니다. 알다시피 기업이 관심 갖기 시작하면 무엇이든 경쟁으로 치닫습니다.
 
 웹사이트를 매우 효과적인 홍보 수단으로 생각한 기업들은 그들의 온라인 전단물(Flyers)에 보다 많은 정보를 효율/효과적으로 담고 싶어 했고 이로 인해 새로운 직업인 웹디자이너가 세상에 등장하게 됩니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495084798/cTAkoIw9c.png)
+![image.png](images/cTAkoIw9c.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495098095/cKwyjoRLh.png)
+![image.png](images/cKwyjoRLh.png)
 
 당시까지 웹디자이너라 하면 그래픽 디자인을 공부하여 레이아웃과 컬러 등 시각 산출물을 능숙하게 다룰 수 있으며 최신 기술인 HTML / JavaScript (후에 CSS)를 다룰 줄 아는 사람을 일컫는 말이었습니다. 시작부터 개발자와 디자이너로 각자의 영역이 명확히 구분되어 있던 시기가 아닌 만큼 웹디자이너라는 직업은 웹 기술에 대한 이해를 필수 전제로 깔고 있었다고 볼 수 있습니다.
 
@@ -260,7 +260,7 @@ HTML(Hyper Text Markup Language)이란 컴퓨터 언어로 작성된 문서를 �
 
 ## **Web 2.0 시대의 개막과 웹 애플리케이션**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495111869/CmHhGnAdG.png)
+![image.png](images/CmHhGnAdG.png)
 *워드프레스의 초기 버전*
 
 웹 기술이 발전함에 따라 웹사이트는 단순 정보 전달을 위한 단방향의 문서 형태를 벗어나기 시작했습니다.
@@ -277,11 +277,11 @@ HTML(Hyper Text Markup Language)이란 컴퓨터 언어로 작성된 문서를 �
 
 ## **사용자 경험 디자인의 부상**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495177315/GSJgNmtFj.png)
+![image.png](images/GSJgNmtFj.png)
 
 지금까지 널리 사용되고 있는 ‘사용자 경험 디자인’이라는 단어가 전문용어로써 자리매김한 데에는 디자인 컨설팅 기업인 닐슨 앤 노먼 그룹(Nielsen Norman Group)의 설립자 도널드 노먼의 공이 지대합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495586370/wbE9omE4E.png)
+![image.png](images/wbE9omE4E.png)
 
 그가 애플의 부사장으로 재직할 당시 User Experience Architect라는 직함을 사용했는데 새로운 방식의 디지털 제품을 고안하는 과정에서 하드웨어와 소프트웨어의 인터페이스 그리고 사용자와의 상호작용을 설계해야 하는 그의 역할과 고민이 반영된 것이라고 볼 수 있습니다.
 
@@ -304,7 +304,7 @@ UX 디자인이라는 단어가 보다 실용적인 차원에서 활용되기 �
 
 ## **스마트폰 생태계의 성장**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495601743/d_O3mO-Ko.png)
+![image.png](images/d_O3mO-Ko.png)
 
 닷컴 버블 붕괴 이후 침체되어 있던 소프트웨어 산업은 스마트폰의 등장으로 제2의 호황을 맞이하게 됩니다.
 
@@ -316,7 +316,7 @@ UX 디자인이라는 단어가 보다 실용적인 차원에서 활용되기 �
 
 그러나 데이터 통신망이 널리 보급되며 유틸리티 수준에 머물던 모바일 애플리케이션은 생활 전반을 지배하는 플랫폼으로 진화하기 시작했고. 여러 모바일 중심의 기업들이 폭발적으로 성장하게 됩니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495615057/J-yZ-0Y1g.png)
+![image.png](images/J-yZ-0Y1g.png)
 
 이 시기를 전후로 등장한 디자인 환경의 몇 가지 큰 변화를 살펴보겠습니다.
 
@@ -334,7 +334,7 @@ UX 디자인이라는 단어가 보다 실용적인 차원에서 활용되기 �
 
 ## **모든 것이 연결된 시대: Smart Everything**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495628576/1F0F6tvkD.png)
+![image.png](images/1F0F6tvkD.png)
 *아마존의 스마트 홈스피커 에코*
 
 인프라 보급이 전 세계로 확장되고 스마트폰은 이미 너무 당연한 생활필수품으로 자리 잡게 되었습니다. 그리고 스마트폰을 중심으로 급격히 발전한 IT 생태계는 자연스레 다음 단계로 진입하였습니다.
@@ -349,7 +349,7 @@ UX 디자인이라는 단어가 보다 실용적인 차원에서 활용되기 �
 
 ## **지금, 디자이너에게 필요한 것**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611495643256/kyPy7i5W_.png)
+![image.png](images/kyPy7i5W_.png)
 *레오나르도 다빈치의 비행체 스케치*
 
 그렇다면 프로덕트 디자이너라고 불리는 우리에게 요구되는 것은 무엇일까요?

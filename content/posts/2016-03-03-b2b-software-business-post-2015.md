@@ -81,7 +81,7 @@ Oracle, SAP, Salesforce, Workday 등 해외기업은 기업 M&A를 통해 지속
 
 > Paperwork doesn’t need papers anymore..
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611457973484/pQcz76JAA.png align="left")
+![image.png](images/pQcz76JAA.png)
 
 전통적으로 기업 소프트웨어의 중심에 놓여있는 것은 오피스 프로그램, 즉 문서 저작도구 (Word, Excel, Power Point …)이다.
 

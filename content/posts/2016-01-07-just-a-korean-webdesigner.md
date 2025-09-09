@@ -42,9 +42,9 @@ updatedAt: '2024-03-18'
 
 *1996년의 워싱턴 포스트 웹사이트와 현재의 웹사이트:*
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438934447/6G-gTV602.png)
+![image.png](images/6G-gTV602.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438919118/JAnT_fLnI.png)
+![image.png](images/JAnT_fLnI.png)
 
 # 웹디자인 전성기
 
@@ -64,7 +64,7 @@ updatedAt: '2024-03-18'
 
 현재의 인터랙션 디자인 분야가 전문적인 영역으로 자리 잡는 데에는 플래시가 지대한 영향을 끼쳤다고 볼 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438968099/1GgHkkaFB.png)
+![image.png](images/1GgHkkaFB.png)
 *유고 나카무라의 인터랙션 아트웍*
 
 # 광고 매체로서의 웹
@@ -75,7 +75,7 @@ updatedAt: '2024-03-18'
 
 일반적인 기업 웹사이트가 컨텐츠/채용 관리 등 복잡한 시스템과의 연동 및 이를 담기 위한 설계과정에 상당한 시간과 노력을 들이는 것에 비해 마이크로사이트는 구축 기간과 비용이 상대적으로 적고, 무엇보다 판매 촉진에 즉각적인 영향을 미친다는 점이 기업의 입맛을 사로잡았다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438988192/KBVstb8jk.png)
+![image.png](images/KBVstb8jk.png)
 *2002년 칸 국제광고제 은사자상을 수상한 영화 취화선의 웹사이트 — 디자이너 권혁 (All-M 이사)*
 
 무엇보다 우리 인터넷 환경에서는 화려한 효과와 대용량 멀티미디어 사용에 어떤 제약도 없었기 때문에 자연스레 많은 규모의 마케팅 예산이 온라인 광고에 몰리기 시작했고 전후 벤처 버블 붕괴로 위기를 겪고 있던 웹디자인 업계의 상당 부분이 광고 산업에 종속되는 계기가 되었다.
@@ -116,7 +116,7 @@ updatedAt: '2024-03-18'
 
 또한 기획/디자인/개발이 각자 다른 언어를 사용하는 업무 환경은 커뮤니케이션 비용을 높인 주된 원인으로 꼽힌다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611439006441/PDhcw702E.png)
+![image.png](images/PDhcw702E.png)
 
 기형적인 구조는 서로의 언어를 번역하는데 많은 시간을 쏟게 만들었다.
 

@@ -13,7 +13,7 @@ updatedAt: '2024-03-18'
 
 > 와이컴비네이터의 파트너이자 공동 창업자인 제시카 리빙스톤이 2014년 월스트리트 저널에 기고한 칼럼 '[Jessica Livingston: Why Startups Need to Focus on Sales, Not Marketing'를](https://blogs.wsj.com/accelerators/2014/06/03/jessica-livingston-why-startups-need-to-focus-on-sales-not-marketing/?fbclid=IwAR3Xtqvrh8NnqGGbGhOvGxToZIlwLkVDjsKzPtTu1JlUPiy78zss7pl8DdQ) 번역한 글입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509445188/vWxZ52erv.png)
+![image.png](images/vWxZ52erv.png)
 
 초기 단계의 스타트업이 유의해야 할 중요한 사실 중 하나를 말하면 아마 의외라고 느낄지도 모른다. 그것은 '마케팅'이라는 단어가 붙은 대부분의 행위가 지금의 당신에겐 크게 도움되지 않는다는 것이다.
 

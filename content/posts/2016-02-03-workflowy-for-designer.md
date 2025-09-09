@@ -24,7 +24,7 @@ updatedAt: '2024-03-18'
 
 ‘Make List Not War’라는 슬로건을 내건(최근 Organize Your Brain으로 변경되었다.) WorkFlowy는 쉽게 말해 ‘목록 관리 도구’이다. 제공하는 기능 역시 목록을 만드는 것으로, 생김새는 아래와 같다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611439232707/Wj81Gceyw.png)
+![image.png](images/Wj81Gceyw.png)
 
 정말이지 간결하다. 마치 미디엄을 처음 접했을 때 느꼈을 생경함을 몇 곱절 더한 인상이다.
 
@@ -47,7 +47,7 @@ updatedAt: '2024-03-18'
 디자이너가 되기 위해 거치는 대부분의 훈련들은 이 ‘확산적 사고'를 개발하는데 초점이 맞춰져 있다. 만약 그림으로 표현한다면 아래의 모습과 유사할 것이다.
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611439262306/VyT_Oud5u.png)
+![image.png](images/VyT_Oud5u.png)
 
 innovation Mind Map by Paul Foreman
 
@@ -57,7 +57,7 @@ innovation Mind Map by Paul Foreman
 
 ## 엎지른 물도 마시려면 주워 담아야 한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611455989308/lu5VQnhXq.png)
+![image.png](images/lu5VQnhXq.png)
 
 위 그림은 문제의 해결책을 찾는 과정을 간략히 도식화한 것이다.
 
@@ -69,7 +69,7 @@ innovation Mind Map by Paul Foreman
 
 마치 좋은 열매를 수확하기 위해 나무의 잔가지를 쳐내는 일과 유사하다. 너무 많은 가지가 뻗친 나무라면 뿌리가 열매까지 충분한 영양분을 공급하기 어려울 테니 말이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456015111/FwJaiBoQ1.png)
+![image.png](images/FwJaiBoQ1.png)
 
 > *흔히 과학자, 공학자, 수학자는 여러 객관적 사실을 관찰해 하나의 원리로 추상화하는 수렴적 사고(convergent thinking)를 합니다.
 >
@@ -99,7 +99,7 @@ innovation Mind Map by Paul Foreman
 
 잠시, 앞서 살펴본 다이아몬드꼴 도식을 확대하여 확산에서 수렴으로 이어지는 중간 과정을 살펴보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456077138/-bjuvbaHk.png)
+![image.png](images/-bjuvbaHk.png)
 *Opening, Exploring, & Closing from Gamestorming by Dave Gray*
 
 기존엔 보이지 않던 새로운 구간이 눈에 들어온다.
@@ -118,33 +118,33 @@ WorkFlowy는 이 Exploring 과정에서 정보를 보다 손쉽게 파악, 관�
 
 > 여러 아이템이 생각의 흐름대로(제멋대로) 나열되어 있다. WorkFlowy는 기본적으로 텍스트 에디터와 사용법이 크게 다르지 않다. 문자, 엔터 그리고 탭키를 사용하면 메모의 용도를 충실히 수행한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456119274/AC28HvCRT.png)
+![image.png](images/AC28HvCRT.png)
 
 정보를  재배치하여 맥락에 따른 분류, 구조화할 수 있다. 바닥에 널브러진 책들을 책장에 차곡차곡 쌓는 것과 유사한 경험을 제공한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456138532/4D5KcBbVg.png)
+![image.png](images/4D5KcBbVg.png)
 
 이 책장은 매우 깊다. 분류하기에 따라 아주 깊숙한 영역까지 정보의 꼬리를 이어갈 수 있으며 언제든 특정 층계(depth)로 손쉽게 이동할 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456158708/X1WTQCg0z.png)
+![image.png](images/X1WTQCg0z.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456179329/1-uNZfPAy.png)
+![image.png](images/1-uNZfPAy.png)
 
 WorkFlowy를 활용하면 프로젝트의 A부터 Z까지 모든 정보를 목록의 형태로 구조화할 수 있으며 시각적으로 관리할 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456197368/y2uCL-F3V.png)
+![image.png](images/y2uCL-F3V.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456221104/6muXv0L0Z.png)
+![image.png](images/6muXv0L0Z.png)
 
 태그와 검색을 통해 필요한 정보를 언제든 꺼내올 수 있고. 공동 저작 및 공유를 통해 보다 수월한 협업을 가능케 한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456239104/4kzJbEJx-.png)
+![image.png](images/4kzJbEJx-.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456255167/EyeXXQF_G.png)
+![image.png](images/EyeXXQF_G.png)
 
 또한 태스크 관리 도구처럼 활용할 수도 있어서 전체 프로세스의 진행과정을 손쉽게 파악할 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611456276425/6HYUF1c_y.png)
+![image.png](images/6HYUF1c_y.png)
 
 ## 시작하는 디자이너에게 특히 추천하는 이유.
 

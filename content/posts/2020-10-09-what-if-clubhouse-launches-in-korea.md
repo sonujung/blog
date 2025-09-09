@@ -18,7 +18,7 @@ updatedAt: '2024-03-18'
 
 > 누구나 참여할 수 있는 관심사 기반의 라이브 커뮤니티
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608272892/Ho2-8sJ22.png)
+![image.png](images/Ho2-8sJ22.png)
 
 클럽 하우스는 실리콘 밸리에서 최근 각광받고 있는 오디오 기반의 라이브 커뮤니티 앱이다.
 
@@ -34,7 +34,7 @@ updatedAt: '2024-03-18'
 - 온라인 기반의 Fireside Chat
 - 참여 기반의 라이브 팟캐스트
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608298105/IBRZzYqY5.png)
+![image.png](images/IBRZzYqY5.png)
 
 베이스캠프 CEO Jason Fried와 함께하는 Fireside Chat ([원본 링크](https://www.chrischae.kr/jason-fried/))
 
@@ -53,7 +53,7 @@ updatedAt: '2024-03-18'
 
 > 모바일에서 관심 분야의 컨텐츠를 즐기며 서로 소통하는 행위는 이미 충분히 학습된 것.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608317949/r3ud7p9U5.png)
+![image.png](images/r3ud7p9U5.png)
 
 1. 사람들의 일상에서 온라인 활동이 차지하는 비중은 점점 더 커지고 있다.
 2. TV 방송사 컨텐츠 보다 유튜브나 넷플릭스를 보는 사람이 많아졌다.
@@ -69,7 +69,7 @@ updatedAt: '2024-03-18'
 
 > 오프라인에서 이뤄지던 다양한 비즈니스 활동이 전 지구적 재난으로 인해 강제 중단되었다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608331261/UIG-HM6Ag.png)
+![image.png](images/UIG-HM6Ag.png)
 
 1. 기술 발전으로 인한 일상의 변화는 업무 방식에도 영향을 주었지만 속도는 다소 더딘 편이었다.
 2. 그러나 코로나 사태를 맞이하며 변화의 속도가 급격히 빨라졌고 많은 온라인 협업 도구가 주목을 받고 있다.
@@ -147,7 +147,7 @@ updatedAt: '2024-03-18'
 
 전 세계에서 팟캐스트 소비 비중이 가장 높은 곳이기 때문이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608402495/ZzVbVaYnp.png)
+![image.png](images/ZzVbVaYnp.png)
 
 [Statista - Podcast Popularity Across the Globe 2019](https://www.statista.com/chart/14306/podcast-adoption/)
 
@@ -159,7 +159,7 @@ updatedAt: '2024-03-18'
 
 ### 버크셔 헤서웨이 주주총회를 예로 들어 살펴보는 클럽 하우스 만의 차별화 포인트
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608415446/OauLq9mkx.png)
+![image.png](images/OauLq9mkx.png)
 
 버크셔 헤서웨이 주주총회 라이브 방송을 알리는 배너이다.
 
@@ -208,7 +208,7 @@ updatedAt: '2024-03-18'
 
 한국판 클럽 하우스가 생겨난다면 얼리 어답터로 예상되는 고객군의 간략 프로필이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611608443106/KHkzQ_FtY.png)
+![image.png](images/KHkzQ_FtY.png)
 
 ### 호스트
 
@@ -377,7 +377,7 @@ updatedAt: '2024-03-18'
 
 분명 대게의 커뮤니티가 그렇듯 초기 응집력이 대량 트래픽의 유입으로 감소하면 현재 제공하는 가치와 다른 방식으로 비즈니스가 동작하게 될 텐데 아마 유튜브나 틱톡과 같은 형태가 될까? 궁금하다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612452281383/lvhp-lumQ.png)
+![image.png](images/lvhp-lumQ.png)
 
 *정말 각계 각지의 다양한 분들이 모여서 대화를 나누는 모습 자체만으로도 별천지라는 생각이 절로 든다.*
 

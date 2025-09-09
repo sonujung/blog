@@ -13,7 +13,7 @@ updatedAt: '2021-07-11'
 
 > 이 글은 Y-Combinator의 샘 알트만이 2019년 1월 25일 작성한 글을 번역한 내용이며 원문은 [http://blog.samaltman.com/how-to-be-successful](http://blog.samaltman.com/how-to-be-successful) 에서 확인할 수 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611508976714/JX8Naws3L.png)
+![image.png](images/JX8Naws3L.png)
 
 나는 수천 명의 창업자를 관찰했고 엄청난 돈을 벌거나 매우 중요한 것을 만들어 내기 위해 필요한 것들에 대해 생각해왔습니다. 대게 사람들은 돈을 버는 것으로 시작해서 중요한 것을 만들어 내는 쪽으로 관심을 옮겨 가더군요.
 

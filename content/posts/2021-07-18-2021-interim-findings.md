@@ -23,11 +23,11 @@ updatedAt: '2021-12-18'
 
 애초 시작한 계기가 '매일 빼먹지 않고 이어갈 수 있는 습관을 갖는 것', 즉 습관 형성을 위한 습관으로 적합했기 때문이었는데 다행히 성공적으로 이어올 수 있어 만족스럽다. 그리고 그 사이 여러 회사 동료들 역시 TIL과 주기적인 회고를 시작하게 되었다는 점에서 의미 있는 목표가 아니었나 싶다.
 
-![calendar.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626551764646/plgd4wL-3.png)
+![calendar.png](images/plgd4wL-3.png)
 
 하반기에는 조금 다른 방식으로 TIL을 이어가기로 했다. 평소 캘린더를 TIL 기록 도구로 활용해왔는데 빼먹지 않고 챙기는 데엔 효과적이었지만 주/월 단위 회고를 진행할 때 한눈에 볼 수 없다는 점이 무척 번거로운 일이었다. 그래서 팀에서 사용 중인 노션 스크럼 보드를 개인용으로 바꿔서 업무 일지 겸 TIL로 활용하기 시작했는데 한 눈에 내용이 들어와서 한동안 이 방식을 유지해 보려고 한다.
 
-![Frame 1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626551451651/3RqMV_hAW.png)
+![Frame 1.png](images/3RqMV_hAW.png)
 
 ---
 

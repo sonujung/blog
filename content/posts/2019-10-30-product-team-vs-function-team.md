@@ -16,7 +16,7 @@ updatedAt: '2024-03-18'
 
 ---
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509596431/ugNbSI2QR.png)
+![image.png](images/ugNbSI2QR.png)
 
 이 글은 분명 많은 사람들을 불편하게 만들 것 같다.
 

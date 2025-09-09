@@ -14,30 +14,30 @@ updatedAt: '2024-03-18'
 # B2B 프로덕트 매니지먼트 스토리: 고객이 진짜로 관심 두는 문제 발견하기
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023541997/N6BifEN-8.png)
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023619053/KE9V3Scyp.png)
+![image.png](images/N6BifEN-8.png)
+![image.png](images/KE9V3Scyp.png)
 우리의 이야기는 새로운 제품 아이디어에서부터 시작합니다.
 
 PM은 이 제품이 고객의 문제를 해결할 수 있을지 부지런히 대화합니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023654529/d1IHEICaf.png)
+![image.png](images/d1IHEICaf.png)
 고객이 그렇다고 하네요!
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023675942/QPlOSXhFo.png)
+![image.png](images/QPlOSXhFo.png)
 PM은 이 결과를 경영진에게 보고합니다. 흥분은 고조되고 사람들이 프로젝트에 참여하기 시작합니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023802120/bq9lCKwbV.png)
+![image.png](images/bq9lCKwbV.png)
 첫 버전이 출시됩니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617023817415/qfc_Rg_Di.png)
+![image.png](images/qfc_Rg_Di.png)
 사람들이 거의 관심 두지 않습니다.
 
 -----
@@ -52,37 +52,37 @@ PM은 이 결과를 경영진에게 보고합니다. 흥분은 고조되고 사�
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024012768/GIEnkNega.png)
+![image.png](images/GIEnkNega.png)
 PM은 팀이 해당 기능을 구축하도록 요청합니다.
 
 "6개월이 필요합니다."
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024054988/5_LOAyCE7.png)
+![image.png](images/5_LOAyCE7.png)
 > 6개월이 흘렀다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024099613/o8EucUWtS.png)
+![image.png](images/o8EucUWtS.png)
 2.0 버전 출시.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024122907/ARlOtFA5k.png)
+![image.png](images/ARlOtFA5k.png)
 고객의 관심은 여전히 깜깜무소식
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024157380/kq6BunoVu.png)
+![image.png](images/kq6BunoVu.png)
 제품 리뷰에서 영업과 마케팅이 참여하기 시작합니다.
 
 PM은 "우리는 고객에게 필요한 제품을 만들었습니다. Go-To-Market 전략만 가다듬으면 됩니다."
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024216889/A2o5I3YXt.png)
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024613666/qDfRPqvwo.png)
+![image.png](images/A2o5I3YXt.png)
+![image.png](images/qDfRPqvwo.png)
 
 이제 돌이킬 수 없습니다. 못 먹어도 고!
 
@@ -92,13 +92,13 @@ PM은 "우리는 고객에게 필요한 제품을 만들었습니다. Go-To-Mark
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024633003/bUvwh_KpN.png)
+![image.png](images/bUvwh_KpN.png)
 
 여전히 고객은 반응하지 않습니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617024651154/PJTZaBEep.png)
+![image.png](images/PJTZaBEep.png)
 원래 있던 PM은 팀을 떠났고, 새로운 PM이 합류했습니다.
 
 그는 합류 후 90일간의 고객 청취 투어로 몇 가지 추가 개선 사항을 파악하고.
@@ -106,19 +106,19 @@ PM은 "우리는 고객에게 필요한 제품을 만들었습니다. Go-To-Mark
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025095286/UYJdEmuwO.png)
+![image.png](images/UYJdEmuwO.png)
 이제 무엇을 할까요? 몇 칸 앞쪽으로 돌아가서 다시 프로세스를 여러 차례 반복합니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025142435/HikOQOB98.png)
+![image.png](images/HikOQOB98.png)
 몇 번의 개선 이후에도 계속해서 성장의 기미가 보이지 않습니다.
 
 그래서 결국...
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025172823/9DipdSskg.png)
+![image.png](images/9DipdSskg.png)
 경영진은 제품을 보내주기로 합니다.
 
 학습한 내용을 수집하여 조직에 광범위하게 공유하며 이렇게 말합니다.
@@ -129,7 +129,7 @@ PM은 "우리는 고객에게 필요한 제품을 만들었습니다. Go-To-Mark
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025253692/YodOLWNVM.png)
+![image.png](images/YodOLWNVM.png)
 대체 무슨 일이 벌어진 걸까요?
 
 이 여정의 실패 원인에는 여러가지 그럴듯한 시나리오가 있지만.
@@ -142,46 +142,46 @@ PM은 "우리는 고객에게 필요한 제품을 만들었습니다. Go-To-Mark
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025541075/q-NZlUPGq.png)
+![image.png](images/q-NZlUPGq.png)
 
 제품은 a라는 문제를 해결했습니다. 하지만 사실 그건 해결해야 할 문제가 아니었습니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025596633/4v18BfLAa.png)
+![image.png](images/4v18BfLAa.png)
 제품팀은 사분면의 우상단을 향해 달려갑니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025662932/wEZnBakvz.png)
+![image.png](images/wEZnBakvz.png)
 그러나 위 모델은 모든 문제의 중요성이 동일하게 중요하다는 전제에서나 말이 됩니다. 실제로는 훨씬 복잡한 퍼즐을 풀어가야 하는 일이 다반사입니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025732111/CEsFR-zhy.png)
+![image.png](images/CEsFR-zhy.png)
 우리는 '가장 중요한 문제'를 '매우 잘 해결'해야 합니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025783599/r9aFGYmRI.png)
+![image.png](images/r9aFGYmRI.png)
 Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 없습니다."라고 말합니다.
 
 이것이 허상 쫓기(Focusing Illusion)입니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617025911425/JAKi4-UEM.png)
+![image.png](images/JAKi4-UEM.png)
 이를 비즈니스에 대입하면:
 "당신이 얘기하는 것만큼 중요한 일(Silver-bullet)은 비즈니스에서 실재하지 않습니다."
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617027551980/ibe1HCEI2.png)
+![image.png](images/ibe1HCEI2.png)
 고객에게 어떤 문제에 대한 얘기를 꺼내면 그들은 그것을 제외한 문제들은 머릿속에 지우고 당신이 꺼내든 문제에만 집중합니다. 이러한 집중은 기울어진 관심으로 인해 문제 해결을 어렵게 만듭니다.
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617027661780/b2TVni8dz.png)
+![image.png](images/b2TVni8dz.png)
 이럴 때 추천하는 방법이 있습니다. 그것은 CPSR(Customer Problems Stack Rank).
 
 고객을 위해 해결하고자 하는 여러 문제를 보여주고 중요한 순서대로 나열하도록 합니다.
@@ -191,7 +191,7 @@ Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617027799907/Uu6Q5jBwk.png)
+![image.png](images/Uu6Q5jBwk.png)
 당신이 PM 이건 제품 리더건 혹은 임원이건 관계없이 아래의 수칙을 기억하세요.
 
 - 허상 쫓기에 대해 이해한다.
@@ -201,7 +201,7 @@ Daniel Kahneman은 "당신의 생각만큼 중요한 생각이란 건 세상에 
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617028070793/YhHUf7geeb.png)
+![image.png](images/YhHUf7geeb.png)
 
 -----
 

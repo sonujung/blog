@@ -19,7 +19,7 @@ updatedAt: '2024-03-18'
 
 이전 글 [누군가의 삶에 큰 영향을 미치는 제품, 함께 만들기](https://sonujung.com/hire-sixhop-designers)에서 언급했지만 식스샵과 고객 사이에 '너무너무'라는 단어가 항상 존재할 수밖에 없는 만큼, 우리가 고객과 밀접한 관계를 지속하는 것이 지금껏 식스샵이 성장해오는데 아주 중요한 역할을 해왔다고 생각한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611982141356/7eDCFcjop.png align="left")
+![image.png](images/7eDCFcjop.png)
 
 고객 상담은 휴일 포함 매일 오전 9시 부터 밤 11시까지 이어지며 서비스 운영 팀원을 제외한 나머지 구성원들은 영업일 중 오후 채팅, 이메일, 전화 상담과 야간, 휴일 이메일 상담 업무를 로테이션으로 돌아가며 참여중이다. (다음날 이에 따른 대체 휴가가 제공된다.)
 
@@ -35,7 +35,7 @@ updatedAt: '2024-03-18'
 
 호봇은 이렇게 생겼다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611985010283/Q2jSV1iSa.png align="left")
+![image.png](images/Q2jSV1iSa.png)
 
 수원 삼성의 영원한 서포터이며 염기훈의 리더십을 최고로 리더십으로 꼽으며, 치킨과 치킨 너겟은 매일 먹어도 질리지 않는다는 그.
 
@@ -43,7 +43,7 @@ updatedAt: '2024-03-18'
 
 인원이 늘며 고객 상담에 늦거나 놓치는 경우가 생기기 시작하자 동호 님이 직접 야간, 주말할 것 없이 때에 맞춰 동료들에게 알람을 보내주기 시작했다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611989372924/1AbAjHXcO.png align="left")
+![image.png](images/1AbAjHXcO.png)
 
 매 근무가 시작될 때는 물론이고, 근무가 끝나는 밤 11시에도 '수고하셨습니다.'라는 메시지를 보냈다.
 
@@ -57,7 +57,7 @@ updatedAt: '2024-03-18'
 
 호봇 2호기는 기존 CS 일정표의 내용을 파싱해 카카오 알림톡으로 발송한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611996912724/cI--vBRw_.png align="left")
+![image.png](images/cI--vBRw_.png)
 
 성공적으로 데뷔한 호봇 2호기는 1호기 동호 님의 주말 꿀잠을 되돌려 주었고 본래 목적인 고객 상담 일정을 공유하는 역할도 매우 잘 수행해주었다.
 
@@ -84,7 +84,7 @@ updatedAt: '2024-03-18'
 
 **서비스 운영팀이 관리하는 CS 일정표**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612024533899/Dd53cnmhp.png align="left")
+![image.png](images/Dd53cnmhp.png)
 
 딱 보면 알겠지만 데이터베이스로 활용하기엔 쉽지 않은 포맷이다. 다만 이미 모든 구성원이 익숙하게 활용중인 만큼 알림을 위해 일정표 포맷을 변형하는 것은 옵션에서 제외했다.
 
@@ -115,25 +115,25 @@ Airtable은 자체적으로 자동화를 위한 외부 앱 연동 기능을 포�
 
 먼저 슬랙 [앱 디렉토리 페이지](https://my-new.slack.com/apps)를 방문해보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612080031726/G5ThsMAgi.png align="left")
+![image.png](images/G5ThsMAgi.png)
 
 슬랙을 편리하게 활용할 수 있는 다양한 도구가 제공되고 있지만 지금 필요한 것은 Incoming Webhook 이다. 검색창에 Incoming Webhook을 입력하자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612080040248/Nu8nQCTzx.png align="left")
+![image.png](images/Nu8nQCTzx.png)
 
 그럼 아래와 같은 화면으로 이동한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612080362970/LlOBWCryt.png align="left")
+![image.png](images/LlOBWCryt.png)
 
 Slack에 추가 버튼을 눌러 웹훅 설정을 진행한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612080045687/e52TYJu1H.png align="left")
+![image.png](images/e52TYJu1H.png)
 
 채널은 이후 언제든 변경할 수 있으니 아무거나 선택하고 '수신 웹후크 통합앱 추가'라는 버튼을 눌러 다음으로 넘어간다.
 
 그럼 웹훅에 어떤 형식의 데이터를 보내야 메시지를 출력할 수 있는지 안내되어 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612080696615/-F9r_8tU6.png align="left")
+![image.png](images/-F9r_8tU6.png)
 
 자세한 내용은 [슬랙 API 문서](https://api.slack.com/messaging) 에서 확인할 수 있으니 우선 다음으로 넘어가자.
 
@@ -146,7 +146,7 @@ Slack에 추가 버튼을 눌러 웹훅 설정을 진행한다.
 * **아이콘 사용자 지정:** 슬랙에 보일 봇의 프로필 사진(아바타).
     
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612081121771/dfhLYtPnO.png align="left")
+![image.png](images/dfhLYtPnO.png)
 
 **설정 저장** 버튼을 누르면 봇 생성을 완료할 수 있다. 이제 이 웹 훅에 메시지를 발송하기만 하면 된다.
 
@@ -226,7 +226,7 @@ Slack에 추가 버튼을 눌러 웹훅 설정을 진행한다.
 
 위 정보를 담아 만든 '일정표' 시트는 아래와 같다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612103748350/_SYYd7ys2.png align="left")
+![image.png](images/_SYYd7ys2.png)
 
 시트를 관리하는 담당자가 날짜와 근무 유형을 선택하면 요일과 시작 / 종료 시각은 자동으로 채워진다.
 
@@ -242,7 +242,7 @@ Slack에 추가 버튼을 눌러 웹훅 설정을 진행한다.
 
 사용 중인 슬랙의 좌측 채널이 모인 패널 상단을 보면 People & User Group이라는 메뉴가 보인다. 이 메뉴에서 특정 사용자를 선택하면 아래와 같은 간략 프로필을 볼 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612102330496/Kk7R4iht3.png align="left")
+![image.png](images/Kk7R4iht3.png)
 
 위 프로필에서 'More' 버튼을 누르면 보이는 팝업 메뉴 제일 아래쪽에 위치한 'Copy member ID' 항목을 선택하면 된다.
 
@@ -250,15 +250,15 @@ Slack에 추가 버튼을 눌러 웹훅 설정을 진행한다.
 
 작업하던 스프레드시트 파일에 '구성원'이란 이름의 시트 하나를 추가한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612102746939/7bqn9IHz3.png align="left")
+![image.png](images/7bqn9IHz3.png)
 
 그리고 팀 구성원들의 member ID를 이름과 함께 입력한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612102841742/MuL6EHYgG.png align="left")
+![image.png](images/MuL6EHYgG.png)
 
 다시 일정표 시트로 돌아가 아래와 같이 컬럼을 추가한다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612115540282/4zi3yJlOXp.png align="left")
+![image.png](images/4zi3yJlOXp.png)
 
 F~K 컬럼에 이름이 선택되면 L~Q 컬럼 각각에 '구성원' 시트의 이름을 참조하여 member ID를 출력한다.
 
@@ -274,7 +274,7 @@ F~K 컬럼에 이름이 선택되면 L~Q 컬럼 각각에 '구성원' 시트의 
 
 작업중인 구글 스프레드시트 문서의 '도구 &gt; 스크립트 편집기' 메뉴를 누른다. 그러면 아래와 같은 구글 앱 스크립트 편집기 화면을 볼 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612104733411/0m8ZrmvfI.png align="left")
+![image.png](images/0m8ZrmvfI.png)
 
 > **여기서 부터는 코드 작업이 필요하다.** 아무래도 내가 개발자가 아니라서 코드는 원하는 방식으로 동작하는 것에 초점이 맞춰져 있다. 이 글을 읽는 개발자 분들이 계시다면 개선된 품질의 코드를 댓글로 달아 주시면 나와 많은 분들께 도움이 될 것 같다.
 
@@ -432,7 +432,7 @@ function notifySlackForCSRotationMember() {
 
 앱스크립트 편집기 좌측의 시계 아이콘은 트리거를 설정할 수 있는 메뉴이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612110394213/qenXhQRcA.png align="left")
+![image.png](images/qenXhQRcA.png)
 
 트리거 메뉴에서 새 트리거를 만들어보자.
 
@@ -440,7 +440,7 @@ function notifySlackForCSRotationMember() {
 
 새 트리거 만들기 버튼을 누르면 아래와 같은 트리거 설정 창이 보인다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612110463587/RPaC_v1eI.png align="left")
+![image.png](images/RPaC_v1eI.png)
 
 * 먼저 실행할 함수 선택 옵션에서 `notifySlackForCSRotationMember()`함수를 선택한다.
     
@@ -461,7 +461,7 @@ function notifySlackForCSRotationMember() {
 
 이제 실제 메시지가 어떻게 발송되는지 살펴보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612111363908/alFMDcAOjT.png align="left")
+![image.png](images/alFMDcAOjT.png)
 
 정상적으로 작동한다.
 

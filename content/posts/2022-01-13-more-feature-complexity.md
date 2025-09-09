@@ -18,7 +18,7 @@ updatedAt: '2024-03-18'
 여기서 짚어야 하는 것은 ‘많은 기능’이란 단어가 경고하는 것이 '복잡성 리스크'라는 점입니다.
 많은 기능은 기술적인 복잡성을 높이고 사용자 경험의 복잡성을 기하급수적으로 높일 수 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642098587800/PJq8txpon.png)
+![image.png](images/PJq8txpon.png)
 
 지금이 2000년 이라면 말이죠.
 
@@ -30,7 +30,7 @@ updatedAt: '2024-03-18'
 
 오히려 소프트웨어가 클라우드에 얹어지며 판매 방식이 달라졌고 실 사용자의 도구 선택 권한이 커지며 자연스레 연결을 통한 기업향 소프트웨어의 '**플랫폼화**', '**개인화**'는 자연스러운 발전상이 되어 점점 더 중요해지고 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642099731185/bAHRdXfXa.png)
+![image.png](images/bAHRdXfXa.png)
 
 물론 지금 이 얘기가 고객의 요청을 무비판 적으로 수용하며 기능 공장처럼 기능의 숫자를 늘리는 데 집중해야 한다는 의미는 아닙니다. 진짜 니즈에 집중해서 제대로 설계하지 않으면 아주 빠르게 지옥의 맛을 볼 수 있겠죠..ㅠ
 

@@ -11,7 +11,7 @@ updatedAt: '2024-03-18'
 ---
 
 # 라자다 CEO Max Bittner가 말하는 라자다의 승리 공식
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611506595204/Q2-D5HnDz.png)
+![image.png](images/Q2-D5HnDz.png)
 
 오랜만의 포스팅이네요. 오랜만에 공유하는 글이 기존 글과 사뭇 다른 주제라 조금 어색하네요.
 사실은 올해 초 휴가 차원에서 동남아시아로 약 5개월 간의 여행을 다녀왔는데요.
@@ -26,7 +26,7 @@ updatedAt: '2024-03-18'
 
 -----
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611506653750/39bmxISyG.png)
+![image.png](images/39bmxISyG.png)
 
 라자다의 대표이사 Max Bittner는 동남아시아에서의 성장을 가속화하는데 집중하고 있습니다. 그들은 모기업 알리바바로부터 수익에 대한 압박없이 강한 신뢰와 지원을 받고 있습니다.
 
@@ -48,7 +48,7 @@ updatedAt: '2024-03-18'
 
 라자다는 동남아시아 전역에 위치한 15개의 창고를 통해 매우 다양한 제품들을 공급하고 있습니다. 그리고 그중 3개는 인도네시아에 자리하고 있는데 연말 완공되는 2개의 창고를 더해 2억 5천만의 거대 시장을 공략할 예정입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611506716678/PMyQW8JjD.png)
+![image.png](images/PMyQW8JjD.png)
 
 Bittner는 또한 현재 핵심 경쟁력 강화를 위해 라스트 마일 배송 서비스를 전략적으로 강화해 가는 중이라고 밝히면서 그가 3C라고 부르는 것을 특히 강조했는데
 
@@ -65,7 +65,7 @@ Bittner는 또한 현재 핵심 경쟁력 강화를 위해 라스트 마일 배�
 ## 서로 다른 시장 전략 Lazada VS Shopee
 쇼피는 라자다와는 다른 전략을 취합니다. Sea의 회장인 Nick Nash는 상인들에 집중하는 마켓플레이스를 만드는 것이 비용 효율적일 뿐 아니라 동남아시아의 초기 수준인 동남아시아 물류 개발 단계에 적합한 방식이라 믿습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611506787103/eMSR78liu.png)
+![image.png](images/eMSR78liu.png)
 
 > “우리(Shopee) 플랫폼 내의 판매자들은 전 지역에 골고루 분산되어 퍼져있기 때문에 주요 대도시에만 위치하는 몇 되지 않는 거대 창고에 의존할 필요가 없습니다. 실질적으로도 구매자와 판매자 간의 직접 배송이 잠재적으로 더 긴 운송시간을 요하는 거점 연결방식보다 효율적입니다.”
 
@@ -92,7 +92,7 @@ Bittner는 업계가 당면한 가장 큰 과제는 판매량의 증대가 아�
 
 라자다의 라스트 마일 공급망은 상당 부분 싱가포르의 Ninjavan이나 인도네시아의 Go-Jek 등 3자 물류 기업에 의존해왔습니다만 현재는 보다 수요에 잘 대응하기 위한 자체 배송 네트워크에 많은 투자를 시작했습니다. 인도네시아의 경우 현재 라자다는 자사 물량의 상당 부분을 직접 처리하고 있습니다.(쿠팡의 로켓 배송을 수 천 개의 섬으로 이루어진 나라에서 하려 한다고 생각하시면 됩니다.)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611506931837/ncpHsYt7x.png)
+![image.png](images/ncpHsYt7x.png)
 
 이러한 인프라에 대한 투자는 알리바바의 전폭적인 지원에 힘입어 이루어졌다고 볼 수 있는데 이미 잘 알려졌듯이 알리바바의 Taobao와 Tmall은 전형적인 asset-light 한 마켓플레이스입니다. 그러나 최근 알리바바는 그들 자신이 ‘신소매’로 칭하는 리테일 혁명을 비전으로 삼으며 온라인 식료품 판매를 비롯하여 백화점 인수, 슈퍼마켓 체인 설립 등 오프라인 물류 시스템에 대대적인 전략적 투자를 집행하고 있으며 글로벌 물류 네트워크 구축을 위해 약 5년간 150억 달러 투자를 약속했습니다.
 

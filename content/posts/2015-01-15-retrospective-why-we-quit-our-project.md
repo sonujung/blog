@@ -26,17 +26,17 @@ updatedAt: '2021-07-11'
 콜라보웍스의 차별점은 업무 과정에서 필요에 따라 집중을 좁히거나 넓히며 커뮤니케이션과 프로젝트 흐름을 컨텍스트에 맞게 관리하기 좋다는 점이다. 특히 Discussion이란 이름의 비동기 쓰레드(Thread)를 제공하여 주제에 따라 채팅 방식의 커뮤니케이션이 가능한게 특징이다.
 
 ### 콜라보웍스 주요 기능 보기
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611428585938/gDtSxkJzy.png)
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611430102811/xxq7K3OeD.png)
+![image.png](images/gDtSxkJzy.png)
+![image.png](images/xxq7K3OeD.png)
 **태스크 관리 뷰:** 모든 태스크는 한 곳에 모여 있고 필터를 활용해 원하는 프로젝트, 혹은 작업자의 태스크와 진행 상황만 모아 볼 수 있어 집중을 흐트러뜨리지 않는다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611428599675/yZXErQztk.png)
+![image.png](images/yZXErQztk.png)
 **태스크 디테일 뷰:** 정보 구성은 베이스캠프, 트렐로 등과 크게 다르지 않지만 태스크 목록과 디테일을 한 눈에 볼 수 있는게 편하다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611428999222/hnt4rkliY.png)
+![image.png](images/hnt4rkliY.png)
 **캘린더 뷰:** 간트 차트의 필요성을 특별히 느끼지는 못하였기 때문에 달력은 태스크 관리 UX에 날짜별 필터를 추가하는 정도가 우리에겐 맞았다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611429382348/hq-pnZac_.png)
+![image.png](images/hq-pnZac_.png)
 **디스커션 뷰:** 가장 만족스런 기능이다. 기존에는 업무 관련 논의를 채팅으로 진행하다보니 연속으로 이어지는 여러 대화 사이에서 특정 이슈에 대한 논의 만을 다시 찾기 어려웠고 그렇다고 구글 독스를 공동 저작하는 방식도 화자 구분이 어려워 불편했다. 그래서 특정 주제에 대한 대화만을 쓰레드 형태로 모아 둘 수 있도록 하고 주요 결정을 하이라이트 하여 모아볼 수 있게 하였다.
 
 엄청나게 다양한 기능을 제공하는 것은 아니지만 콜라보웍스는 소규모인 우리가 원격으로 일하는데 꽤 유용한 도구임에는 분명했다.
@@ -66,7 +66,7 @@ updatedAt: '2021-07-11'
 
 *그래서 기존 데스크탑 버전에 일부 기능을 덧붙이고, 모바일 앱을 완성하여 런칭하기로 결정했다.*
 
-![mobile_screenshots.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611432029013/Njh2ob1p_.png)
+![mobile_screenshots.png](images/Njh2ob1p_.png)
 
 그렇다고 외주 일을 완전 접어 둘 수도 없다. 아직 진행중인 업무도 있고, 새로운 일을 받지 않으면 생활이 안되니까 말이다.
 

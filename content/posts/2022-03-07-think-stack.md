@@ -24,14 +24,14 @@ updatedAt: '2022-07-14'
 ### Google Keep
 [바로가기](https://keep.google.com/u/0/)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646662057971/y-Jt6Bxc1.png)
+![image.png](images/y-Jt6Bxc1.png)
 
 그때그때 떠오르는 생각을 메모하거나 전자책, 블로그 글을 읽다 특정 문장을 북마크 하고 싶을 때 주로 사용하고 있다. Keep이란 제품 전반의 사용자 경험에 만족도가 높다기 보단 구글 캘린더와 함께 사용하기 좋기 때문에 작년부터 사용하기 시작해 정착하게 되었다.
 
 ### Pocket
 [바로가기](https://getpocket.com/)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646662873803/T_LKB6VM-.png)
+![image.png](images/T_LKB6VM-.png)
 
 많은 사람들이 애용하는 북마크 앱 포켓이다. 소셜 미디어나 뉴스레터 등을 보다 나중에 읽고 싶은 글이 있거나, 공유하고 싶은 글이 있으면 우선 포켓에 저장해 두고 읽는 편인데 무료 플랜임에도 읽기 모드도 지원하고 지금껏 특별한 불편 없이 10년 넘게 사용 중이다.
 
@@ -39,23 +39,23 @@ updatedAt: '2022-07-14'
 ### Workflowy
 [바로가기](https://workflowy.com/invite/198ce1c0.lnx)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646670841092/xNl7JLA6e.png)
+![image.png](images/xNl7JLA6e.png)
 
 초기 버전부터 10년 이상 사용해 온 아웃라이너 앱이다. 말 그대로 생각 정리 목적으로 사용하고 있으며 제품 설계나 계획 수립 그리고 개인 블로그의 아티클을 작성할 때에도 Workflowy에서 틀을 먼저 정하고 시작하는 편이다. 최근에는 업무보다는 개인 용으로 좀 더 많이 활용하고 있다.
 
 ### Notion
 [바로가기](https://notion.so/)
 
-![Notion1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646664807509/sKj8p8d_V.png)
+![Notion1.png](images/sKj8p8d_V.png)
 
-![Notion2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646664803750/htmUAnA8K.png)
+![Notion2.png](images/htmUAnA8K.png)
 
 마찬가지로 베타 버전 때부터 꾸준히 사용해오고 있는데, 정리된 생각을 문서화 하는 생각 도착지 중 하나이다. (다른 하나는 이 블로그) 원래 개인용으로 사용하다 회사에서 노션을 도입한 뒤로는 업무 문서 관리를 위해 사용하는 비중이 훨씬 커졌다. 최근에는 팀 태스크 관리도 지라 대신 노션으로 하고 있고 Mermaid를 통해 다이어그램도 작성할 수 있게 되어서 사실상 대부분의 업무는 노션을 통해 관리하고 있다.
 
 ### Google Calendar & Task
 [바로가기](https://calendar.google.com/)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646666744291/y8Eth7OIi.png)
+![image.png](images/y8Eth7OIi.png)
 
 개인/업무 일정 모두 구글 캘린더를 활용해 관리하고 있다. 활용 방식은 이전 [타임박싱 관련 글](https://sonujung.com/how-to-be-a-manager-time-boxing)에서 소개한 적 있는데 그때와 크게 달라진 점은 없으나 현재 써드파티 앱은 쓰지 않고 Keep, Task 등 구글 캘린더와 호환되는 퍼스트 파티 피쳐만 활용하는 중이다.
 

@@ -31,13 +31,13 @@ updatedAt: '2024-03-18'
 
 > [Data-Informed Product Building](https://medium.com/sequoia-capital/data-informed-product-building-1e509a5c4112) / 2018년 5월 31일 게재
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635661014900/F1VNimKXiO.png align="left")
+![image.png](images/F1VNimKXiO.png)
 
 세상이 빠르게 변하고 있고 생태계는 나날이 진화하고 있다. 기업들의 성장은 점점 더 빨리지고 제품을 구축하는 방식도 그 어느 때 보다 쉬워지고 있습니다.
 
 기업이 1억 명의 월 활성 사용자(MAU)를 확보하는 데까지 소요되는 시간은 극적으로 단축되어왔으며 지금도 감소세는 쭉 이어지고 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635661558239/I7s7z8xKZ.png align="left")
+![image.png](images/I7s7z8xKZ.png)
 
 <sup>제품이 1억 명의 활성 사용자를 활보하는데 걸린 시간(월) From Multiple Sources</sup>
 
@@ -63,7 +63,7 @@ Google, Facebook, Amazon과 같은 플랫폼은 기업이 타깃 고객에게 �
 
 제품은 시간이 흐를 수록 진화하기 때문에 초기 제품의 특성은 이미 성숙한 제품의 특성과 크게 다를 수 밖에 없습니다. 뛰어난 제품의 성장 단계는 일반적으로 아래 S곡선의 형태를 띕니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635669060854/YjLurwIjA.png align="left")
+![image.png](images/YjLurwIjA.png)
 
 <sup>성장 단계 별 시장 침투율(penetration) 변화</sup>
 
@@ -88,7 +88,7 @@ Google, Facebook, Amazon과 같은 플랫폼은 기업이 타깃 고객에게 �
 
 두 번째 달이 되면 아직 부활 사용자는 없지만, 첫 달 사용자의 이탈이 보이기 시작합니다. 세 번째 달에는 어느 정도 신규 사용자와 이탈/부활 사용자 사이의 균형이 만들어지기 시작합니다. 부활 사용자가 작고 여전히 신규 사용자의 비중이 가장 높지만, 이탈 사용자의 수도 늘어납니다. 월별(MoM) 순 사용자 수의 증가는 전적으로 이탈 사용자 대비 신규 및 부활 사용자의 비율에 따라 달라집니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635671185909/2XT793Y4n.png align="left")
+![image.png](images/2XT793Y4n.png)
 
 위 그림은 시간이 지남에 따라 코호트 유지율이 어떻게 변화하는지를 보여주는 차트입니다.
 
@@ -112,7 +112,7 @@ Google, Facebook, Amazon과 같은 플랫폼은 기업이 타깃 고객에게 �
 
 초기 단계를 지나 제품을 지속 사용하는 사용자 수가 수만 명으로 늘어나지만 이게 반드시 PMF(Product-Market Fit: 제품 시장 적합성)를 찾았다는 뜻은 아닙니다. 제품을 채택할 다음 수십만 명의 사용자가 누구인지, 그리고 이들을 끌어들이기 위해 어떤 방향성으로 제품을 개선해 나갈지 찾아내는 것이 중요합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635672837701/yiayTEryF.png align="left")
+![image.png](images/yiayTEryF.png)
 
 초기 단계 제품은 접근 가능 시장(addressable market)에의 침투 수준이 낮고 성장 속도도 더뎠으나 성장 단계에 접어들어 PMF를 찾아가기 시작하면 성장이 가속화됩니다. 새로운 사용자의 유입(= 새 코호트 집단 크기 증가)이 늘고 사용자들이 제품에서 가치를 발견하고 다시 제품으로 돌아오는 일이 일어나기 시작합니다.
 
@@ -138,7 +138,7 @@ Facebook , Instagram, WhatsApp, Amazon, Netfilx, Uber 및 Evernote를 포함하�
 
 이러한 현상은 일반적으로 접근 가능 시장(addressable market)에 일정 수준 이상의 점유율을 차지하거나 제품이 유명해질 때 일어나는 일입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635676381828/ShrnEqcKG.png align="left")
+![image.png](images/ShrnEqcKG.png)
 
 이 기간 동안 MAU는 부활 사용자가 이탈 사용자를 초과하며 신규 사용자가 빠르게 늘어나며 극적으로 성장합니다. 이는 팀이 경험할 수 있는 가장 빠른 속도의 성장 경험일 수도 있습니다. L5+/7(일주일에 5번 이상 제품을 방문하는 사람들의 비율), 세션 수, MAU/DAU(일일 활성 사용자)와 같은 모든 활성화(engagement) 관련 지표가 향상되고 제품은 PMF와 규모, 모든 측면에서 성공적인 결과를 거두게 됩니다.
 
@@ -173,11 +173,11 @@ Facebook , Instagram, WhatsApp, Amazon, Netfilx, Uber 및 Evernote를 포함하�
 
 제품의 다음 수백만 사용자는 누구입니까? 우리가 아직 진출하지 않은 국가 중 유력한 시장은 어디인가요? 그들을 매료시키기 위해 새로운 기능을 제공해야 할 필요는 없나요? 시작을 확대하는 과정에서는 이미 성숙한 수준의 다다른 제품이라도 새로운 PMF를 고려해야 할 수도 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635679764346/abt8xm3-4.png align="left")
+![image.png](images/abt8xm3-4.png)
 
 위 그림과 같이 신 제품이나 신 시장 진출을 통한 성장은 다시 S곡선을 따라 이뤄지게 됩니다. 처음에는 천천히 성장하고 이후 가속화되며 빠르게 증가하여 포화 상태에 도달합니다. 이렇게 겹쳐진 연속된 S곡선, 즉 제품의 다각화 전략은 지속적인 성장을 가능하게 합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635680000912/ou9gN70Jib.png align="left")
+![image.png](images/ou9gN70Jib.png)
 
 Netflix의 여정을 예로 들어 보겠습니다. 이들은 2007년 미국에서 스트리밍 제품을 시작했고 2010년에 고도성장 단계에 돌입했습니다. 이때 넷플릭스의 경영진은 이미 해외 확장을 위한 인프라를 구축하기 시작했고 2010년 말 다른 국가에서 공식적으로 출시되었습니다. 몇 년 후 미국 시장의 성장이 성숙기에 접어들 때까지 글로벌 성장이 Netflix의 신규 가입자 증가를 이끌었습니다. Netflix와 같은 대부분의 기업은 주요 제품의 성장 단계에 있는 동안 제품 확장 계획을 적극적으로 준비해야 합니다. 이를 미루거나 시행하지 않으면 성장이 멈추게 됩니다.
 

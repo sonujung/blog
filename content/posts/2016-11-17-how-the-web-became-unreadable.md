@@ -39,10 +39,10 @@ updatedAt: '2024-03-18'
 
 우리는 시력과 관계없이 광범위하게 적용할 수 있는 텍스트 사용 표준을 마련하고 활용해야 합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611489476683/1auPtOdNk.png)
+![image.png](images/1auPtOdNk.png)
 *구글 앱엔진의 콘솔화면 (이전) — 구식이지만 선명히 보인다.*
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611489502736/UDF3YEVzA.png)
+![image.png](images/UDF3YEVzA.png)
 *구글 앱엔진의 콘솔화면 (현재) — 트렌디하고 고급스럽지만 읽기 어렵다.*
 
 텍스트를 읽기 어렵게 만드는 큰 장애물 중 하나인 대비 문제(배경과 전경의 차이)를 해결하는 것은 그리 어렵지 않습니다. 2008년 웹 접근성 이니셔티브는 수치모델을 활용하여 가독성이 높은 웹페이지를 만들기 위한 적정 대비 값을 제시했습니다.
@@ -53,12 +53,12 @@ updatedAt: '2024-03-18'
 
 그런데 살펴보니 디자이너들은 권장사항을 지키기보다는 정말 최소한의 가독성 만을 추구하는 것처럼 보입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611489525775/pNpctJ1_e.png)
+![image.png](images/pNpctJ1_e.png)
 *Contrast as modeled in 2008*
 
 예를 들어 애플의 [타이포그래피 가이드라인](https://developer.apple.com/ios/human-interface-guidelines/visual-design/color/)은 7:1의 대비를 적용하기를 권장하지만 정작 아래 보이는 실제 페이지는 5.5 : 1의 대비로 디자인되었습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611489550935/myuzYQtbK.png)
+![image.png](images/myuzYQtbK.png)
 *애플의 개발자 가이드를 캡춰했습니다.*
 
 [구글의 가이드라인](https://material.google.com/style/typography.html#typography-line-height) 역시 7:1의 대비를 추천하고 있지만 의아하게도 디스플레이 서체 및 제목 유형에 대해서는 54 %의 투명도를 권장합니다. 이것은 실제로 4.6 : 1의 대비에 불과합니다. (역자주 — 아마 크기가 큰 서체의 경우 가독성의 문제가 상대적으로 적기 때문에 큰 문제는 없을 것 같아 보입니다만..)
@@ -75,7 +75,7 @@ updatedAt: '2024-03-18'
 
 2009년이 되자 모든 게 바뀌었습니다. 웹폰트를 사용할 수 있게 되면서 보다 다양한 서체를 활용할 수 있게 되었고 ‘웹 안전서체'라는 용어가 무색해지게 되었습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611489575315/5VOAYL8ci.png)
+![image.png](images/5VOAYL8ci.png)
 
 LCD 기술이 발전하고 더 높은 해상도의 디스플레이가 보급됨에 따라 가늘고 긴 서체의 활용이 유행하기 시작했고 애플이 2013년 Helvetica Neue Ultralight를 시스템 글꼴로 지정하며 이 트렌드에 불을 지폈습니다. (최근 애플은 iOS7에 굵은 서체를 다시 추가하였습니다.) 이에 많은 디자이너들은 밝은 색상, 낮은 명암에 더 얇은 글꼴을 활용하여 크기가 한껏 커진 디스플레이에 최적화된 시각 공식을 만들어냈지만 많은 사람들이 메인 디스플레이를 노트북, 휴대폰 및 태블릿 PC로 전환하고 있기 때문에 디자인 스튜디오에서 사용할 법한 이상적인 디스플레이 스펙은 점점 더 희귀해지고 있습니다.
 

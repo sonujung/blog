@@ -34,7 +34,7 @@ updatedAt: '2021-07-11'
 
 그래서 드디어 사용해보나 싶었는데 프레이머X로 업데이트 하며 완전히 바뀌었다고..
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611508583597/nZv5N9Rzu.png)
+![image.png](images/nZv5N9Rzu.png)
 
 ### 인상
 
@@ -50,7 +50,7 @@ updatedAt: '2021-07-11'
 
 ## 2. 프로토파이
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611508640601/uKtcYnjvQ.png)
+![image.png](images/uKtcYnjvQ.png)
 
 ### 인상
 

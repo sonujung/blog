@@ -13,7 +13,7 @@ updatedAt: '2024-03-18'
 금일 네이버의 한성숙 대표가 네이버 모바일 앱의 대대적인 개편을 예고했다.
 새로운 네이버 앱은 아래 모습을 갖고 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611505022278/RKYYm0Wys.png)
+![image.png](images/RKYYm0Wys.png)
 
 그야말로 빅뉴스가 아닐 수 없다.
 
@@ -33,7 +33,7 @@ updatedAt: '2024-03-18'
 
 ## 새로운 앱에서 바뀐 점
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611505226087/g06GRGkZ9.png)
+![image.png](images/g06GRGkZ9.png)
 
 
 ### 1. 목적에 따른 명확한 경로 제공
@@ -75,7 +75,7 @@ updatedAt: '2024-03-18'
 
 ### 3. 테크기업 네이버
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611505805244/jLoG_5aLy.png)
+![image.png](images/jLoG_5aLy.png)
 
 우리나라 대표 IT기업치고 네이버는 테크 기업이라는 이미지가 많이 부족했던 게 사실이다. 특히 검색엔진으로써(네이버 입장에서는 다소 억울할 수도 있지만) 구글과 비교되며 불량품 취급을 받아온 역사가 있고 정치적인 이슈에서 희생양이 되는 경우도 빈번했다. 이번 개편을 통해 네이버는 이러한 오명을 벗어던지고 싶은가 보다. 깨끗하고 맑게! 자신 있게! 검색창을 첫 화면 중앙에 박아 놓은 게 인상적이다.
 
@@ -87,7 +87,7 @@ updatedAt: '2024-03-18'
 
 ### 4. 개별 콘텐츠 영역의 독립성 강화
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611505992758/Z7wjC_G64.png)
+![image.png](images/Z7wjC_G64.png)
 
 이러니저러니 해도 결국 네이버를 방문하는 상당수의 사용자는 뉴스/웹툰 등의 콘텐츠 소비자임에 분명하다. 검색 화면의 우측에 위치한 콘텐츠 영역은 이전과 크게 다르지 않다. 뉴스의 경우 첫 화면에서 사용자가 지정한 언론사의 기사를 각 언론사가 편집한 대로 볼 수 있고 스와이프 하여 넘긴 두 번째 화면에서는 인공지능 추천을 통해 사용자가 관심 있어 할 법한 기사를 선별하여 보여준다.
 

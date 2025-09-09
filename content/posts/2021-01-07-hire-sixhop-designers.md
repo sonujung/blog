@@ -10,7 +10,7 @@ publishedAt: '2021-01-07'
 updatedAt: '2024-03-18'
 ---
 
-![bg (1).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611513976707/CGII8quyj.png)
+![bg (1).png](images/CGII8quyj.png)
 
 > 미리 고백할게요, 고객이 사랑하는 제품에 대한 열망을 갖고 계신 프로덕트 디자이너를 모시고자 작성하는 채용 홍보글입니다. [경력직 프로덕트 디자이너 채용 지원하기](https://www.wanted.co.kr/company/808) (현재 개발 직군도 절찬 채용 진행중이니 주위에 많이 알려주세요!)
 
@@ -44,13 +44,13 @@ updatedAt: '2024-03-18'
 
 # 식스샵은 무엇을 하는 곳인가요?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611514031462/vN6PLBPn0.png)
+![image.png](images/vN6PLBPn0.png)
 
 > 새로운 가치를 만들어 가는 사람들의 성장을 돕습니다.
 
 식스샵은 위 미션을 중심으로 생에 첫 온라인 창업을 준비하는 초보 판매자들이 보다 손쉽게 온라인 비즈니스를 시작하고 성장해 나갈 수 있는 올인원 쇼핑몰 플랫폼 서비스를 제공하고 있어요. 식스샵을 사용하면 어려운 기술에 대한 전문 지식 없이 혼자서도 멋진 웹사이트를 만들어 상품 판매를 시작할 수 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611514073833/JMcqSjvV_.png)
+![image.png](images/JMcqSjvV_.png)
 
 -----
 
@@ -63,20 +63,20 @@ updatedAt: '2024-03-18'
 
 ### 메이아이플라워
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611514228625/O5XZD6w40.png)
+![image.png](images/O5XZD6w40.png)
 [인터뷰 보기](https://www.sixshop.com/sixshop_interview/mayiflower) ∙ [브랜드 상점 방문하기](https://www.mayiflower.com/)
 
 친한 친구의 결혼식을 함께 기획하고 만들며 ‘둘만의 이야기가 드러나는 결혼’이 얼마나 근사한지 경험한 후, '둘만의 서사’가 드러나는 결혼 문화를 만들어나가고 싶었어요. 고객과의 인쇄 시안 컨펌 과정이 필요한 ‘청첩장'의 특성상 커스터마이징이 편리한 반응형 웹사이트 툴이 필요했는데 모든 면에서 식스샵이 가장 최적화된 서비스를 제공하고 있다고 판단했어요.
 
 ### 하누만
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611514374499/11HM9wrUL.png)
+![image.png](images/11HM9wrUL.png)
 
  [인터뷰 보기](https://www.sixshop.com/sixshop_interview/haanuman)  ∙  [브랜드 상점 방문하기](https://www.haanuman.com/) 
 
 시장에 쏟아져 나오는 다양한 향초 제품군 속에서 차별화를 시도하고 좀 더 고급스럽고 소비자 만족도가 높은 향초를 구상하며 오리엔탈 향초 브랜드 '하누만'을 만들게 되었습니다. 거의 실시간으로 운영되는 고객센터의 빠른 피드백 또한 당연히 식스샵을 이용하게 되는 이유 중 하나이죠.
 
 ### 피이뒤시엘
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611514516907/rfcguI5F-.png)
+![image.png](images/rfcguI5F-.png)
 
 [인터뷰 보기](https://www.sixshop.com/sixshop_interview/filles_du_ciel)  ∙  [브랜드 상점 방문](https://fillesduciel.com/)
 
@@ -84,7 +84,7 @@ updatedAt: '2024-03-18'
 
 ### 키츠
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611514804585/wyESoODb8.png)
+![image.png](images/wyESoODb8.png)
 
 [인터뷰 보기](https://www.sixshop.com/sixshop_interview/kits)  ∙  [브랜드 상점 방문](https://kitcheninspring.com/)
 
@@ -140,7 +140,7 @@ updatedAt: '2024-03-18'
 반면 식스샵에서는 이런 메시지를 자주 볼 수 있습니다.
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611515089376/9zYHUxpS2.png)
+![image.png](images/9zYHUxpS2.png)
 
 느껴지시나요? 저희는 '좋아요', '감사합니다', '불편해요' 이런 거 안 키웁니다.
 
@@ -169,7 +169,7 @@ updatedAt: '2024-03-18'
 
 디지털 환경에서, 특히 스타트업에서 좋은 제품을 만들어 가는 위해서는 스페셜리스트보다 슈퍼 제너럴리스트(Versatilist) 로서 역량을 갖춘 디자이너의 중요성이 매우 크다고 생각합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611515311810/-Fg0YwjQn.png)
+![image.png](images/-Fg0YwjQn.png)
 
 그리고 이를 위해선 역량의 범위를 확장해 갈 수 있는 업무 환경과 체계가 갖춰져야 하는데요. 특히 하나의 공동 목표를 기반으로 제품을 만드는 여러 직군이 함께 문제의 해결책을 고민하고 소통할 수 있는 환경이 중요하다고 생각합니다. (참고 글:  [제품팀 VS 기능팀](https://sonujung.com/translate-product-team-vs-function-team) )
 
@@ -249,7 +249,7 @@ updatedAt: '2024-03-18'
 
 Glass Half Full 마인드셋
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611515756342/oa4m_vHME.png)
+![image.png](images/oa4m_vHME.png)
 
 - 고객의 목소리에 귀 기울이고 동료와의 협업에 솔직하고 열린 소통의 자세를 가진 분.
 - 제품 협업을 위한 기본적인 기술 이해도 및 협업 커뮤니케이션 스킬을 갖추신 분.

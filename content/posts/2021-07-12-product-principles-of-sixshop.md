@@ -13,7 +13,7 @@ updatedAt: '2024-03-18'
 
 2019년 총 13명이던 구성원 수가 2021년 현재 40명을 넘어섰다. 지난 한 해에만 팀이 2배 이상 늘어난 셈이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1625984201300/PCSJyMti-.png)
+![image.png](images/PCSJyMti-.png)
 
 사람이 온다는 것은 그 사람의 일생이 함께 오는 것이라고 하지 않던가? 여전히 작은 조직이긴 하지만 채용과 온보딩 과정을 거쳐 한 명씩 팀에 합류할 때마다 팀의 문화와 일하는 방식은 끊임없이 변화해야 했다. 
 
@@ -24,7 +24,7 @@ updatedAt: '2024-03-18'
 2020년 초 우리는 이러한 병목을 해결하고 더 나은 제품 문화를 만들어가기 위한 조직 개편 작업에 돌입했다. 목표는 제품 관리자, 제품 디자이너, 프론트/백엔드 개발자로 이루어진 교차 기능 팀이 자율적으로 고객 니즈를 발굴하여 제품을 개선해 나가는 것이었다. 
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626020933564/FY2IQcetT.png)
+![image.png](images/FY2IQcetT.png)
 > 이미지 출처: [How to Make a Cross-Functional Team Work and What Value They Bring](https://perfectial.com/blog/make-a-cross-functional-team-work/)
 
 그리고 이러한 팀 형태에 걸맞은 업무 방식을 찾는 것 또한 숙제였다. 여러 시행착오가 있었고  모든 구성원이 함께 고민하며 더 나은 협업 방식을 찾아왔다. 감사하게도 뛰어난 동료들이 계속 팀에 합류하며 이러한 노력에 힘을 보태주었다.
@@ -409,7 +409,7 @@ LA에 위치한 Downtown Dog Rescue의 창립자 Lori Weise는 유기견 문제�
 ### A. 2X2 보드
 해결해야 할 문제의 가치와 노력을 1~9로 사이의 점수로 평가하고 아래 사분면에 배치하여 우선순위를 판단합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626038385887/wsefnaRGi.png)
+![image.png](images/wsefnaRGi.png)
 
 - **가치 평가 기준** (1점~9점)   
     비즈니스 임팩트(문제를 해결했을 때 핵심 지표 향상에 얼마나 크게 기여하는가?) + 고객 가치(고객에게 얼마나 큰 가치를 제공하는가?) + 고객 수용 정도(이 문제가 해결되기를 바라는 타겟 고객의 수는 얼마나 되는가?)
@@ -419,14 +419,14 @@ LA에 위치한 Downtown Dog Rescue의 창립자 Lori Weise는 유기견 문제�
 ### B. Stacked Rank
 노력에 대한 평가는 팀 내부에서 확인할 수 있지만, 가치에 대한 평가는 고객 관점과 빗나가는 경우도 발생할 수 있습니다. 이럴 때 활용할 수 있는 도구가 Stacked Rank입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626038522183/8wzF-kHKe.png)
+![image.png](images/8wzF-kHKe.png)
 
 타깃 고객에게 해결하고자 하는 여러 문제를 직접 중요한 순서대로 나열해보게 하여 우리가 예측한 문제 우선순위와 비교하며 조정할 수 있습니다. (관련 글: [고객이 진짜로 관심 두는 문제 발견하기](https://sonujung.com/how-the-b2b-product-destined-to-fail))
 
 ## 작게 나눠 실행하기
 고객은 연이은 태스크를 처리하는 일련의 흐름(워크플로우)을 거쳐야 비로소 일을 마칠 수 있습니다. 우리는 전체 흐름 중 '비즈니스 가치를 만들어 낼 수 있는 최소 단위의 완결된 흐름'을 파악하여 단계적으로 살을 붙여 갑니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626105872835/HEbaqPowN.png)
+![image.png](images/HEbaqPowN.png)
 
 ### 제품 관리자가 확인해야 할 네 가지 리스크
 제품 관리자는 프로덕션 과정 중 항상 아래 [네 가지 리스크](https://sonujung.com/product-team-vs-function-team)를 체크하며 실행의 방향성을 잃지 않아야 합니다.
@@ -486,7 +486,7 @@ LA에 위치한 Downtown Dog Rescue의 창립자 Lori Weise는 유기견 문제�
 
 아래 이미지는 제품을 쉽게 만들 수 있는 방법을 요약하여 설명하고 있습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1626106414056/ULI_EDomH.png)
+![image.png](images/ULI_EDomH.png)
 
 고객이 그들의 필요를 충족하기 위해 제품을 활용하려면 알아야 하는 지식이 있습니다. 그런데 고객이 그보다 적은 지식을 갖추고 있다면 제품을 어렵게 느낄 것입니다. 그래서 이 격차를 줄이는 것이 중요합니다.
 

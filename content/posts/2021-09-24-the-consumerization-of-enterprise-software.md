@@ -27,7 +27,7 @@ updatedAt: '2024-03-18'
 
 IaaS(Infrastructure as a Service)를 대표하는 AWS나 PaaS(Platform as a Service)를 대표하는 Google App Engine 역시 2000년대 중후반 등장한 대표적인 제품이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1632237857711/07yJk77lO.png)
+![image.png](images/07yJk77lO.png)
 
 특히 웹 브라우저에서 응용 소프트웨어를 사용할 수 있도록 하는 SaaS(Software as a Service)는 아직 콘셉트에 가깝던 클라우드 기술을 시장의 메인스트림으로 끌어다 놓는데 지대한 공헌을 했다.
 
@@ -80,7 +80,7 @@ Ben Thompson은 그의 블로그 Stratechery에서 [Jira의 사례](https://stra
 
 전 NYT 디자인 디렉터이자 현재는 어도비의 수석 디자이너로 일하고 있는 디자이너 Khoi Vinh이 2007년 자신의 [블로그](https://www.subtraction.com/2007/10/19/if-it-looks-/)를 통해 던진 질문이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1632500345154/KfzviMeR1.png) 
+![image.png](images/KfzviMeR1.png) 
 
 한 때 두꺼운 매뉴얼, 복잡한 인터페이스, 느린 업데이트가 엔터프라이즈 소프트웨어의 상징이었다.
 

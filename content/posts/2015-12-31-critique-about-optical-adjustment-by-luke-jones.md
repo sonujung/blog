@@ -29,7 +29,7 @@ updatedAt: '2024-03-18'
 
 ## 정렬, 시각적 무게중심 / 크기에 관한 코멘트
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611437909244/b0lwARzDY.png align="left")
+![image.png](images/b0lwARzDY.png)
 
 > 컴퓨터는 시각적인 무게 중심이 어디에 위치하고 있는지 정확하게 계산해 낼 수 없다. 그것은 단지 넓이, 높이, x/y 좌표 같은 정보에 의존할 뿐이다. 디자이너로서 우리는 시각 보정을 통해 이를 보완할 필요가 있다. —  원문 번역본에서 발췌
 
@@ -37,7 +37,7 @@ updatedAt: '2024-03-18'
 
 이런 문제가 발생하는 원인을 알기 위해선 디지털 스크린의 출력 방식을 이해할 필요가 있다. 우리가 흔히 알고 있는 픽셀(pixel)은 화면을 이루는 가장 작은 단위이며 사각꼴의 점을 일컫는다. 지금 보고 있는 화면 역시 픽셀이 모여 만들어진 것이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611437957751/SvIlbUFkV.png align="left")
+![image.png](images/SvIlbUFkV.png)
 
 더 많은 픽셀이 모일수록 이미지의 선명도는 높아진다.
 
@@ -55,7 +55,7 @@ updatedAt: '2024-03-18'
 
 그렇다면 (그의 표현을 빌어)눈대중의 실제 작동방식을 살펴보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611437976963/bg9Yub1zY.png align="left")
+![image.png](images/bg9Yub1zY.png)
 
 좌측에 보이는 것과 같이 사각 컨테이너 간의 정렬은 삼각형의 무게 중심을 왼쪽으로 쏠리게 한다.
 
@@ -65,7 +65,7 @@ updatedAt: '2024-03-18'
 
 이어서 크기(Scale)에 대한 문제와 해법도 살펴보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438189402/L4V-nLXVe.png align="left")
+![image.png](images/L4V-nLXVe.png)
 
 > 크기는 우리의 뇌가 물체의 크고 작음을 어떻게 인지 하는지에 대한 것이다 (텍스트도 마찬가지이다). 이 원과 사각형을 보자. 가로 세로 120 X120 픽셀의 사각형은 가로 세로 120 X120 픽셀의 원보다 넓은 면적을 차지하게 된다. 이를 같은 크기로 보이게 하기 위해서 원의 크기가 아주 조금 더 커져야 한다. —  원문 번역본에서 발췌
 
@@ -75,7 +75,7 @@ updatedAt: '2024-03-18'
 
 그러니 원문의 표현처럼 제대로 보이기 위해 1픽셀 씩 옮겨가며 감각을 뽐낼 이유가 없다. 그저 바른 원을 그리기 위한 방법을 사용하면 된다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438106760/UZnPVdjjm.png align="left")
+![image.png](images/UZnPVdjjm.png)
 
 그림의 좌측엔 가로세로 10의 크기를 갖는 사각형과 동일 크기의 사각형에 담긴 원이 그려져 있다. 그리고 이 둘의 면적은 100과 (약) 78.5로 전혀 다르다.
 
@@ -87,7 +87,7 @@ updatedAt: '2024-03-18'
 
 글쓴이가 제안하는 어림짐작에 의지하지 않아도 문제를 해결할 수 있다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438226375/XJ6bsuJan.png align="left")
+![image.png](images/XJ6bsuJan.png)
 
 > 색상 보정은 조금 더 미묘하다. 다시 한번, 시각적인 보정은 형태의 무게감에 관한 것이다.요약 : 아이콘과 텍스트에 같은 그린 색상을 사용했지만, 이들 중 하나는 다른 하나보다 옅어 보인다.— 원문 번역본 발췌
 
@@ -99,7 +99,7 @@ updatedAt: '2024-03-18'
 
 한번 확대한 화면을 살펴보자.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438244359/6sRGswIiz.png align="left")
+![image.png](images/6sRGswIiz.png)
 
 상당한 차이를 확인할 수 있다. 물론 글쓴이는 같은 색상을 사용했겠지만 우리는 지금 다른 색을 보고 있지 않은가?
 
@@ -109,11 +109,11 @@ updatedAt: '2024-03-18'
 
 대신 색의 명도를 조절해 곡선과 유사한 형태를 만들어내는데 이것이 우리가 잘 아는 안티앨리어스(Anti-alias) 그리고 이미지 래스터 화(Rasterize)에 대한 설명이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438259088/xVCVNdUhv.png align="left")
+![image.png](images/xVCVNdUhv.png)
 
 또한, 픽셀의 크기는 고정되어 있으므로 요소의 크기가 작을수록, 서체의 두께가 얇을수록 기존 색상이 차지하는 면적이 줄어들게 되는데 이러한 이유로 화면에 보이는 색상에 차이가 발생할 수 있는 것이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438270688/TwCAVzuMC.png align="left")
+![image.png](images/TwCAVzuMC.png)
 
 서체의 두께가 두꺼울 경우에 같은 색상을 표현하는데 별 문제 없어 보인다.
 
@@ -123,7 +123,7 @@ updatedAt: '2024-03-18'
 
 물론 예시를 벗어난 여러 상황에서 시각적 보정이 필요한 상황은 다분히 발생한다. 이를 위해 여러 가지 정보를 습득하는 것은 매우 유용한 일이다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611438285557/deXJkDalL.png align="left")
+![image.png](images/deXJkDalL.png)
 
 배경색에 따라 동일색상이 다르게 보이는 현상.
 

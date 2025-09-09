@@ -12,7 +12,7 @@ updatedAt: '2024-03-18'
 
 # 알리 익스프레스 드랍쉬핑 판매자를 위한 큐레이션 서비스
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509155720/6z28tQ_BP.png)
+![image.png](images/6z28tQ_BP.png)
 
 요즘은 해외 결제도 배송도 예전보다 훨씬 쉬워져서 iHerb나 Amazon, Farfetch 등 다양한 쇼핑몰에서 직접 구매하는 해외직구가 점점 더 일상생활에 자연스럽게 자리 잡고 있는데요!
 
@@ -41,15 +41,15 @@ Thieve는 카탈로그를 둘러보며 정말이지 말도 안 되는 가격으�
 
 어떤 모여있는지 몇 개만 함께 살펴볼까요?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509192328/t8TtbIAB9.png)
+![image.png](images/t8TtbIAB9.png)
 
 이렇게 예쁜 여행용 반려견 캐리어가!!
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509204131/8PKXqIRC7.png)
+![image.png](images/8PKXqIRC7.png)
 
 가벼운 소품으로 좋을 클러치 백이 $25.9?!
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509215392/W-R23Pyk0.png)
+![image.png](images/W-R23Pyk0.png)
 
 이 정도 가격이면 고민 없이 질러도 좋지 않겠어요?
 
@@ -95,7 +95,7 @@ Thieve는 웹사이트에 큐레이션 한 상품을 통해 방문자를 모으�
 
 어째 위에 봤던 내용 같지 않나요? 드롭쉬핑 역시 어필리에이트 마케팅과 본질적인 의미에서 크게 다르지 않지만 이 둘을 구분하는 가장 큰 차이점은 바로 소비자의 돈을 '누가 받느냐'라고 볼 수 있어요. 어필리에이트 마케팅은 하나의 광고 상품에 가까운 개념이라면 드롭쉬핑의 경우 실제 쇼핑몰에서 구매하는 경험을 제공해요.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509251571/gRLjtIbdo.png)
+![image.png](images/gRLjtIbdo.png)
 
 즉 판매의 주체가 내가 되어 가격을 결정하고 고객의 돈을 받으며 고객 서비스를 제공하는 엄연한 전자상거래 서비스인 거죠. 단 재고관리와 배송의 주체가 내가 아닌 제조사 혹은 유통사라는 게 특징입니다.
 
@@ -122,7 +122,7 @@ Thieve는 웹사이트에 큐레이션 한 상품을 통해 방문자를 모으�
 
     Thieve는 웹사이트 내의 상호작용과 방문자 정보를 활용하여 어떤 고객이 어떤 상품에 관심을 갖고 있는지 한눈에 보기 쉽게 시각화하여 제공하고 있습니다. 상품의 인기도는 물론 구매자의 성별에 따른 구매 전환율을 확인할 수 있다면 어떤 상품을 판매할지 결정하는데 도움이 되지 않을까요?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611509265915/FGDrifaFZ.png)
+![image.png](images/FGDrifaFZ.png)
 
 여기까지만 살펴봐도 Thieve가 확실히 드롭쉬핑 판매자를 타겟팅하여 다양한 시도를 하고 있다는 것을 알 수 있는데요. 실제로 얼마나 많은 이용자가 이용하는지 궁금해지네요.
 

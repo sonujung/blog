@@ -11,7 +11,7 @@ updatedAt: '2024-07-30'
 
 UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 브레인 스토밍(Miro)과, 사용자 테스팅(Zoom)을 제외한 6개 부분의 1위를 Figma가 차지했다. ([기사](http://www.aitimes.com/news/articleView.html?idxno=134923))
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620032122947/odkzpsAq8.png)
+![image.png](images/odkzpsAq8.png)
 
 한때 포토샵의 아성을 무너뜨리고 새로운 강자로 떠오르던 스케치가 어느새 피그마의 위세에 밀려나는 모습을 보이고 있다. 작년 2조 2천억 원의 기업가치를 인정받은, 많은 디자이너가 매일같이 사용하고 있는 제품 피그마는 어떻게 인터페이스 디자인 분야에서 No.1 프로덕트의 자리를 차지할 수 있었을까?
 
@@ -19,7 +19,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 # 1. 새로운 기술에서 영감을 얻다
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620063568297/_KGJeER2q.png)
+![image.png](images/_KGJeER2q.png)
 
 피그마는 [Dylan Field](https://twitter.com/zoink)(현 CEO), [Evan Wallace](https://twitter.com/evanwallace)(현 CTO) 두 대학생에 의해 탄생했다.
 
@@ -49,15 +49,15 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 2. 두 사람은 브라우저에서 이미지를 자르고 필터를 적용하는 가벼운 이미지 편집 툴이나 우스꽝스러운 이미지에 글자를 얹은 밈 제너레이터(Meme Generator) 같은 것들을 만들며 아이디어를 탐색해 나갔다.
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620065922659/GS-Zmibxp.png)
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620065959592/soaGyQREM.png)
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620065941235/yliaOyaJ2.png)
+   ![image.png](images/GS-Zmibxp.png)
+   ![image.png](images/soaGyQREM.png)
+   ![image.png](images/yliaOyaJ2.png)
 
 3. 팀에겐 집중할 수 있는 목표가 필요했다. 어느 날 Dylan은 모든 팀원을 한데 모아서 지금껏 나왔던 여러 아이디어를 하나씩 지우며 앞으로 집중해야 할 영역을 인터페이스 디자인으로 정했다. 디지털 프로덕트의 수요는 빠르게 늘어나고 있었고 인터페이스 디자인이야말로 피그마가 만들어내고 싶은 제품에 적합한 분야였다.
 
 4. 당시에도 클라우드란 단어는 널리 사용되었지만, 그 방식은 저장된 파일을 클라우드 스토리지에 자동으로 저장하는 수준에 머물렀다. 여전히 여러 명의 디자이너가 하나의 파일을 두고 동시에 작업할 경우엔 기존 작업을 덮어쓰게 될 위험이 있었고 아래 이미지처럼 하나의 프로젝트를 위해 수많은 파일을 만들어야 하는 상황은 10년 전이나 지금이나 전혀 달라진게 없었다.
 
-   ![Frame 1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620152198447/rqolkHv-5.png)
+   ![Frame 1.png](images/rqolkHv-5.png)
 
 5. 팀은 '브라우저에서 동작하는 디자인 도구'가 이러한 협업 과정의 문제를 확실하게 해결해 줄 수 있으리라 확신했고 마치 Google Docs처럼 '브라우저를 기반으로 실시간 협업 가능한 인터페이스 디자인 도구'를 만드는 것이 그들이 해결해야 할 문제라는 것을 직감했다.
 
@@ -83,7 +83,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 7. 피그마의 이러한 노력은 결코 헛되지 않았다. 2016년 9월 세상에 공개된 피그마는 디자인 커뮤니티의 뜨거운 주목을 받았다. 그 컨셉에 매료된 많은 얼리어답터는 빠르게 이 화제의 제품을 여러 사람과 함께 사용하며 '페어 디자인' 경험을 주변에 전파하기 시작했다.
    
-   ![1_8POB0OS9nK3kOurW1M8hvQ.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1620141679791/izeWHqKBp.gif)
+   ![1_8POB0OS9nK3kOurW1M8hvQ.gif](images/izeWHqKBp.gif)
 
 8. 또한 피그마만의 차별화된 가치. 즉, 브라우저 기반의 'Fully-Shareable'한 협업 경험은 피그마 출시 이후 직접 경쟁자 혹은 유사 경쟁자들이 손쉽게 카피할 수 없는 방벽 역할을 하며 피그마가 시장 점유율을 확대하는 과정에 가장 강력한 무기가 되었다.
 
@@ -93,7 +93,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 1. 피그마 출시 이전, 디자인 소프트웨어의 최신 트렌드를 이끌던 제품은 누가 뭐래도 보헤미안 코딩의 [스케치](https://sketch.com)였다.
 
-   ![history of sketch app](https://cdn.hashnode.com/res/hashnode/image/upload/v1620142197103/x9-kCZOy1.png)
+   ![history of sketch app](images/x9-kCZOy1.png)
 
 2. 스케치는 수십 년간 어도비가 독점하던 그래픽 소프트웨어 시장의 판도를 완전히 뒤집으며 디지털 프로덕트 디자인의 새로운 장을 열었다. 이를 휴대전화에 비유하자면 노키아 세상이던 휴대폰 시장에 아이폰이 등장한 상황이랄까?
 
@@ -105,7 +105,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 6. 스케치는 생태계의 중요성을 알았다. 누구나 스케치와 연동 가능한 앱을 만들 수 있게 하여 제플린, 앱스트랙트 등 스케치 기반의 써드파티 앱이 등장했고 사랑받았다. 깃헙을 통해 공유되는 수많은 스케치 플러그인도 마찬가지다. 생태계가 커질 수록 디자이너의 생산성은 높아졌고 이는 다시 생태계의 성장으로 이어졌다.
 
-   ![sketch and 3rd parties](https://cdn.hashnode.com/res/hashnode/image/upload/v1620148393869/gsK8Eq2MF.png)
+   ![sketch and 3rd parties](images/gsK8Eq2MF.png)
 
 7. 스케치는 디자이너의 핵심 역량이 화면 시각화에서 UX 설계, 프로세스, 협업, 기술, 도메인 전문성으로 옮겨가는 흐름과 함께 성장한 도구였고 새로운 디자이너 커뮤니티의 필수(Essential) 프로덕트로 자리매김하고 있었다. 실제로 많은 사람이 스케치야 말로 디자인 도구의 미래라고 생각하고 있었다.
 
@@ -113,7 +113,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 # 5. 피그마 vs. 스케치
 
-![figma vs. sketch](https://cdn.hashnode.com/res/hashnode/image/upload/v1620191571095/dq-k7O8nJ.png)
+![figma vs. sketch](images/dq-k7O8nJ.png)
 
 앞서 살펴보았듯이 2016년 첫선을 보인 피그마에게 스케치는 넘어야 할 산이었다. 이제 막 출시한 제품이 좀 전까지 어도비의 위치를 넘보던 대세 제품과 경쟁하는 것은 쉬운 일이 아니다. 그러나 피그마는 이러한 경쟁 상황을 자신에게 유리한 방향으로 적극 활용하여 성장의 에너지원으로 삼았다.
 
@@ -132,7 +132,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 4. 아래 이미지는 2016년도에 Sketch vs. Figma라는 주제로 작성된 글을 검색한 결과 화면이다. (반가운 이름도 보인다.) 이제 막 출시된 제품이 불과 몇 개월도 안 되는 짧은 시간 안에 스케치라는 당시 가장 핫한 제품과 양강 구도를 만들어내는 데 성공할 수 있었던 것은 높은 완성도의 제품을 거의 마찰 없이 바로 경험할 수 있게 한 피그마의 온보딩 전략이 먹혔음을 보여주는 증거다.
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620192691014/d_vLyfeLC.png)
+   ![image.png](images/d_vLyfeLC.png)
 
 
 ### 프레이밍 전략: 디자인이 아닌 협업에 초점을 맞추다.
@@ -142,7 +142,7 @@ UXTOOLS에서 조사한 '2021년 가장 기대되는 도구 설문조사'에서 
 
 3. 당시 테크 업계에선 애자일 프로세스나 교차 기능 조직 등 실행 속도를 높일 수 있는 협업 방식에 대한 관심이 빠르게 커지던 중이었고 피그마는 이런 관심에 부합하는 매력적인 제품이었다.
 
-   ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620224400675/Mq-YROWaR.png)
+   ![image.png](images/Mq-YROWaR.png)
 
 4. 피그마 이전까진 디자인 작업을 공유하기 위해 아래 3가지 방식을 주로 활용했다.
 

@@ -9,7 +9,7 @@ publishedAt: '2016-09-13'
 updatedAt: '2024-03-18'
 ---
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611487193452/BVaDTWjKL.png)
+![image.png](images/BVaDTWjKL.png)
 
 [보노보스](http://www.bonobos.com/)는 오프라인을 통해 고객의 신체 사이즈를 측정하고 온라인을 통해 구매할 수 있는 (국내의 [스트라입스](http://www.stripes.co.kr/)가 벤치마크) 온라인 기반 패션 브랜드입니다. 보노보스의 창업자이자 CEO인 Andy Dunn는 2013년 자신이 발행한 'e-commerce is a bear'라는 글을 통해 이커머스 산업의 변화와 흐름에 대한 인사이트를 공유하였습니다.
 
@@ -35,7 +35,7 @@ updatedAt: '2024-03-18'
 
 저는 주식 전문가가 아니지만 아마존이 전통적인 리테일 시장을 크게 흔들어 놓으리라는 점을 믿어 의심치 않습니다. 아마존은 월마트를 뛰어넘을 것입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611487690264/XkEfpvI3X.png)
+![image.png](images/XkEfpvI3X.png)
 *[한경 기사 - 월마트.아마존 '유통업계 제왕' 놓고 승부](https://goo.gl/vivJcY)*
 
 지난 십 년간 [자포스](http://www.zappos.com/)와 [다이퍼스](https://www.diapers.com/), 이 두 개 기업 정도만이 아마존에 '유효타를 날렸다'라고 할 만한 도전을 감행했지만 아마존과의 가격경쟁은 잔혹했고 그 여정이 너무도 멀기에 결국 아마존의 재빠른 인수제의에 응하며 한 배를 타게 되었습니다.

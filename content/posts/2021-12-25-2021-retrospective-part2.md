@@ -31,7 +31,7 @@ updatedAt: '2022-01-22'
 
 ### 메이커와 리더 사이
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640445573442/bXkZIk5bjd.png)
+![image.png](images/bXkZIk5bjd.png)
 
 내 직업란엔 지금도 프로덕트 디자이너라는 단어가 자리하고 있다. 인생의 거의 절반 가량을 디자이너라는 직업을 가지고 살았고 무언가 만들어내는 일을 하는 이 직업을 나는 사랑한다. 많은 사람들이 꼭 필요로 하는 뛰어난 제품을 만들어 내고 싶다는 욕망은 내가 어떤 역할을 맡건 변함없겠지만 그 과정에서 내가 어떻게 기여할 수 있느냐는 크게 다르다. 
 
@@ -62,7 +62,7 @@ updatedAt: '2022-01-22'
 
 ### 결정하지 않는 것이 실패하는 것보다 나쁘다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640445388621/0deQ-OvI_.png)
+![image.png](images/0deQ-OvI_.png)
 
 > 결단을 내리지 않는 것이야말로 최대의 해악이다.   
 > **데카르트**
@@ -102,7 +102,7 @@ updatedAt: '2022-01-22'
 
 ## 피드백과 평론은 다르다
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640459222292/QyNHTWCaVF.png)
+![image.png](images/QyNHTWCaVF.png)
 
 위에서도 잠깐 언급했지만 개인적으로 올해 솔직한 피드백의 중요함과 강력함을 많이 느낄 수 있었던 것이 참 좋았다.
 
@@ -142,7 +142,7 @@ updatedAt: '2022-01-22'
 
 ### 여러 색의 물감을 섞으면
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640454111607/ddDHkRIwR.png)
+![image.png](images/ddDHkRIwR.png)
 
 앞선 모든 고민도 몇 개월 사이 팀 구성원이 2배 이상 늘어나며 함께 시작되었던 것 같다. 그전까진 함께 일하는 한 명 한 명과 가깝게 대화하고 머리 맞대어 고민하는 게 그리 낯선 일이 아니었지만. 인원이 늘어나며 모두와 매일 대화 나누며 일하는 것은 점점 더 어려워졌다. 
 
@@ -197,7 +197,7 @@ updatedAt: '2022-01-22'
 
 # 맺음하며
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1640465516938/hfouIuQzg.png)
+![image.png](images/hfouIuQzg.png)
 
 엄청 짧은 것 같기도 하고, 또 길었던 것 같기도 한 한 해가 갔다. 원하던 만큼 성취한 것도 있고 그렇지 못한 것도 많다. 한 해를 회고하고 적는 과정을 통해 미숙하고 부족했던 나를 돌아보니 아쉬운 생각도 들지만 그 과정이 지금 나의 생각에 어떻게 영향을 주었는지 찬찬히 들여다볼 수 있어서 도움이 되었다. 
 그리고 내년의 나를 기다리고 있는 과제들이 참으로 많다는 생각에 살짝 겁나기도 하고 두근거리기도 한다. 이 글을 읽는 모두와 내 주변의 모든 사람들이 행복한 연말연시 보내기를 바라면서 글을 끝맺는다.

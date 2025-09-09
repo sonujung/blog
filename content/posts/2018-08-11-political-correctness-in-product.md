@@ -17,7 +17,7 @@ updatedAt: '2024-03-18'
 그중 어떤 것들은 제품 내에서 사용해도 될지 많은 고민이 필요했는데 Tomboy, Mannish, Girlish와 같은 단어들이다.
 
 **왼쪽에서부터 각각 Tomboy - Mannish - Girlish라는 키워드로 검색했을 때 노출되는 사진.**
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611496630616/OTZ10PTuI.png) 
+![image.png](images/OTZ10PTuI.png) 
 
 위 단어들은 사회가 정의하는 '여성스러움'을 기준으로 만들어진 단어이다.
 누구나 뜻하는 바를 쉽게 이해할 수 있다는 점에서 사용자 친화적인 단어라고 볼 수도 있지만 반대로 무의식적으로 고정된 성 역할을 강조하는 메시지로 사용될 수도 있다.
@@ -45,7 +45,7 @@ updatedAt: '2024-03-18'
 
 # 디지털 프로덕트를 만드는 사람들
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611504139830/7_nzUayp1.png)
+![image.png](images/7_nzUayp1.png)
 
 > 1964년 Ken Garland를 주축으로 한 400여명의 디자이너는 [First Things First (1964)](http://www.designishistory.com/1960/first-things-first/) 선언을 통해 사회적으로 중요한 가치를 우선해야 한다는 것을 외쳤다.
 
@@ -64,7 +64,7 @@ updatedAt: '2024-03-18'
 지금, 이 순간 우리가 할 수 있는 일은, 치열하게 고민하는 것이다. 끊임없이 자신의 역할에 대해 질문하고 우리의 First Thing이 무엇인지 묻고 또 물어야 한다.
 
 그렇지 않으면 제품, 기업은 크나큰 리스트를 맞닥뜨리게 될지도 모른다.
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611497680087/sosCnh6G0.png)
+![image.png](images/sosCnh6G0.png)
 - 지역 감정 관련 민감한 사안을 스토리에 넣어 3년간 준비한 게임을 종료한 이터널 클래시
 - 사내 여성차별, 성 추문 등으로 CEO가 물러난 우버
 - 여성의 신체를 남성을 위한 도구처럼 표현하여 물의를 빚은 미미박스의 광고 이미지

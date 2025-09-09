@@ -116,6 +116,6 @@ updatedAt: '2024-07-07'
 
 답례로 저보다 더 보고 싶을 룽지의 최신 근황을 사진으로 전합니다.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1714325646113/6a86ccf2-8fae-4131-ab7d-9f3923f10d5a.jpeg align="center")
+![](images/6a86ccf2-8fae-4131-ab7d-9f3923f10d5a.jpeg)
 
 잘 먹고 잘 자고 있습니다.

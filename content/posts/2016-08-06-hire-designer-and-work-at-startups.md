@@ -29,7 +29,7 @@ updatedAt: '2024-03-18'
 
 # **스타트업에서 디자이너 채용하기**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611486180166/qJZJIGUeN.png)
+![image.png](images/qJZJIGUeN.png)
 
 ## **1. 디자이너가 필요한 이유를 자문하자.**
 
@@ -87,7 +87,7 @@ updatedAt: '2024-03-18'
 
 # **디자이너 스타트업으로 이직하기**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611486267852/PBojad44-.png)
+![image.png](images/PBojad44-.png)
 
 ## **1. 스타트업은 하나의 회사가 아니다.**
 

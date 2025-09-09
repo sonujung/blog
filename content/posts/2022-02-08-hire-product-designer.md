@@ -32,16 +32,16 @@ DTC는 Direct-to-Consumer의 약자로 기존 유통사(백화점, 마트, 편�
 
 ### 식스샵의 고객사들
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644260003825/s21gqTguG.png)
+![image.png](images/s21gqTguG.png)
 <sup>비주얼디렉팅 그룹 ‘비주얼서스펙트’의 프로젝트 브랜드 - [배드블루샵](https://www.badblueshop.com/)</sup>
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644259879867/gnFrp_L-k.png)
+![image.png](images/gnFrp_L-k.png)
 <sup>호랑이의 해는 뚱랑이와 함께 - [무직타이거](https://www.muziktiger.com/)</sup>
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644260397556/PHkh8pa4Q.png)
+![image.png](images/PHkh8pa4Q.png)
 <sup>포토그라픽한 감성을 담은 라이프스타일 브랜드 - [Oth,](https://othcomma.kr/)</sup>
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644260180146/ie69B9aRf.png)
+![image.png](images/ie69B9aRf.png)
 <sup>클라이밍과 일상에서 편하게 입을 수 있는 - [오름](https://orumm.com/)</sup>
 
 **더 많은 고객 사례는 [여기서](https://www.sixshop.com/examples) 보실 수 있습니다.**

@@ -45,7 +45,7 @@ updatedAt: '2024-03-18'
 
 제품의 사용자 획득과 성장을 촉진하는 것은 제품이 가진 잠재력을 최대한 발휘해 많은 사용자에게 높은 수준의 가치를 제공하기 위해 중요한 일입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635684161642/cQnCiyUq0.png align="left")
+![image.png](images/cQnCiyUq0.png)
 
 > TAM(Total Accesable Market): 제품이 포함된 전체 시장의 규모  
 > <sup>예시) 국내 반려동물 관련 시장의 규모</sup>  
@@ -79,7 +79,7 @@ updatedAt: '2024-03-18'
 
 [이전 글](https://sonujung.com/data-informed-product-building-no1)에서 언급했듯 건강한 제품은 여러 단계로 이뤄진 S형 곡선을 그리며 성장합니다. 많은 제품이 완만하고 얕은 성장(초기 단계)을 거쳐 경사가 급해지다(성장 단계) 최대 성장 지점에 다다를 때까지 기하급수적인 성장(고도성장 단계)이 이어지며 이후 성장 속도가 더뎌지는 성숙기에 도달합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635685787356/3dqiQot0F.png align="left")
+![image.png](images/3dqiQot0F.png)
 
 제품에 대한 수요, 즉 시장이 충분히 크지 않다면 제품의 성공은 매우 어렵습니다. 또한 시장의 규모가 지속적으로 커질 것이라는 기대가 있어야 합니다. 아직 성장이 고도화되기 전 단계의 시장에 들어가 제품과 시장의 성장 사이클이 일치하는 것이 성공에 있어 매우 중요합니다.
 
@@ -106,7 +106,7 @@ updatedAt: '2024-03-18'
     
 * 다만 제품 카테고리에 따라 이탈 고객을 다시 끌어오기 어려운 경우도 있습니다. 특히 게임의 경우 일종의 유통기한이 존재하는데 예를 들어 Zynga에서 제작한 [Empires & Allies](https://www.zynga.com/games/empires-and-allies/)의 경우 폭발적인 인기를 끌며 많은 사람들이 설치했고 그중 다수가 활성 사용자가 되었습니다. 신규 사용자의 유입은 꾸준히 늘어났지만 어느 시점이 지나며 훨씬 더 많은 사용자가 이탈하며 MAU가 감소하기 시작했고 시간이 흘러 신규 사용자 역시 감소하며 소수의 열성 사용자 만이 남은, 사실상 죽은 앱이 되었습니다.
     
-    ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635689361317/LjXAJnFqc.png align="left")
+    ![image.png](images/LjXAJnFqc.png)
     
 
 ### 성장률 평가 지표 (Growth Metrics)
@@ -190,7 +190,7 @@ updatedAt: '2024-03-18'
         
     * 세 번째 시나리오는 제품이 매우 건강하게 성장하고 있고 시장 적합도가 높아 고도성장 단계에 접어들어 평평하게 유지되던 유지율이 다시 상승하는 경우입니다. (물론 더 높은 지점에서 플랫 하게 바뀌게 될 것입니다.) 아래는 Evernote의 스마일 그래프의 예시입니다.
         
-        ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635697360935/WLw3IKamn.png align="left")
+        ![image.png](images/WLw3IKamn.png)
         
 
 ### 유지율 평가 지표 (Retention Metrics)
@@ -205,7 +205,7 @@ updatedAt: '2024-03-18'
         
 * 장기 유지율을 표현하는 간편한 방법은 아래 이미지처럼 약 1년(예: 364일) 후에 코호트 집단에 남아있는 사람의 수를 유지 지표를 기준으로 여러 번 나누는 것입니다. D1/D0은 1일(Day One) 유지율로 D0은 코호트의 설치자 수이고 D1은 하루 후에도 사용하는 코호트 설치자 수입니다.
     
-    ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635699085017/8TgaUDUuk.png align="left")
+    ![image.png](images/8TgaUDUuk.png)
     
     <sub>역자 주: 유지율을 퍼널 형태로 수식화한 이미지입니다.</sub>
     
@@ -316,7 +316,7 @@ updatedAt: '2024-03-18'
     
 * 아래 이미지는 이 참여 모델을 간략화한 것입니다.
     
-    ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635706527260/JHCDuf1Bk.png align="left")
+    ![image.png](images/JHCDuf1Bk.png)
     
     * 콘텐츠 생산자는 제작한 콘텐츠를 다른 사람에게 제공하여 즐거움을 선사합니다.
         

@@ -23,7 +23,7 @@ updatedAt: '2021-12-18'
 
 # 왜 똑똑한 회사들이 바보가 되는 걸까?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617509558552/jrwJPFtNW.png)
+![image.png](images/jrwJPFtNW.png)
 
 페이스북과 같은 뛰어난 회사가 왜 '제 얼굴에 먹칠하기 챔피언'이라 불릴만한 일을 했을지 생각해본 적 있나요?
 
@@ -63,94 +63,94 @@ updatedAt: '2021-12-18'
 
 클락 켄트(사실 슈퍼맨)는 썸타는 중인 동료 로이스 레인과 나이아가라 폭포에 놀러왔습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462166459/OpWGcq4Sb.png)
+![image.png](images/OpWGcq4Sb.png)
 
 클락은 한 어린 소년이 난간에 올라 무척 위험한 장난을 치고 있음을 발견합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462225814/8pmW2I7W_.png)
+![image.png](images/8pmW2I7W_.png)
 
 클락은 급히 소년에게 달려가 그만하고 내려오라 주의를 줍니다. 소년의 엄마가 그 소리에 아이를 재빨리 난간에서 내리고 혼냅니다. 클락 덕분에 소년은 안전해졌습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462520343/zFNbpzMcq.png)
+![image.png](images/zFNbpzMcq.png)
 
 로이스는 클락이 한 일에 별다른 관심을 보이지 않는 것으로 보입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462546834/PZV71fvVX.png)
+![image.png](images/PZV71fvVX.png)
 
 클락이 돌아와 로이스에게 방금 일어난 일을 봤냐고 물었습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462593716/HNOUmb-kl.png)
+![image.png](images/HNOUmb-kl.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462626534/RmGv_Qb_f.png)
+![image.png](images/RmGv_Qb_f.png)
 
 그러나 로이스는 클락의 말을 제대로 듣지도 않고 배고프다고 말합니다. 클락은 핫도그 가게로 고개를 돌립니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462673671/ij8V5FVSm.png)
+![image.png](images/ij8V5FVSm.png)
 
 그 와중에, 소년은 다시 난간에 올라가 위험한 장난을 치기 시작합니다. 하지만 이번엔 난간 건너편으로 넘어가기까지 했습니다. 전보다 훨씬 아슬아슬해 보입니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462750550/yk5iMO4OL.png)
+![image.png](images/yk5iMO4OL.png)
 
 아마.. 요쯤이면..
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462786986/ojOO95t-1.png)
+![image.png](images/ojOO95t-1.png)
 
 
 소년이 떨어집니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462805896/s87rL6HIg.png)
+![image.png](images/s87rL6HIg.png)
 
 이때 로이스는 바로 상황을 인지하고 소리칩니다. "누가 좀 도와줘요!"
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462869188/gbLj9A-ee.png)
+![image.png](images/gbLj9A-ee.png)
 
 핫도그 가게 앞에 있던 클락은 그 소리를 듣습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462912981/qWoFmWbep.png)
+![image.png](images/qWoFmWbep.png)
 
 정체불명의 남자가 소리칩니다. "누가 뭐라도 좀 해봐!" (80년대 특수효과가 빛이 나네요)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617462984632/JcW3H7vvz.png)
+![image.png](images/JcW3H7vvz.png)
 
 클락 켄트는 슈퍼맨으로 변신하여 폭포로 날아갑니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463025420/AZKdj82c7.png)
+![image.png](images/AZKdj82c7.png)
 
 좀만 더 좀만 더!!
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463051557/8XjXvSFqz.png)
+![image.png](images/8XjXvSFqz.png)
 
 군중들이 슈퍼맨을 응원합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463108746/NWb46OH46.png)
+![image.png](images/NWb46OH46.png)
 
 슈퍼맨은 죽기 일보 직전이던 소년을 구조하는 데 성공했습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463144385/yvqG8Qfze.png)
+![image.png](images/yvqG8Qfze.png)
 
 군중은 슈퍼맨을 찬양하기 시작합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463174758/k68seou8Q.png)
+![image.png](images/k68seou8Q.png)
 
 돌아오는 그의 위풍당당한 모습.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463194831/FhS3BjllT.png)
+![image.png](images/FhS3BjllT.png)
 
 이제 거의 도착했습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463212100/EDXwnrAiS.png)
+![image.png](images/EDXwnrAiS.png)
 
 사람들의 얼굴을 보세요. 슈퍼맨이 한 일에 대해 감동한 표정이 역력합니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463248115/jAJ1FOzRA.png)
+![image.png](images/jAJ1FOzRA.png)
 
 로이스를 볼까요? 클락 켄트가 한 일에 대해서 거의 무관심하던 그녀는 슈퍼맨의 드라마틱한 구출에 환호하며 그를 찾습니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463264922/yyIeyGJYR.png)
+![image.png](images/yyIeyGJYR.png)
 
 이렇게 씬은 끝납니다.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617463346193/PYX8g1srm.png)
+![image.png](images/PYX8g1srm.png)
 
 이제 질문이 있습니다.
 만약 클락 켄트가 우리 대부분이 그렇듯 잘한 일에 칭찬과 감사를 받는 것을 기뻐한다면 아래 두 상황 중 어떤 것을 선택했을까요?
@@ -176,11 +176,11 @@ updatedAt: '2021-12-18'
 아래는 롤프 도벨리(Rolf Dobelli)의 유명한 저서 [The Art of The Good Life](https://www.amazon.com/Art-Good-Life-Surprising-Shortcuts/dp/0316445096/)의 두 대목입니다.
 
 #### 문장 1
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617506104422/sK_AVH5H1.png)
+![image.png](images/sK_AVH5H1.png)
 > 문제를 회피하는 것이 섹시하지 않다는 것입니다. 여기 두 개의 영화 줄거리가 있습니다. A는 배가 빙산에 부딪혀 가라앉게 됩니다. 이때 선장은 모든 승객이 물에 빠지는 것을 힘들게 구조하고 가까스로 마지막 남은 구명보트에 탑승하게 됩니다. B는 선장이 배를 빙산 주위로 합리적인 거리를 유지하면서 주행합니다. 어떤 영화를 보시겠습니까? 아마 A를 보고 싶겠죠? 그럼 실제 승객이라면 어떤 배에 타시겠습니까? 당연히 B가 아닐까요?
 
 #### 문장 2
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1617506422425/vyHKQLKEB.png)
+![image.png](images/vyHKQLKEB.png)
 
 > 예를 들어 실제 상황이라고 가정해보죠. 두 선장에게 어떤 일이 일어날까요? A 선장은 토크쇼에 초대됩니다. 그는 억대 출판 계약을 따냅니다. 그는 선장 일을 그만두고 저명 기업들에 동기부여 강사로 강의를 다닙니다. 그의 고향 마을에선 그와 그의 아이들의 이름을 딴 거리를 만듭니다. 아이들은 아버지에 대한 자부심을 느끼겠죠. 반면 B 선장은 찰리 멍거(Charlie Munger)의 철칙(20피트짜리 소용돌이를 피하고 싶다면 500피트 이상 돌아가야 한다.)을 지키며 수년 후 은퇴할 때까지 안전하게 배를 몹니다. B가 분명 더 나은 선장임에도 불구하고 우리는 A에 환호합니다. 왜 그럴까요? 그것은 예방하는 것이 바깥세상에선 보이지 않는 일이기 때문이죠.
 

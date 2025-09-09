@@ -25,7 +25,7 @@ updatedAt: '2021-12-18'
 
 이런 MS의 상황을 상징하는 그림이 있다.
 
-![image.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1622366060900/kdf7UKkxr.jpeg)
+![image.jpeg](images/kdf7UKkxr.jpeg)
 > 소프트웨어 엔지니어이기도 한 [Manu Cornet](https://en.m.wikipedia.org/wiki/Manu_Cornet)의 카툰
 
 여러 테크 기업의 특색을 담아 그린 조직도 사이에서 와중에 각 조직이 서로 총을 겨누고 있는 MS의 조직도가 눈에 띈다.
@@ -53,7 +53,7 @@ updatedAt: '2021-12-18'
 그에 대한 궁금증을 처음으로 갖게 된 계기는 CEO 취임한 해 공식 행사에서 그가 한 발언 때문이다.
 > MS는 리눅스를 사랑합니다.
 
-![image.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1622393067187/tIHAUk_9x.jpeg)
+![image.jpeg](images/tIHAUk_9x.jpeg)
 
 MS와 리눅스의 역사를 조금이라도 아는 사람이라면 이 발언이 얼마나 파격적인지 바로 알 수 있다.
 

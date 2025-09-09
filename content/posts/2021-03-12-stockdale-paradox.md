@@ -30,7 +30,7 @@ updatedAt: '2024-03-18'
 
 그 차이점을 설명하기 위해서 스톡데일이란 사람의 이야기를 해보려고 한다.
 
-![출처: npr.org](https://cdn.hashnode.com/res/hashnode/image/upload/v1615567503996/KekXNoqUP.png)
+![출처: npr.org](images/KekXNoqUP.png)
 
 ### 스톡데일 이야기
 

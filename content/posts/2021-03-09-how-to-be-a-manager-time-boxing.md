@@ -96,7 +96,7 @@ updatedAt: '2021-12-18'
 또한 주 단위로 캘린더를 정리할 시간도 2시간가량의 고정 일정으로 만들었다.
 
 여기까지 마치면 아래와 같은 모양이 된다.
-![calendar1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614188513823/YBjxaqNpK.png)
+![calendar1.png](images/YBjxaqNpK.png)
 > 일정 공개가 어려운 관계로 흐림 처리하였다..
 
 그리고 남은 공간을 아래의 방식으로 채워 넣었다.
@@ -115,7 +115,7 @@ updatedAt: '2021-12-18'
 5. 빠르게 끝낼 수 있는 일들은 출근 시간에 가깝게 위치.
 
 이렇게 채워 넣으면 아래와 같은 모습이 된다.
-![cal2.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1615312278221/8YWHqkNm-.jpeg)
+![cal2.jpg](images/8YWHqkNm-.jpeg)
 
 업무 예상 소요 시간을 고민하며 크기를 정하는 과정이 중요한 이유가 정확한 예측 때문은 아니다. 일의 우선순위를 정할 때 일의 크기와 가치를 기준으로 삼기때문에 중요한 것이다.
 
@@ -131,9 +131,9 @@ updatedAt: '2021-12-18'
 이때 '중요한 일을 하는 것'과 '실제 처리한 업무를 캘린더에 기록하는 것' 이 두 가지를 명심하고 새로운 일정이 생기거나 기존 일정이 변경될 경우 즉시 캘린더에 반영하는 것을 습관화하는 것이 중요하다.
 
 #### 캘린더 화면
-![cal1.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1615312265915/NeNTb4U5f.jpeg)
+![cal1.jpg](images/NeNTb4U5f.jpeg)
 
-![calendar.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614186228836/9-S7QN7Ow.png)
+![calendar.png](images/9-S7QN7Ow.png)
 
 현재까지 4개월 정도 위와 같이 캘린더를 활용한 개인 업무 관리를 이어가고 있는데 예전과 비교하면 훨씬 다양한 일을 빠르게 처리하는 데 능숙해졌다.
 
@@ -141,17 +141,17 @@ updatedAt: '2021-12-18'
 
 무엇보다 평생 일기 한 번 써본 적 없던 내가 꾸준히 그날그날 배운 것과 느낀 점을 기록으로 남기게 된 것이 가장 만족스러운 변화 중 하나다.
 
-![cal3.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1615313564100/32_TrljQh.jpeg)
+![cal3.jpg](images/32_TrljQh.jpeg)
 
 ### 3-4. 도움되는 써드파티
 
 #### 어떤 일에 시간을 많이 쓰는지 확인하고 싶을 때 [Calendarist](https://www.trycalendarist.com/)
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615314401232/-D2Kb4p3x.png)
+![image.png](images/-D2Kb4p3x.png)
 
 캘린더리스트는 구글 캘린더와 연동하여 각 이벤트를 태그로 분류하여 어떤 일에 얼마만큼의 시간을 할애했는지 살펴볼 수 있게 시각화해 주는 도구이다.
 
 #### 유연한 업무 일정 관리를 도와주는 도구 [Reclaim.ai](https://reclaim.ai)
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615314813858/w_qW5vUD1.png)
+![image.png](images/w_qW5vUD1.png)
 
 리클레임은 앞서 소개한 캘린더 활용을 더욱 편리하게 만들어주는 도구이다. 해야 할 일의 우선순위와 크기(range), 버퍼 등의 개념을 포함하고 있고 직접 일정을 변경 하는데 드는 노고를 줄여준다.
 
