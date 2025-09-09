@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2017-12-22-how-lazada-wins-in-sea-market.md",
+                "file": "2021-09-24-the-consumerization-of-enterprise-software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2017-12-22-how-lazada-wins-in-sea-market"
+              "title": "2021-09-24-the-consumerization-of-enterprise-software"
             }
           }
         ],
@@ -77,6 +77,16 @@
             }
           },
           {
+            "id": "e1e1e3c2e2ba3a7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
             "id": "008243a1218c849c",
             "type": "leaf",
             "state": {
@@ -91,16 +101,6 @@
               },
               "icon": "lucide-search",
               "title": "검색"
-            }
-          },
-          {
-            "id": "e1e1e3c2e2ba3a7c",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "북마크"
             }
           }
         ]
@@ -200,11 +200,14 @@
   },
   "active": "3aecd8e713590957",
   "lastOpenFiles": [
+    "2023-03-19-delegation-of-authority.md",
+    "2025-09-02-minimum-lovavle-with-kano-model.md",
+    "2021-11-28-data-informed-product-building-no3.md",
+    "2021-12-18-2021-retrospective-part1.md",
+    "2017-12-22-how-lazada-wins-in-sea-market.md",
     "2021-07-10-cliftonstrengths.md",
     "2021-08-21-crafton-way-reading-note.md",
     "2022-03-07-think-stack.md",
-    "2021-11-28-data-informed-product-building-no3.md",
-    "2025-09-02-minimum-lovavle-with-kano-model.md",
     "images/Z7wjC_G64.png",
     "images/how-to-be-a-manager-time-boxing-img-2.jpeg",
     "images/URj2owi6o.png",
@@ -230,14 +233,11 @@
     "2021-03-19-product-judgment-article.md",
     "2018-09-12-review-naver-renewal.md",
     "2021-04-15-today-i-learned-2021-04.md",
-    "2017-12-22-how-lazada-wins-in-sea-market.md",
     "2019-01-28-how-to-be-successful.md",
     "2016-02-03-workflowy-for-designer.md",
     "2021-02-08-julie-zhuo-product-thinking.md",
     "2024-04-28-adieu-sixshop.md",
     "2024-03-27-2023-03-27-one-more-step-by-yoonsang-deleted.md",
-    "2024-03-25-20240326-frank-sinatra-sings-for-only-the-lonely-deleted.md",
-    "2023-03-19-delegation-of-authority.md",
     "attachments/unused",
     "attachments"
   ]
