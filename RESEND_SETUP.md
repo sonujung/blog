@@ -26,30 +26,40 @@
    MX sonujung.com resend.mail.
    CNAME mail.sonujung.com mail.resend.com
    ```
+4. DNS 인증 완료 후 커스텀 발신 주소 사용 가능
 
-## 4. 환경 변수 설정
-`.env.local` 파일에서 `your_resend_api_key_here`를 실제 API 키로 교체:
+## 4. Audience 생성
+1. Resend 대시보드에서 "Audiences" 메뉴 선택
+2. "Create Audience" 클릭 후 이름 입력 (예: "blog-newsletter")
+3. 생성된 Audience의 ID(`aud_...` 형태)를 복사
+4. 이 ID가 구독자 목록 관리에 사용됩니다
+
+## 5. 환경 변수 설정
+`.env.local` 파일에 다음 값을 추가합니다:
 
 ```bash
 RESEND_API_KEY=re_your_actual_api_key_here
+RESEND_AUDIENCE_ID=aud_your_audience_id
+# 필요 시 커스텀 발신 주소 설정 (선택)
+RESEND_FROM_EMAIL="Sonu Jung <onboarding@resend.dev>"
 ```
 
-## 5. 테스트
+## 6. 테스트
 1. 개발 서버 재시작: `npm run dev`
 2. `/subscribe` 페이지에서 이메일 주소 입력하여 테스트
 3. 입력한 이메일 받은함 확인
 
-## 6. 운영 배포 시 추가 설정
+## 7. 운영 배포 시 추가 설정
 ### Vercel 환경 변수
 ```bash
 vercel env add RESEND_API_KEY
+vercel env add RESEND_AUDIENCE_ID
+vercel env add RESEND_FROM_EMAIL  # 선택 사항
 ```
 
-### 이메일 From 주소 수정
-운영 환경에서는 `src/app/api/subscribe/route.ts`의 `from` 주소를 수정:
-```typescript
-from: 'Sonu Jung <noreply@sonujung.com>', // 도메인 인증 후
-```
+### 이메일 From 주소
+- 커스텀 도메인 인증이 완료되면 `RESEND_FROM_EMAIL`을 `noreply@your-domain.com` 등의 주소로 설정하세요.
+- 설정하지 않으면 기본값으로 `onboarding@resend.dev`가 사용됩니다.
 
 ## 무료 플랜 제한
 - 월 3,000개 이메일

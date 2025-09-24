@@ -71,9 +71,10 @@ export async function POST(request: NextRequest) {
     
     // 개선된 Welcome 이메일 생성 및 발송
     const emailTemplate = generateWelcomeEmail(tempSubscriber);
-    
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'Sonu Jung <iam@sonujung.com>';
+
     const { data, error } = await resend.emails.send({
-      from: 'Sonu Jung <iam@sonujung.com>',
+      from: fromEmail,
       to: [normalizedEmail],
       subject: emailTemplate.subject,
       html: emailTemplate.html,

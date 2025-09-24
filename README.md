@@ -17,7 +17,7 @@
 - ✅ 깔끔한 URL 구조 (`/blog/post-title`)
 - ✅ 태그 기반 분류
 - ✅ RSS 피드 생성
-- ✅ 뉴스레터 구독 시스템 (Resend 연동, 관리자 대시보드)
+- ✅ 뉴스레터 구독 시스템 (Resend 연동, CLI 발송 워크플로)
 - ✅ 댓글 시스템 (Giscus)
 - ✅ SEO 최적화 (메타데이터, 사이트맵, robots.txt)
 - ✅ 이미지 최적화 및 로컬 저장
@@ -50,11 +50,16 @@ npm install
 ```bash
 # Resend 이메일 서비스
 RESEND_API_KEY=your_resend_api_key
+RESEND_AUDIENCE_ID=your_resend_audience_id
+# 필요 시 커스텀 발신 주소 설정 (선택)
+RESEND_FROM_EMAIL="Sonu Jung <onboarding@resend.dev>"
 
 # 사이트 설정
 NEXT_PUBLIC_SITE_URL=https://sonujung.com
 NEXT_PUBLIC_SITE_NAME="sonujung.com"
 NEXT_PUBLIC_SITE_DESCRIPTION="정선우의 블로그입니다."
+# Google Analytics (선택)
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 
 # Giscus 댓글
 NEXT_PUBLIC_GISCUS_REPO=sonujung/blog
@@ -88,61 +93,59 @@ git push origin main
 완전히 구현된 이메일 뉴스레터 시스템을 제공합니다.
 
 ### 기능
-- ✅ **웰컴 이메일**: 구독 시 전문적인 환영 이메일 발송
-- ✅ **새 포스트 알림**: 포스트 발행 시 모든 구독자에게 자동 알림
+- ✅ **웰컴 이메일**: 구독 시 템플릿 기반 환영 이메일 발송
+- ✅ **새 포스트 알림**: CLI 한 번으로 모든 구독자에게 새 글 안내
 - ✅ **구독 취소**: 원클릭 구독 취소 + 확인 이메일
-- ✅ **관리자 대시보드**: 구독자 통계, 테스트 발송, 관리 기능
 - ✅ **반응형 이메일 템플릿**: 모든 이메일 클라이언트 호환
 
 ### 설정 방법
 
-1. **Resend 계정 설정**
-   - [resend.com](https://resend.com)에서 계정 생성
-   - API 키 발급
-   - `.env.local`에 설정
-   ```bash
-   RESEND_API_KEY=re_your_api_key_here
-   NOTIFICATION_API_KEY=secure_random_key_for_notifications
-   NEXT_PUBLIC_ADMIN_PASSWORD=your_admin_password
-   ```
+1. **Resend 계정 및 Audience 준비**
+   - [resend.com](https://resend.com)에서 계정 생성 후 API 키 발급
+   - Audience를 생성하고 ID를 확인 (`aud_...` 형태)
+   - `.env.local`에 `RESEND_API_KEY`, `RESEND_AUDIENCE_ID`(필수) 그리고 `RESEND_FROM_EMAIL`(선택)을 설정
 
 2. **기능 테스트**
    ```bash
-   # 개발 서버 실행
    npm run dev
-   
-   # 구독 페이지 접속
+   # 구독/구독취소 페이지 확인
    http://localhost:3000/subscribe
-   
-   # 관리자 대시보드 접속
-   http://localhost:3000/admin/subscribers
+   http://localhost:3000/unsubscribe?email=test@example.com
    ```
 
 3. **새 포스트 알림 발송**
    ```bash
-   # API 호출로 알림 발송
-   curl -X POST http://localhost:3000/api/notify-subscribers \
-     -H "Content-Type: application/json" \
-     -H "Authorization: Bearer your_notification_api_key" \
-     -d '{"slug": "your-post-slug", "action": "notify"}'
+   npm run notify-post <post-slug>
+   # 예시
+   npm run notify-post stockdale-paradox
    ```
+   - 스크립트는 `RESEND_API_KEY`와 `RESEND_AUDIENCE_ID`를 사용해 Resend에서 활성 구독자를 조회하고,
+     `src/lib/email-templates.ts`의 템플릿으로 이메일을 발송합니다.
+   - 발송 전 `.env.local` 또는 배포 환경에 `RESEND_FROM_EMAIL`을 설정하면 동일한 주소로 웰컴/안내 메일이 전송됩니다.
+   - 스크립트 실행 후 콘솔에 성공/실패 건수가 출력되므로 결과를 확인한 뒤 필요 시 재시도하세요.
+
+#### CLI 뉴스레터 발신 체크리스트
+1. `RESEND_API_KEY`, `RESEND_AUDIENCE_ID`, (선택) `RESEND_FROM_EMAIL` 환경 변수를 모두 설정합니다.
+2. 알림을 보낼 포스트가 `content/posts`에 커밋되어 빌드에 포함됐는지 확인합니다.
+3. `npm run notify-post <post-slug>` 명령을 실행합니다.
+4. 콘솔에 출력되는 성공/실패 건수를 확인하고, 실패가 발생하면 Resend 대시보드에서 상세 사유를 확인합니다.
+5. 필요하면 동일 명령으로 재시도하거나, 특정 이메일만 다시 보내려면 Resend에서 개별 발송합니다.
 
 ### 파일 구조
 ```
 src/
 ├── app/
 │   ├── subscribe/page.tsx      # 구독 페이지
-│   ├── unsubscribe/page.tsx    # 구독취소 페이지
-│   ├── admin/subscribers/      # 관리자 대시보드
+│   ├── unsubscribe/page.tsx    # 구독 취소 페이지
 │   └── api/
-│       ├── subscribe/          # 구독 API
-│       ├── unsubscribe/        # 구독취소 API
-│       └── notify-subscribers/ # 알림 발송 API
+│       ├── subscribe/route.ts  # 구독 API
+│       └── unsubscribe/route.ts# 구독 취소 API
+├── components/                # UI 컴포넌트
 ├── lib/
-│   ├── subscribers.ts          # 구독자 데이터 관리
+│   ├── subscribers.ts          # 구독자 데이터 관리 (Resend Audience 연동)
 │   └── email-templates.ts      # 이메일 템플릿
-└── data/
-    └── subscribers.json        # 구독자 데이터 (자동 생성)
+└── scripts/
+    └── notify-new-post.ts      # CLI용 새 포스트 알림 스크립트
 ```
 
 ## 🚀 배포
@@ -155,9 +158,10 @@ npx vercel --prod
 ### 환경 변수 설정
 ```bash
 vercel env add RESEND_API_KEY
-vercel env add NOTIFICATION_API_KEY
-vercel env add NEXT_PUBLIC_ADMIN_PASSWORD
+vercel env add RESEND_AUDIENCE_ID
 vercel env add NEXT_PUBLIC_SITE_URL
+vercel env add RESEND_FROM_EMAIL  # 선택 사항
+vercel env add NEXT_PUBLIC_GA_MEASUREMENT_ID  # 선택 사항
 ```
 
 ### 커스텀 도메인 연결
@@ -210,7 +214,6 @@ npm run build        # 프로덕션 빌드
 npm run start        # 프로덕션 서버 시작
 npm run notify-post  # 새 포스트 알림 발송
 npm run lint         # ESLint 실행
-npm run typecheck    # TypeScript 체크
 ```
 
 ## 🎯 로드맵

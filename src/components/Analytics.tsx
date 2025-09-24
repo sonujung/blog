@@ -1,59 +1,72 @@
-'use client';
+'use client'
 
-import { useEffect } from 'react';
-import { usePathname } from 'next/navigation';
+import Script from 'next/script'
+import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
+
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+    dataLayer?: Record<string, unknown>[]
+  }
+}
 
 interface AnalyticsProps {
-  title?: string;
+  title?: string
 }
 
 export default function Analytics({ title }: AnalyticsProps) {
-  const pathname = usePathname();
+  const pathname = usePathname()
+  const measurementId = GA_MEASUREMENT_ID ?? ''
+  const isEnabled = Boolean(measurementId)
 
   useEffect(() => {
-    // 페이지뷰 추적
-    const trackPageView = async () => {
-      try {
-        // URL에서 UTM 파라미터 추출
-        const urlParams = new URLSearchParams(window.location.search);
-        const utmSource = urlParams.get('utm_source') || undefined;
-        const utmMedium = urlParams.get('utm_medium') || undefined;
-        const utmCampaign = urlParams.get('utm_campaign') || undefined;
+    if (!isEnabled || typeof window === 'undefined') {
+      return
+    }
 
-        await fetch('/api/analytics', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            path: pathname,
-            title: title || document.title,
-            referrer: document.referrer,
-            utmSource,
-            utmMedium,
-            utmCampaign,
-          }),
-        });
-      } catch (error) {
-        // Analytics 실패는 사용자 경험에 영향을 주지 않도록 조용히 처리
-        console.debug('Analytics tracking failed:', error);
-      }
-    };
+    if (typeof window.gtag !== 'function') {
+      return
+    }
 
-    // 페이지 로드 시 추적
-    trackPageView();
-  }, [pathname, title]);
+    window.gtag('config', measurementId, {
+      page_path: window.location.pathname + window.location.search,
+      page_title: title || document.title
+    })
+  }, [isEnabled, measurementId, pathname, title])
 
-  // 이 컴포넌트는 UI를 렌더링하지 않음
-  return null;
+  if (!isEnabled) {
+    return null
+  }
+
+  return (
+    <>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+        strategy="afterInteractive"
+      />
+      <Script id="ga-gtag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = window.gtag || gtag;
+          gtag('js', new Date());
+          gtag('config', '${measurementId}', {
+            page_path: window.location.pathname + window.location.search,
+            page_title: document.title
+          });
+        `}
+      </Script>
+    </>
+  )
 }
 
-// 개발 환경에서는 추적하지 않는 옵션 컴포넌트
-export function AnalyticsOptional({ title }: AnalyticsProps) {
-  // 프로덕션 환경에서만 추적
+export function AnalyticsOptional(props: AnalyticsProps) {
   if (process.env.NODE_ENV !== 'production') {
-    return null;
+    return null
   }
-  
-  return <Analytics title={title} />;
+
+  return <Analytics {...props} />
 }

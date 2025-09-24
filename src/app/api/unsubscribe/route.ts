@@ -49,8 +49,10 @@ export async function POST(request: NextRequest) {
         const resend = new Resend(process.env.RESEND_API_KEY);
         const confirmEmail = generateUnsubscribeConfirmEmail(subscriber.email);
 
+        const fromEmail = process.env.RESEND_FROM_EMAIL || 'Sonu Jung <iam@sonujung.com>'
+
         await resend.emails.send({
-          from: 'Sonu Jung <iam@sonujung.com>',
+          from: fromEmail,
           to: [email],
           subject: confirmEmail.subject,
           html: confirmEmail.html,
