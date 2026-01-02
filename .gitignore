@@ -54,3 +54,6 @@ migration-url-mappings.json
 
 # macOS
 .DS_Store
+
+# content images (copied to public during build)
+content-images/

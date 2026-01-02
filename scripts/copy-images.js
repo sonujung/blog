@@ -2,14 +2,14 @@ const fs = require('fs-extra');
 const path = require('path');
 
 async function copyImages() {
-  const sourceDir = path.join(__dirname, '..', 'content', 'posts', 'images');
+  const sourceDir = path.join(__dirname, '..', 'content-images', 'posts-images');
   const targetDir = path.join(__dirname, '..', 'public', 'images');
   
   try {
     // public/images 디렉토리 준비
     await fs.ensureDir(targetDir);
     
-    // content/posts/images에서 public/images로 복사
+    // content-images/posts-images에서 public/images로 복사
     if (await fs.pathExists(sourceDir)) {
       await fs.copy(sourceDir, targetDir, { overwrite: false, errorOnExist: false });
       console.log('✅ 이미지 파일들이 성공적으로 준비되었습니다.');
