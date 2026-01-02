@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "npm run copy-images && next dev --turbopack",
-    "build": "npm run copy-images && next build --turbopack && npm run cleanup-images",
+    "build": "npm run copy-images && next build --turbopack",
     "build:analyze": "npm run copy-images && ANALYZE=true next build --turbopack",
     "copy-images": "node scripts/copy-images.js",
-    "cleanup-images": "rm -rf content/posts/images",
     "start": "next start",
     "lint": "eslint",
     "notify-post": "ts-node scripts/notify-new-post.ts"
