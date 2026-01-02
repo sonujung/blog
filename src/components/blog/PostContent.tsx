@@ -144,7 +144,7 @@ export default function PostContent({ post }: PostContentProps) {
             h1: ({ children }) => <h1 className="text-3xl font-semibold text-gray-900 mt-8 mb-4 leading-tight">{children}</h1>,
             h2: ({ children }) => <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 leading-tight">{children}</h2>,
             h3: ({ children }) => <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3 leading-tight">{children}</h3>,
-            p: ({ children }) => <p className="text-gray-700 leading-relaxed mb-4">{children}</p>,
+            p: ({ children }) => <p className="text-gray-700 leading-relaxed mb-4 whitespace-pre-line">{children}</p>,
             a: ({ href, children }) => {
               if (!href) return <span>{children}</span>;
               
