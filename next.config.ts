@@ -11,7 +11,6 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['react-markdown', 'remark-gfm', 'rehype-highlight'],
   },
-  outputFileTracingIgnores: ['content/posts/images/**'],
   images: {
     remotePatterns: [
       {

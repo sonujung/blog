@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "node scripts/copy-images.js && rm -rf content/posts/images && next build --turbopack",
+  "buildCommand": "node scripts/copy-images.js && next build --turbopack",
   "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev"
